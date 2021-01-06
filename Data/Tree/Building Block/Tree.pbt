@@ -1,6 +1,47 @@
 ﻿Name: "Building Block"
 RootId: 14835481811407554636
 Objects {
+  Id: 5179735868285378025
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -37725.3047
+      Y: 16500
+      Z: -915.600464
+    }
+    Rotation {
+    }
+    Scale {
+      X: 24
+      Y: 17
+      Z: 12
+    }
+  }
+  ParentId: 14835481811407554636
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17609149353171719671
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 16415528244030698412
   Name: "Cube"
   Transform {

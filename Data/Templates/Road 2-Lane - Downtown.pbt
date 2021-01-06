@@ -695,5 +695,5 @@
       AssetId: "Road_2-Lane_Straight_-_Downtown"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }

@@ -996,5 +996,5 @@
       AssetId: "Road_2-Lane__Intersection_3-way"
     }
   }
-  SerializationVersion: 70
+  SerializationVersion: 72
 }
