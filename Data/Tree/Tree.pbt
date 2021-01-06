@@ -42,7 +42,7 @@ Objects {
   ChildIds: 11172567322457054006
   ChildIds: 1320640200363342688
   ChildIds: 5231299593457110798
-  ChildIds: 10958492489554264934
+  ChildIds: 14835481811407554636
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -55,8 +55,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10958492489554264934
-  Name: "Cube"
+  Id: 14835481811407554636
+  Name: "Building Block"
   Transform {
     Location {
       X: 37290
@@ -66,9 +66,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 34
-      Y: 18
-      Z: 18
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
@@ -78,21 +78,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15435324598241668855
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Building Block"
   }
 }
 Objects {
