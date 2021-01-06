@@ -34,15 +34,13 @@ Objects {
   ChildIds: 11789699672016689099
   ChildIds: 5443616370697408560
   ChildIds: 12529597567368777600
-  ChildIds: 8324781874957309070
-  ChildIds: 12834867354470985079
-  ChildIds: 5697185098598890800
-  ChildIds: 14326628198709150082
-  ChildIds: 18363383869002438566
-  ChildIds: 11172567322457054006
-  ChildIds: 1320640200363342688
-  ChildIds: 5231299593457110798
+  ChildIds: 8486769349549904181
   ChildIds: 14835481811407554636
+  ChildIds: 15716214888619969809
+  ChildIds: 5895171644882681609
+  ChildIds: 5386889080269709744
+  ChildIds: 17430763722586251989
+  ChildIds: 14523971000237443532
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -52,6 +50,28485 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 14523971000237443532
+  Name: "Long Road"
+  Transform {
+    Location {
+      X: 45300
+      Y: -15190
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6855660112214845820
+  ChildIds: 9991337050459765099
+  ChildIds: 11417941414352796719
+  ChildIds: 8678419240667636271
+  ChildIds: 9699491267772847341
+  ChildIds: 15791073617110354946
+  ChildIds: 2330093551482029483
+  ChildIds: 6362317263987855064
+  ChildIds: 8737482906041906621
+  ChildIds: 2549987129411493649
+  ChildIds: 13837170937788915333
+  ChildIds: 12052373842623424857
+  ChildIds: 9256548523957737779
+  ChildIds: 17868651228609876140
+  ChildIds: 2054229922063293018
+  ChildIds: 9164820906716259540
+  ChildIds: 9897880733122827177
+  ChildIds: 3425901902244749639
+  ChildIds: 16854604547196557496
+  ChildIds: 16468840258370616925
+  ChildIds: 11911718650259266351
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11911718650259266351
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 16500392987589070273
+  ChildIds: 16148229227700288059
+  ChildIds: 5440794612898682258
+  ChildIds: 17487583646749910929
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17487583646749910929
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11911718650259266351
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5440794612898682258
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11911718650259266351
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16148229227700288059
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11911718650259266351
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16500392987589070273
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11911718650259266351
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16468840258370616925
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 9200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 13079442150860068123
+  ChildIds: 8378139385484294709
+  ChildIds: 8595965102689631949
+  ChildIds: 8611184070421390179
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8611184070421390179
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16468840258370616925
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8595965102689631949
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16468840258370616925
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8378139385484294709
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16468840258370616925
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13079442150860068123
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16468840258370616925
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16854604547196557496
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 8400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 6345504826557004662
+  ChildIds: 9133511196806796361
+  ChildIds: 8068452007103033747
+  ChildIds: 16657008237518226134
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16657008237518226134
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16854604547196557496
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8068452007103033747
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16854604547196557496
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9133511196806796361
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16854604547196557496
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6345504826557004662
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16854604547196557496
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3425901902244749639
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 7600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 12733888564914245244
+  ChildIds: 617170914498168545
+  ChildIds: 33593007049189049
+  ChildIds: 9150101782986876613
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9150101782986876613
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3425901902244749639
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 33593007049189049
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3425901902244749639
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 617170914498168545
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3425901902244749639
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12733888564914245244
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3425901902244749639
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9897880733122827177
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 10000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 11271907770549240818
+  ChildIds: 17835965842152664797
+  ChildIds: 2629021664715630659
+  ChildIds: 16965909087795521252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16965909087795521252
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9897880733122827177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2629021664715630659
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9897880733122827177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17835965842152664797
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9897880733122827177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11271907770549240818
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9897880733122827177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9164820906716259540
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 9709096775189216481
+  ChildIds: 12886955417595326968
+  ChildIds: 17858194670555701137
+  ChildIds: 4234273836126317169
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4234273836126317169
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9164820906716259540
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17858194670555701137
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9164820906716259540
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12886955417595326968
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9164820906716259540
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9709096775189216481
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9164820906716259540
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2054229922063293018
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 17498007738016154838
+  ChildIds: 2606373289631757748
+  ChildIds: 11423384588208089408
+  ChildIds: 14858017839936238295
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14858017839936238295
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2054229922063293018
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11423384588208089408
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2054229922063293018
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2606373289631757748
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2054229922063293018
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17498007738016154838
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2054229922063293018
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17868651228609876140
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 5365069945501206909
+  ChildIds: 16442552180519553209
+  ChildIds: 12506288549467768843
+  ChildIds: 8657492660174879328
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8657492660174879328
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17868651228609876140
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12506288549467768843
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17868651228609876140
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16442552180519553209
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17868651228609876140
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5365069945501206909
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17868651228609876140
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9256548523957737779
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 4742234619337276790
+  ChildIds: 8897809089546106380
+  ChildIds: 6735422833033015482
+  ChildIds: 1800861667402353835
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1800861667402353835
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9256548523957737779
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6735422833033015482
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9256548523957737779
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8897809089546106380
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9256548523957737779
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4742234619337276790
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9256548523957737779
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12052373842623424857
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 11086518245017518938
+  ChildIds: 15130867245954989411
+  ChildIds: 881786323386960153
+  ChildIds: 1595418299759066479
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1595418299759066479
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12052373842623424857
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 881786323386960153
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12052373842623424857
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15130867245954989411
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12052373842623424857
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11086518245017518938
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12052373842623424857
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13837170937788915333
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 2350313264660422367
+  ChildIds: 1113348612410086357
+  ChildIds: 8667583541682217187
+  ChildIds: 1426315441529159505
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1426315441529159505
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13837170937788915333
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8667583541682217187
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13837170937788915333
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1113348612410086357
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13837170937788915333
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2350313264660422367
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13837170937788915333
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2549987129411493649
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 17319234112391976227
+  ChildIds: 10864953327244283002
+  ChildIds: 13893608954894397799
+  ChildIds: 7587189995755224645
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7587189995755224645
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2549987129411493649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13893608954894397799
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2549987129411493649
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10864953327244283002
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2549987129411493649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17319234112391976227
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2549987129411493649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8737482906041906621
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 2244685524984642134
+  ChildIds: 13196658049175823674
+  ChildIds: 17456997835829757301
+  ChildIds: 3853989793035799730
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3853989793035799730
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8737482906041906621
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17456997835829757301
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8737482906041906621
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13196658049175823674
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8737482906041906621
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2244685524984642134
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8737482906041906621
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6362317263987855064
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 14025523630865681696
+  ChildIds: 1065310971953039424
+  ChildIds: 321043661909707419
+  ChildIds: 11462057351600002098
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11462057351600002098
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6362317263987855064
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 321043661909707419
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6362317263987855064
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1065310971953039424
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6362317263987855064
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14025523630865681696
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6362317263987855064
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2330093551482029483
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 8100468432850468876
+  ChildIds: 2900270155368814304
+  ChildIds: 10655808320154545076
+  ChildIds: 7030659721550808942
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7030659721550808942
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2330093551482029483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10655808320154545076
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2330093551482029483
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2900270155368814304
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2330093551482029483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8100468432850468876
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2330093551482029483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15791073617110354946
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 3920135261844716089
+  ChildIds: 8947925424707925847
+  ChildIds: 5303112876107777633
+  ChildIds: 16526067917393317094
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16526067917393317094
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15791073617110354946
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5303112876107777633
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15791073617110354946
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8947925424707925847
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15791073617110354946
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3920135261844716089
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15791073617110354946
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9699491267772847341
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 10988629532095034985
+  ChildIds: 8401729108620458509
+  ChildIds: 6145430691202238577
+  ChildIds: 10357678449781959951
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10357678449781959951
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9699491267772847341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6145430691202238577
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9699491267772847341
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8401729108620458509
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9699491267772847341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10988629532095034985
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9699491267772847341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8678419240667636271
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 845142506374070146
+  ChildIds: 16362291199082041927
+  ChildIds: 4698950591518587108
+  ChildIds: 6240643524841597616
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6240643524841597616
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8678419240667636271
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4698950591518587108
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8678419240667636271
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16362291199082041927
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8678419240667636271
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 845142506374070146
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8678419240667636271
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11417941414352796719
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 12945140488440483731
+  ChildIds: 9824193927517060944
+  ChildIds: 17311504922741032825
+  ChildIds: 1290541537300576788
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1290541537300576788
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11417941414352796719
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17311504922741032825
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11417941414352796719
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9824193927517060944
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11417941414352796719
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12945140488440483731
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11417941414352796719
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9991337050459765099
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 18400338949718947388
+  ChildIds: 17869703480070716724
+  ChildIds: 2169329558363669712
+  ChildIds: 7024067753833272141
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7024067753833272141
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9991337050459765099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2169329558363669712
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9991337050459765099
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17869703480070716724
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9991337050459765099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18400338949718947388
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9991337050459765099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6855660112214845820
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14523971000237443532
+  ChildIds: 10275904319660189262
+  ChildIds: 16243240954620687220
+  ChildIds: 11616827522432015874
+  ChildIds: 3640726317166307443
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3640726317166307443
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6855660112214845820
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11616827522432015874
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6855660112214845820
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16243240954620687220
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6855660112214845820
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10275904319660189262
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6855660112214845820
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17430763722586251989
+  Name: "Long Road"
+  Transform {
+    Location {
+      X: 21290
+      Y: -15190
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7942276823985320784
+  ChildIds: 1820690948505931240
+  ChildIds: 9668558218252386468
+  ChildIds: 3978979144811489341
+  ChildIds: 38350628178419177
+  ChildIds: 18148918032613222576
+  ChildIds: 13866106767781766894
+  ChildIds: 12078921491294782753
+  ChildIds: 1753262327181079300
+  ChildIds: 15605550602615555031
+  ChildIds: 14828863608782761310
+  ChildIds: 4140190959999140634
+  ChildIds: 14916083353092356803
+  ChildIds: 9629542467296289127
+  ChildIds: 17003019372564910775
+  ChildIds: 2609110989558257055
+  ChildIds: 4771986840366385659
+  ChildIds: 17953916265418414504
+  ChildIds: 7282188557082527162
+  ChildIds: 14724983306615516633
+  ChildIds: 16385462836928975780
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16385462836928975780
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 1672930364761503600
+  ChildIds: 9252192683032589823
+  ChildIds: 8591086375551893170
+  ChildIds: 14650489163227093155
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14650489163227093155
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16385462836928975780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8591086375551893170
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16385462836928975780
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9252192683032589823
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16385462836928975780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1672930364761503600
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16385462836928975780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14724983306615516633
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 9200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 12733513331685248520
+  ChildIds: 8507101367748993974
+  ChildIds: 16386361631057923158
+  ChildIds: 2067739503245875797
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2067739503245875797
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14724983306615516633
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16386361631057923158
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14724983306615516633
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8507101367748993974
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14724983306615516633
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12733513331685248520
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14724983306615516633
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7282188557082527162
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 8400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 7460907870888358841
+  ChildIds: 12172427050596066664
+  ChildIds: 7727422627625830369
+  ChildIds: 17565813605591719128
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17565813605591719128
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7282188557082527162
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7727422627625830369
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7282188557082527162
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12172427050596066664
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7282188557082527162
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7460907870888358841
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7282188557082527162
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17953916265418414504
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 7600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 10271626580554109593
+  ChildIds: 11834377665951537072
+  ChildIds: 16931602423731270097
+  ChildIds: 17796743390181496816
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17796743390181496816
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17953916265418414504
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16931602423731270097
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17953916265418414504
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11834377665951537072
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17953916265418414504
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10271626580554109593
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17953916265418414504
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4771986840366385659
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 10000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 16314095758259801485
+  ChildIds: 17622186432537914246
+  ChildIds: 2086770461909806500
+  ChildIds: 1389845436614516544
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1389845436614516544
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4771986840366385659
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2086770461909806500
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4771986840366385659
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17622186432537914246
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4771986840366385659
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16314095758259801485
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4771986840366385659
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2609110989558257055
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 7867583200246365337
+  ChildIds: 5635897280843936525
+  ChildIds: 17182526844087548358
+  ChildIds: 8257132193397190375
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8257132193397190375
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2609110989558257055
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17182526844087548358
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2609110989558257055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5635897280843936525
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2609110989558257055
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7867583200246365337
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2609110989558257055
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17003019372564910775
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 1453468535691133022
+  ChildIds: 11958284795443834198
+  ChildIds: 12135376657453411332
+  ChildIds: 6274666987542967805
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6274666987542967805
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17003019372564910775
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12135376657453411332
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17003019372564910775
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11958284795443834198
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17003019372564910775
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1453468535691133022
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17003019372564910775
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9629542467296289127
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 2938454807848369083
+  ChildIds: 5175697108471830415
+  ChildIds: 17813492738021762299
+  ChildIds: 8565117695054397850
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8565117695054397850
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9629542467296289127
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17813492738021762299
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9629542467296289127
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5175697108471830415
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9629542467296289127
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2938454807848369083
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9629542467296289127
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14916083353092356803
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 9415032293522743812
+  ChildIds: 4422362227647433765
+  ChildIds: 18247291902632684097
+  ChildIds: 12931173197558418121
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12931173197558418121
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14916083353092356803
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18247291902632684097
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14916083353092356803
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4422362227647433765
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14916083353092356803
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9415032293522743812
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14916083353092356803
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4140190959999140634
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 71572687736381709
+  ChildIds: 8342937132734132115
+  ChildIds: 3252139845447406529
+  ChildIds: 10540038216389457548
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10540038216389457548
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4140190959999140634
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3252139845447406529
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4140190959999140634
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8342937132734132115
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4140190959999140634
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 71572687736381709
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4140190959999140634
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14828863608782761310
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 15682025003032094821
+  ChildIds: 3367701293767056376
+  ChildIds: 5792801079114682892
+  ChildIds: 4454314450298570993
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4454314450298570993
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14828863608782761310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5792801079114682892
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14828863608782761310
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3367701293767056376
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14828863608782761310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15682025003032094821
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14828863608782761310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15605550602615555031
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 15467539859655725334
+  ChildIds: 4687188548324950947
+  ChildIds: 5288163989084256422
+  ChildIds: 796348286858182043
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 796348286858182043
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15605550602615555031
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5288163989084256422
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15605550602615555031
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4687188548324950947
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15605550602615555031
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15467539859655725334
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15605550602615555031
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1753262327181079300
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 1032407899689340598
+  ChildIds: 3473656366650323807
+  ChildIds: 15407402863252456598
+  ChildIds: 12587072301167393887
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12587072301167393887
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1753262327181079300
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15407402863252456598
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1753262327181079300
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3473656366650323807
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1753262327181079300
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1032407899689340598
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1753262327181079300
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12078921491294782753
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 16686702788532598446
+  ChildIds: 1555322941987485696
+  ChildIds: 15169314438085676068
+  ChildIds: 10812935730564146885
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10812935730564146885
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12078921491294782753
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15169314438085676068
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12078921491294782753
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1555322941987485696
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12078921491294782753
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16686702788532598446
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12078921491294782753
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13866106767781766894
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 13569551415866245036
+  ChildIds: 10605351841054859952
+  ChildIds: 16532143748551143746
+  ChildIds: 13681936061395179770
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13681936061395179770
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13866106767781766894
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16532143748551143746
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13866106767781766894
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10605351841054859952
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13866106767781766894
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13569551415866245036
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13866106767781766894
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18148918032613222576
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 9700420680306422775
+  ChildIds: 7135509194659050140
+  ChildIds: 17662016926371418192
+  ChildIds: 16949080765020754816
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16949080765020754816
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18148918032613222576
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17662016926371418192
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18148918032613222576
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7135509194659050140
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18148918032613222576
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9700420680306422775
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18148918032613222576
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 38350628178419177
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 14757480992737347162
+  ChildIds: 14972465359829535040
+  ChildIds: 8947506238532981188
+  ChildIds: 4524146072992221093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4524146072992221093
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 38350628178419177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8947506238532981188
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 38350628178419177
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14972465359829535040
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 38350628178419177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14757480992737347162
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 38350628178419177
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3978979144811489341
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 559804988045863584
+  ChildIds: 8344960012319577355
+  ChildIds: 8115735781609655890
+  ChildIds: 16168144317992481643
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16168144317992481643
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3978979144811489341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8115735781609655890
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3978979144811489341
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8344960012319577355
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3978979144811489341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 559804988045863584
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3978979144811489341
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9668558218252386468
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 3178291252042404421
+  ChildIds: 18236647164182351675
+  ChildIds: 15547957904210390566
+  ChildIds: 11097083916200546074
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11097083916200546074
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9668558218252386468
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15547957904210390566
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9668558218252386468
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18236647164182351675
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9668558218252386468
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3178291252042404421
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9668558218252386468
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1820690948505931240
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 13924683759277947299
+  ChildIds: 16883064942407009034
+  ChildIds: 3411035005214213239
+  ChildIds: 11014602202658233717
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11014602202658233717
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1820690948505931240
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3411035005214213239
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1820690948505931240
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16883064942407009034
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1820690948505931240
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13924683759277947299
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1820690948505931240
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7942276823985320784
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17430763722586251989
+  ChildIds: 6885349402113221943
+  ChildIds: 7297549926346701868
+  ChildIds: 10398230331337928788
+  ChildIds: 7262977855810519780
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7262977855810519780
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7942276823985320784
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10398230331337928788
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7942276823985320784
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7297549926346701868
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7942276823985320784
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6885349402113221943
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7942276823985320784
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5386889080269709744
+  Name: "Long Road"
+  Transform {
+    Location {
+      X: 9300
+      Y: -15190
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 12546831481305264623
+  ChildIds: 16862183517217167747
+  ChildIds: 9361403640234302915
+  ChildIds: 14651520452392115005
+  ChildIds: 11728338666255245994
+  ChildIds: 4717670465943867032
+  ChildIds: 14439005292756909787
+  ChildIds: 10755856891603194962
+  ChildIds: 7788467199499530046
+  ChildIds: 10944869905928203265
+  ChildIds: 13066687524213323990
+  ChildIds: 5187852706452404780
+  ChildIds: 9412142523515832483
+  ChildIds: 11473898513793921804
+  ChildIds: 12148540071351487922
+  ChildIds: 17427169584819493231
+  ChildIds: 7127364855561616979
+  ChildIds: 12245040567653275168
+  ChildIds: 12931246362666701086
+  ChildIds: 18296796596313873649
+  ChildIds: 12419074282951804629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12419074282951804629
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 6206803827741537025
+  ChildIds: 10205877022015882857
+  ChildIds: 12997776182624928870
+  ChildIds: 16692038167723452556
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16692038167723452556
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12419074282951804629
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12997776182624928870
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12419074282951804629
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10205877022015882857
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12419074282951804629
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6206803827741537025
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12419074282951804629
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18296796596313873649
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 9200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 12933539139163984674
+  ChildIds: 6304446103780958784
+  ChildIds: 2047659551289683577
+  ChildIds: 3134967517149027240
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3134967517149027240
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18296796596313873649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2047659551289683577
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18296796596313873649
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6304446103780958784
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18296796596313873649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12933539139163984674
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18296796596313873649
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12931246362666701086
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 8400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 55484306638909734
+  ChildIds: 17635757961590571489
+  ChildIds: 16303095912122298004
+  ChildIds: 5617400925590442806
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5617400925590442806
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12931246362666701086
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16303095912122298004
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12931246362666701086
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17635757961590571489
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12931246362666701086
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 55484306638909734
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12931246362666701086
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12245040567653275168
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 7600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 12058733416686491115
+  ChildIds: 2202311505385313649
+  ChildIds: 17285436573016041896
+  ChildIds: 6721529131629359143
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6721529131629359143
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12245040567653275168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17285436573016041896
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12245040567653275168
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2202311505385313649
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12245040567653275168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12058733416686491115
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12245040567653275168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7127364855561616979
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 10000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 15819072359946557672
+  ChildIds: 3658047111351193333
+  ChildIds: 6966493376778258916
+  ChildIds: 6322680110415265960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6322680110415265960
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7127364855561616979
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6966493376778258916
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7127364855561616979
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3658047111351193333
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7127364855561616979
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15819072359946557672
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7127364855561616979
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17427169584819493231
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 1747180804510102333
+  ChildIds: 15661129602448997012
+  ChildIds: 16523178060381726903
+  ChildIds: 6518737326876633478
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6518737326876633478
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17427169584819493231
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16523178060381726903
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17427169584819493231
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15661129602448997012
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17427169584819493231
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1747180804510102333
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17427169584819493231
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12148540071351487922
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 3916669401865994345
+  ChildIds: 295026201004290802
+  ChildIds: 7509516348898262498
+  ChildIds: 2388322692330701217
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2388322692330701217
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12148540071351487922
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7509516348898262498
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12148540071351487922
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 295026201004290802
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12148540071351487922
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3916669401865994345
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12148540071351487922
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11473898513793921804
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 6186748356964957431
+  ChildIds: 1538225114822755188
+  ChildIds: 4285083033363977168
+  ChildIds: 15403670706978620406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15403670706978620406
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11473898513793921804
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4285083033363977168
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11473898513793921804
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1538225114822755188
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11473898513793921804
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6186748356964957431
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11473898513793921804
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9412142523515832483
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 17118068427113335568
+  ChildIds: 14110208206822954150
+  ChildIds: 1027256977055888156
+  ChildIds: 5548231015072301689
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5548231015072301689
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9412142523515832483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1027256977055888156
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9412142523515832483
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14110208206822954150
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9412142523515832483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17118068427113335568
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9412142523515832483
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5187852706452404780
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 7768362239491189142
+  ChildIds: 17262137775388993613
+  ChildIds: 13569417972219257305
+  ChildIds: 10734979677520644200
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10734979677520644200
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5187852706452404780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13569417972219257305
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5187852706452404780
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17262137775388993613
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5187852706452404780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7768362239491189142
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5187852706452404780
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13066687524213323990
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 2179653268791193889
+  ChildIds: 6818022856170728618
+  ChildIds: 15931874806777570837
+  ChildIds: 14457260207024622942
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14457260207024622942
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13066687524213323990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15931874806777570837
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13066687524213323990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6818022856170728618
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13066687524213323990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2179653268791193889
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13066687524213323990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10944869905928203265
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 10151127557563900747
+  ChildIds: 3744839834788081066
+  ChildIds: 8479579474681751062
+  ChildIds: 6884253622952408515
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6884253622952408515
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10944869905928203265
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8479579474681751062
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10944869905928203265
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3744839834788081066
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10944869905928203265
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10151127557563900747
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10944869905928203265
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7788467199499530046
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 12008834633377639771
+  ChildIds: 15393002128816539618
+  ChildIds: 15703313706255314543
+  ChildIds: 17099868030213255288
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17099868030213255288
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7788467199499530046
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15703313706255314543
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7788467199499530046
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15393002128816539618
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7788467199499530046
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12008834633377639771
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7788467199499530046
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10755856891603194962
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 805603264728466562
+  ChildIds: 9660584092509515501
+  ChildIds: 158437079571359294
+  ChildIds: 10436114300704083537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10436114300704083537
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10755856891603194962
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 158437079571359294
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10755856891603194962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9660584092509515501
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10755856891603194962
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 805603264728466562
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10755856891603194962
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14439005292756909787
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 2496576982389428307
+  ChildIds: 1407506232012886119
+  ChildIds: 9716892215879112303
+  ChildIds: 13083096399277718317
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13083096399277718317
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14439005292756909787
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9716892215879112303
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14439005292756909787
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1407506232012886119
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14439005292756909787
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2496576982389428307
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14439005292756909787
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4717670465943867032
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 9242377168455550695
+  ChildIds: 14059094262843208910
+  ChildIds: 872603745027216069
+  ChildIds: 7876779403747201749
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7876779403747201749
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4717670465943867032
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 872603745027216069
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4717670465943867032
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14059094262843208910
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4717670465943867032
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9242377168455550695
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4717670465943867032
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11728338666255245994
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 3976742632593669989
+  ChildIds: 12862811527683248009
+  ChildIds: 7629587303338653338
+  ChildIds: 8138430607804914525
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8138430607804914525
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11728338666255245994
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7629587303338653338
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11728338666255245994
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12862811527683248009
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11728338666255245994
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3976742632593669989
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11728338666255245994
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14651520452392115005
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 4775084799269847401
+  ChildIds: 16232735055076160490
+  ChildIds: 15161377325863838511
+  ChildIds: 80419733750180810
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 80419733750180810
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14651520452392115005
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15161377325863838511
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14651520452392115005
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16232735055076160490
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14651520452392115005
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4775084799269847401
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14651520452392115005
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9361403640234302915
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 17754232333137818837
+  ChildIds: 3998086099710229706
+  ChildIds: 1458721857955080037
+  ChildIds: 688211033541088708
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 688211033541088708
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9361403640234302915
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1458721857955080037
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9361403640234302915
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3998086099710229706
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9361403640234302915
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17754232333137818837
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9361403640234302915
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16862183517217167747
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 13140854332898377928
+  ChildIds: 17843795839649786223
+  ChildIds: 16965324373822952224
+  ChildIds: 6609710942897957426
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6609710942897957426
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16862183517217167747
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16965324373822952224
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16862183517217167747
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17843795839649786223
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16862183517217167747
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13140854332898377928
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16862183517217167747
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12546831481305264623
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5386889080269709744
+  ChildIds: 2132043859639166464
+  ChildIds: 11404792879954607601
+  ChildIds: 5583019993966445599
+  ChildIds: 2989587004040535242
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2989587004040535242
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12546831481305264623
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5583019993966445599
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12546831481305264623
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11404792879954607601
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12546831481305264623
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2132043859639166464
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12546831481305264623
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5895171644882681609
+  Name: "Long Road"
+  Transform {
+    Location {
+      X: -2690
+      Y: -15190
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 9709777958957537516
+  ChildIds: 3105140694372987651
+  ChildIds: 13843695300654587718
+  ChildIds: 9357109769910918636
+  ChildIds: 13550273623911046990
+  ChildIds: 10808424922774640993
+  ChildIds: 13702179120876040822
+  ChildIds: 119239745386426640
+  ChildIds: 11116745690948104555
+  ChildIds: 2979143258578363582
+  ChildIds: 10027886119338483281
+  ChildIds: 2303066378095830902
+  ChildIds: 11403090805980746398
+  ChildIds: 5034196815531360369
+  ChildIds: 8118980567739570881
+  ChildIds: 16301263669600963080
+  ChildIds: 3914884646327473151
+  ChildIds: 8368338594479618589
+  ChildIds: 1549752561442484931
+  ChildIds: 11177301719649483764
+  ChildIds: 3713135180687662608
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3713135180687662608
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 8946660736973912983
+  ChildIds: 17734978699329965952
+  ChildIds: 13217291112565142750
+  ChildIds: 484585348372994089
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 484585348372994089
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3713135180687662608
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13217291112565142750
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3713135180687662608
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17734978699329965952
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3713135180687662608
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8946660736973912983
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3713135180687662608
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11177301719649483764
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 9200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 8311315931542830929
+  ChildIds: 14703159849131093681
+  ChildIds: 613201671613765478
+  ChildIds: 10824663432789339958
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10824663432789339958
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11177301719649483764
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 613201671613765478
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11177301719649483764
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14703159849131093681
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11177301719649483764
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8311315931542830929
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11177301719649483764
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1549752561442484931
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 8400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 9718202993779744501
+  ChildIds: 6672573706163658566
+  ChildIds: 4270882687275310191
+  ChildIds: 17893968845516370081
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17893968845516370081
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1549752561442484931
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4270882687275310191
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1549752561442484931
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6672573706163658566
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1549752561442484931
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9718202993779744501
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1549752561442484931
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8368338594479618589
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 7600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 10335561541370463527
+  ChildIds: 4528394473839762860
+  ChildIds: 16132768109912873057
+  ChildIds: 12306327021152371104
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12306327021152371104
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8368338594479618589
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16132768109912873057
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8368338594479618589
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4528394473839762860
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8368338594479618589
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10335561541370463527
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8368338594479618589
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3914884646327473151
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 10000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 387968272867994477
+  ChildIds: 6597591018370505714
+  ChildIds: 13037696463900862706
+  ChildIds: 15672601209963925493
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15672601209963925493
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3914884646327473151
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13037696463900862706
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3914884646327473151
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6597591018370505714
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3914884646327473151
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 387968272867994477
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3914884646327473151
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16301263669600963080
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 4992378265051710148
+  ChildIds: 9222267862386020296
+  ChildIds: 15922558213236803747
+  ChildIds: 12771778106174125963
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12771778106174125963
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16301263669600963080
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15922558213236803747
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16301263669600963080
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9222267862386020296
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16301263669600963080
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4992378265051710148
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16301263669600963080
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8118980567739570881
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 14947364871288840671
+  ChildIds: 13679172067645466617
+  ChildIds: 3638405333285873251
+  ChildIds: 648304850555107426
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 648304850555107426
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8118980567739570881
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3638405333285873251
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8118980567739570881
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13679172067645466617
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8118980567739570881
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14947364871288840671
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8118980567739570881
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5034196815531360369
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 1291814657358677078
+  ChildIds: 1457988792673007081
+  ChildIds: 16570960647920223319
+  ChildIds: 13670511877507800049
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13670511877507800049
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5034196815531360369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16570960647920223319
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5034196815531360369
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1457988792673007081
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5034196815531360369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1291814657358677078
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5034196815531360369
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11403090805980746398
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 11800569122900602833
+  ChildIds: 9989295196854457316
+  ChildIds: 16064323757361075287
+  ChildIds: 17722892159191331034
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17722892159191331034
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11403090805980746398
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16064323757361075287
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11403090805980746398
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9989295196854457316
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11403090805980746398
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11800569122900602833
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11403090805980746398
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2303066378095830902
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 17556656555598187082
+  ChildIds: 8772081057607386866
+  ChildIds: 12780389075379110030
+  ChildIds: 13506595751788038375
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13506595751788038375
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2303066378095830902
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12780389075379110030
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2303066378095830902
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8772081057607386866
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2303066378095830902
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17556656555598187082
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2303066378095830902
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10027886119338483281
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 17450037571302346872
+  ChildIds: 5412432997851103922
+  ChildIds: 6484120971410978232
+  ChildIds: 9609585087297679496
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9609585087297679496
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10027886119338483281
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6484120971410978232
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10027886119338483281
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5412432997851103922
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10027886119338483281
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17450037571302346872
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10027886119338483281
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2979143258578363582
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 3053099059819718305
+  ChildIds: 2319758979672418305
+  ChildIds: 17222141349024615642
+  ChildIds: 18181862936330911916
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18181862936330911916
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2979143258578363582
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17222141349024615642
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2979143258578363582
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2319758979672418305
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2979143258578363582
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3053099059819718305
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2979143258578363582
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11116745690948104555
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: 400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 1296636892645015606
+  ChildIds: 17057005525303712652
+  ChildIds: 5886642655336798754
+  ChildIds: 11968914842921581358
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11968914842921581358
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11116745690948104555
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5886642655336798754
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11116745690948104555
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17057005525303712652
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11116745690948104555
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1296636892645015606
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11116745690948104555
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 119239745386426640
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 4015736540328215208
+  ChildIds: 631635497602957875
+  ChildIds: 1976350657439875307
+  ChildIds: 15317955659786027444
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15317955659786027444
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 119239745386426640
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1976350657439875307
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 119239745386426640
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 631635497602957875
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 119239745386426640
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4015736540328215208
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 119239745386426640
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13702179120876040822
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -1200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 10345762687427499900
+  ChildIds: 17118816806521688030
+  ChildIds: 8914376880329478571
+  ChildIds: 706013145800807920
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 706013145800807920
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13702179120876040822
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8914376880329478571
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13702179120876040822
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17118816806521688030
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13702179120876040822
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10345762687427499900
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13702179120876040822
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10808424922774640993
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 17000185562612700262
+  ChildIds: 17927353185223358439
+  ChildIds: 12305958814483069285
+  ChildIds: 2850744833731386935
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2850744833731386935
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10808424922774640993
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12305958814483069285
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10808424922774640993
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17927353185223358439
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10808424922774640993
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17000185562612700262
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10808424922774640993
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13550273623911046990
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -2800
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 11759408874196894889
+  ChildIds: 11087511468964632464
+  ChildIds: 9663465103496516658
+  ChildIds: 16883368394075365720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16883368394075365720
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13550273623911046990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9663465103496516658
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13550273623911046990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11087511468964632464
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13550273623911046990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11759408874196894889
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13550273623911046990
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9357109769910918636
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -3600
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 14416580709356496587
+  ChildIds: 13803507620236276808
+  ChildIds: 12181942831430877409
+  ChildIds: 16148147562410266180
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16148147562410266180
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9357109769910918636
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12181942831430877409
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9357109769910918636
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13803507620236276808
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9357109769910918636
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14416580709356496587
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9357109769910918636
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13843695300654587718
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -4400
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 9624539582380833570
+  ChildIds: 9125893911210000924
+  ChildIds: 5141864412763504649
+  ChildIds: 9416634911828055340
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9416634911828055340
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13843695300654587718
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5141864412763504649
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13843695300654587718
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9125893911210000924
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13843695300654587718
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9624539582380833570
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13843695300654587718
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3105140694372987651
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -5200
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 10550279130444660219
+  ChildIds: 4057953824334251353
+  ChildIds: 14613036335493075314
+  ChildIds: 15903437097079319409
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15903437097079319409
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3105140694372987651
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14613036335493075314
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3105140694372987651
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4057953824334251353
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3105140694372987651
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10550279130444660219
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3105140694372987651
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9709777958957537516
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      Y: -6000
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5895171644882681609
+  ChildIds: 2903706532331596905
+  ChildIds: 2037783598335170679
+  ChildIds: 1962991112995821915
+  ChildIds: 7754794109795160593
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7754794109795160593
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9709777958957537516
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1962991112995821915
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9709777958957537516
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2037783598335170679
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9709777958957537516
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2903706532331596905
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9709777958957537516
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15716214888619969809
+  Name: "Longer Road with intersections"
+  Transform {
+    Location {
+      X: 23020
+      Y: -5200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11306941925741100897
+  ChildIds: 1990677116159817349
+  ChildIds: 17703241875779049191
+  ChildIds: 4797610071717019918
+  ChildIds: 15995305359352499747
+  ChildIds: 11384599352078035068
+  ChildIds: 10434628243444429545
+  ChildIds: 7071742361735108629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7071742361735108629
+  Name: "Short Road"
+  Transform {
+    Location {
+      X: -19730
+      Y: 2730
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  ChildIds: 8364784274873607861
+  ChildIds: 12315021599279463489
+  ChildIds: 9507066775593647603
+  ChildIds: 9162200314423889771
+  ChildIds: 16329924495035955110
+  ChildIds: 3876034327556278412
+  ChildIds: 5172739083402879794
+  ChildIds: 9384137860968255799
+  ChildIds: 17361488783516773399
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17361488783516773399
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 9289303929837880151
+  ChildIds: 16827167635229960058
+  ChildIds: 15124002455287808192
+  ChildIds: 7651686587092126644
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7651686587092126644
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17361488783516773399
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15124002455287808192
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17361488783516773399
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16827167635229960058
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17361488783516773399
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9289303929837880151
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17361488783516773399
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9384137860968255799
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 6063622218488199645
+  ChildIds: 1528830931193735005
+  ChildIds: 17785757823537201439
+  ChildIds: 1538628666534049955
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1538628666534049955
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9384137860968255799
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17785757823537201439
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9384137860968255799
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1528830931193735005
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9384137860968255799
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6063622218488199645
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9384137860968255799
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5172739083402879794
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 6323476950562272286
+  ChildIds: 16151385952645947056
+  ChildIds: 17524438946156250082
+  ChildIds: 12189719087059931451
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12189719087059931451
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5172739083402879794
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17524438946156250082
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5172739083402879794
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16151385952645947056
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5172739083402879794
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6323476950562272286
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5172739083402879794
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3876034327556278412
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 13348479969761432261
+  ChildIds: 4636671150376962950
+  ChildIds: 1216658734789534566
+  ChildIds: 14490348905720700932
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14490348905720700932
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3876034327556278412
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1216658734789534566
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3876034327556278412
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4636671150376962950
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3876034327556278412
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13348479969761432261
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3876034327556278412
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16329924495035955110
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 11690237274405264487
+  ChildIds: 4271226768704453896
+  ChildIds: 3237462909975347674
+  ChildIds: 10742181971871550302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10742181971871550302
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16329924495035955110
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3237462909975347674
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16329924495035955110
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4271226768704453896
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16329924495035955110
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11690237274405264487
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16329924495035955110
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9162200314423889771
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 13791769269180726482
+  ChildIds: 1550256377361415007
+  ChildIds: 16812027638332419031
+  ChildIds: 17942810343179889164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17942810343179889164
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9162200314423889771
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16812027638332419031
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9162200314423889771
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1550256377361415007
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9162200314423889771
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13791769269180726482
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9162200314423889771
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9507066775593647603
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 5838066571744891357
+  ChildIds: 464608606987150287
+  ChildIds: 8925298916469405087
+  ChildIds: 17308050726056308438
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17308050726056308438
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9507066775593647603
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8925298916469405087
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9507066775593647603
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 464608606987150287
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9507066775593647603
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5838066571744891357
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9507066775593647603
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12315021599279463489
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 16428906942628224825
+  ChildIds: 2290065635962601158
+  ChildIds: 15403996660108147530
+  ChildIds: 18379923000210472434
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 18379923000210472434
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12315021599279463489
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15403996660108147530
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12315021599279463489
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2290065635962601158
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12315021599279463489
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16428906942628224825
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12315021599279463489
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8364784274873607861
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7071742361735108629
+  ChildIds: 8886993000032642103
+  ChildIds: 11993840427267509346
+  ChildIds: 1414031031488259751
+  ChildIds: 4034722161691397747
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4034722161691397747
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8364784274873607861
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1414031031488259751
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8364784274873607861
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11993840427267509346
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8364784274873607861
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8886993000032642103
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8364784274873607861
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10434628243444429545
+  Name: "Short Road"
+  Transform {
+    Location {
+      X: -7710
+      Y: 2730
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  ChildIds: 49191326862521115
+  ChildIds: 3812892144116002595
+  ChildIds: 18420335483089109030
+  ChildIds: 6075168750796530303
+  ChildIds: 8467237049826423142
+  ChildIds: 10676835495550615974
+  ChildIds: 2652723152275099668
+  ChildIds: 10357469141842987161
+  ChildIds: 360537858178890358
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 360537858178890358
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 2516531115289118249
+  ChildIds: 16182135104751380075
+  ChildIds: 3431090055332618107
+  ChildIds: 507793172790643658
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 507793172790643658
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 360537858178890358
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3431090055332618107
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 360537858178890358
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16182135104751380075
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 360537858178890358
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2516531115289118249
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 360537858178890358
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10357469141842987161
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 17645003338492626161
+  ChildIds: 8343524905638051026
+  ChildIds: 15991517200491559518
+  ChildIds: 15040540261183804462
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15040540261183804462
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10357469141842987161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15991517200491559518
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10357469141842987161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8343524905638051026
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10357469141842987161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17645003338492626161
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10357469141842987161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2652723152275099668
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 12724306827729521484
+  ChildIds: 4648774757407007447
+  ChildIds: 2607807116393057280
+  ChildIds: 10804950522154081577
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10804950522154081577
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2652723152275099668
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2607807116393057280
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2652723152275099668
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4648774757407007447
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2652723152275099668
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12724306827729521484
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2652723152275099668
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10676835495550615974
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 2352728625474400914
+  ChildIds: 18003652609305418828
+  ChildIds: 5471277212713723954
+  ChildIds: 10498853880416405859
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10498853880416405859
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10676835495550615974
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5471277212713723954
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10676835495550615974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18003652609305418828
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10676835495550615974
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2352728625474400914
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10676835495550615974
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8467237049826423142
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 2567732887251358459
+  ChildIds: 13276246865327936347
+  ChildIds: 3553782445347486411
+  ChildIds: 8423797029437849273
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8423797029437849273
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8467237049826423142
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3553782445347486411
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8467237049826423142
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13276246865327936347
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8467237049826423142
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2567732887251358459
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8467237049826423142
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6075168750796530303
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 3885351851190157634
+  ChildIds: 10923164394477163217
+  ChildIds: 1247196093564702975
+  ChildIds: 2016796032772922875
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2016796032772922875
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6075168750796530303
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1247196093564702975
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6075168750796530303
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10923164394477163217
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6075168750796530303
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3885351851190157634
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6075168750796530303
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18420335483089109030
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 2723385364276561086
+  ChildIds: 13949577828822456862
+  ChildIds: 4630604304086911175
+  ChildIds: 7707315693094098541
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7707315693094098541
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18420335483089109030
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4630604304086911175
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18420335483089109030
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13949577828822456862
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18420335483089109030
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2723385364276561086
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18420335483089109030
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3812892144116002595
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 5097556432737480378
+  ChildIds: 5507319795608770608
+  ChildIds: 6700624527995746265
+  ChildIds: 13347283895939720590
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13347283895939720590
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3812892144116002595
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6700624527995746265
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3812892144116002595
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5507319795608770608
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3812892144116002595
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5097556432737480378
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3812892144116002595
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 49191326862521115
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10434628243444429545
+  ChildIds: 16142957610226052783
+  ChildIds: 3656108977792933064
+  ChildIds: 17848313128707242611
+  ChildIds: 17031797177959619161
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17031797177959619161
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 49191326862521115
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17848313128707242611
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 49191326862521115
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3656108977792933064
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 49191326862521115
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16142957610226052783
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 49191326862521115
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11384599352078035068
+  Name: "Road 2-Lane  Intersection 4-way"
+  Transform {
+    Location {
+      X: 9300
+      Y: -23998.0156
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8552647354057911570
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Road 2-Lane  Intersection 4-way"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -25710
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13572771989192271019
+    }
+  }
+}
+Objects {
+  Id: 15995305359352499747
+  Name: "Road 2-Lane  Intersection 4-way"
+  Transform {
+    Location {
+      X: 21290
+      Y: -23998.0156
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8552647354057911570
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Road 2-Lane  Intersection 4-way"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13720
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13572771989192271019
+    }
+  }
+}
+Objects {
+  Id: 4797610071717019918
+  Name: "Short Road"
+  Transform {
+    Location {
+      X: 6080
+      Y: 2440
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  ChildIds: 11358416325123763083
+  ChildIds: 2155307272585512188
+  ChildIds: 14753739070686881921
+  ChildIds: 17458134854290874161
+  ChildIds: 9000228627355053334
+  ChildIds: 7140579722112967913
+  ChildIds: 14426601399553099168
+  ChildIds: 15443015126484479088
+  ChildIds: 17459105135806621526
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17459105135806621526
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -4200
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 16549973003176654232
+  ChildIds: 18276123218458395250
+  ChildIds: 10574449748391569566
+  ChildIds: 13503569617220492358
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13503569617220492358
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17459105135806621526
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10574449748391569566
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17459105135806621526
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18276123218458395250
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17459105135806621526
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16549973003176654232
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17459105135806621526
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15443015126484479088
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -3400
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 11905130798969052080
+  ChildIds: 11767924211834678406
+  ChildIds: 16754347435420279200
+  ChildIds: 5648062925691863473
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5648062925691863473
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15443015126484479088
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16754347435420279200
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15443015126484479088
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11767924211834678406
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15443015126484479088
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11905130798969052080
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15443015126484479088
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14426601399553099168
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -2600
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 4058272217125658179
+  ChildIds: 1282148716204651215
+  ChildIds: 2181713172192187245
+  ChildIds: 13151023045675967621
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13151023045675967621
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14426601399553099168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2181713172192187245
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14426601399553099168
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1282148716204651215
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14426601399553099168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4058272217125658179
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14426601399553099168
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7140579722112967913
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -1800
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 15715490931191629171
+  ChildIds: 5056523205321067455
+  ChildIds: 2932963718296180382
+  ChildIds: 17482750995484923364
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17482750995484923364
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7140579722112967913
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2932963718296180382
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7140579722112967913
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 5056523205321067455
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7140579722112967913
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15715490931191629171
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7140579722112967913
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9000228627355053334
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -1000
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 17680888341261606596
+  ChildIds: 2326040120586416509
+  ChildIds: 2912463104630024945
+  ChildIds: 5696067428581446971
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5696067428581446971
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9000228627355053334
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2912463104630024945
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9000228627355053334
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2326040120586416509
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9000228627355053334
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17680888341261606596
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9000228627355053334
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17458134854290874161
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -200
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 12459742710501768594
+  ChildIds: 10303696239502414827
+  ChildIds: 10765964514013987135
+  ChildIds: 17014957248319449688
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17014957248319449688
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17458134854290874161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10765964514013987135
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17458134854290874161
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10303696239502414827
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17458134854290874161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12459742710501768594
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17458134854290874161
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14753739070686881921
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 600
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 9425638032733726075
+  ChildIds: 17770893926018980807
+  ChildIds: 6405550469174261792
+  ChildIds: 3653400081528416357
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3653400081528416357
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14753739070686881921
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6405550469174261792
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14753739070686881921
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17770893926018980807
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14753739070686881921
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9425638032733726075
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14753739070686881921
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2155307272585512188
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 1400
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 6013307623037494822
+  ChildIds: 12354992824150307060
+  ChildIds: 18242165562223328633
+  ChildIds: 6417278503353783401
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6417278503353783401
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2155307272585512188
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18242165562223328633
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2155307272585512188
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12354992824150307060
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2155307272585512188
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6013307623037494822
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2155307272585512188
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11358416325123763083
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -5000
+      Y: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4797610071717019918
+  ChildIds: 11009454128502668513
+  ChildIds: 18119951924087779175
+  ChildIds: 17999858368093660400
+  ChildIds: 16852644461479975754
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16852644461479975754
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11358416325123763083
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17999858368093660400
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11358416325123763083
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18119951924087779175
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11358416325123763083
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11009454128502668513
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11358416325123763083
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17703241875779049191
+  Name: "Short Road"
+  Transform {
+    Location {
+      X: 16280
+      Y: 2720
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  ChildIds: 8556963330656101141
+  ChildIds: 18167614641277127310
+  ChildIds: 8670316344771156810
+  ChildIds: 6337800477172617320
+  ChildIds: 11162882812373270448
+  ChildIds: 6893001295201809099
+  ChildIds: 567845772612121987
+  ChildIds: 2519459903994594087
+  ChildIds: 10625118406175533213
+  ChildIds: 10635721207254471406
+  ChildIds: 11632920786660690480
+  ChildIds: 15592460889645729466
+  ChildIds: 6739449043836399105
+  ChildIds: 3460793827197235439
+  ChildIds: 8762020718866316855
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8762020718866316855
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -7990
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 9984598584188084031
+  ChildIds: 10725822024163599337
+  ChildIds: 7143683353787423588
+  ChildIds: 10994640336700192550
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10994640336700192550
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8762020718866316855
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7143683353787423588
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8762020718866316855
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10725822024163599337
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8762020718866316855
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9984598584188084031
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8762020718866316855
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3460793827197235439
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -7180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 4421078090700193804
+  ChildIds: 11972967586115965208
+  ChildIds: 9768783279861216123
+  ChildIds: 5514231637324886351
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5514231637324886351
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460793827197235439
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9768783279861216123
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460793827197235439
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11972967586115965208
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460793827197235439
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4421078090700193804
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3460793827197235439
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6739449043836399105
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -6380
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 16514870552310278272
+  ChildIds: 4525920934692620039
+  ChildIds: 7551839035406405489
+  ChildIds: 5401186053340544277
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5401186053340544277
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6739449043836399105
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7551839035406405489
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6739449043836399105
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4525920934692620039
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6739449043836399105
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16514870552310278272
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6739449043836399105
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15592460889645729466
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -5580
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 17249823721507260138
+  ChildIds: 4332830545673261768
+  ChildIds: 9262008755362364252
+  ChildIds: 1594858692464678127
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1594858692464678127
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15592460889645729466
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9262008755362364252
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15592460889645729466
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4332830545673261768
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15592460889645729466
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17249823721507260138
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15592460889645729466
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11632920786660690480
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -4790
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 10813753843874659798
+  ChildIds: 17974759606497139297
+  ChildIds: 2485293277996984086
+  ChildIds: 9232195964355671027
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9232195964355671027
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11632920786660690480
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2485293277996984086
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11632920786660690480
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17974759606497139297
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11632920786660690480
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10813753843874659798
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11632920786660690480
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10635721207254471406
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -4000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 13364805187452561329
+  ChildIds: 14345601690328230278
+  ChildIds: 12804295353510823096
+  ChildIds: 15415355127497040844
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15415355127497040844
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10635721207254471406
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12804295353510823096
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10635721207254471406
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14345601690328230278
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10635721207254471406
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13364805187452561329
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10635721207254471406
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10625118406175533213
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 18144890700671384197
+  ChildIds: 13762807321052855947
+  ChildIds: 3424477960064601598
+  ChildIds: 1805011578719855756
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1805011578719855756
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10625118406175533213
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3424477960064601598
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10625118406175533213
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 13762807321052855947
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10625118406175533213
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18144890700671384197
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10625118406175533213
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2519459903994594087
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 17499855095141296368
+  ChildIds: 15583048705995901882
+  ChildIds: 7207025485905504403
+  ChildIds: 14937157912726624484
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14937157912726624484
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2519459903994594087
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7207025485905504403
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2519459903994594087
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15583048705995901882
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2519459903994594087
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17499855095141296368
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2519459903994594087
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 567845772612121987
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 14751234064342364150
+  ChildIds: 1505347457646755419
+  ChildIds: 12678297860338080969
+  ChildIds: 17600117121245187632
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17600117121245187632
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 567845772612121987
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 12678297860338080969
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 567845772612121987
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1505347457646755419
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 567845772612121987
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14751234064342364150
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 567845772612121987
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6893001295201809099
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 2431371487248433485
+  ChildIds: 9946311748603821362
+  ChildIds: 14328165853810996775
+  ChildIds: 14538294698900695884
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14538294698900695884
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6893001295201809099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14328165853810996775
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6893001295201809099
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 9946311748603821362
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6893001295201809099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 2431371487248433485
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6893001295201809099
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 11162882812373270448
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 18194385946249157406
+  ChildIds: 15953997391957665846
+  ChildIds: 8195343520260889868
+  ChildIds: 13081614721617468299
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13081614721617468299
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11162882812373270448
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8195343520260889868
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11162882812373270448
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15953997391957665846
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11162882812373270448
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18194385946249157406
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11162882812373270448
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6337800477172617320
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 14241941083931118830
+  ChildIds: 16321473817355271316
+  ChildIds: 10979516514341070088
+  ChildIds: 17342671186046958442
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17342671186046958442
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6337800477172617320
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 10979516514341070088
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6337800477172617320
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16321473817355271316
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6337800477172617320
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14241941083931118830
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6337800477172617320
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8670316344771156810
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 17383120962276489875
+  ChildIds: 8205559045965642416
+  ChildIds: 4491817244423398274
+  ChildIds: 13697736684965127856
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13697736684965127856
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8670316344771156810
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 4491817244423398274
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8670316344771156810
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8205559045965642416
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8670316344771156810
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17383120962276489875
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8670316344771156810
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 18167614641277127310
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 14888039221040676884
+  ChildIds: 7958203485777026790
+  ChildIds: 17289226700934757983
+  ChildIds: 3017013606568927901
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3017013606568927901
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18167614641277127310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17289226700934757983
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18167614641277127310
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 7958203485777026790
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18167614641277127310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 14888039221040676884
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18167614641277127310
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 8556963330656101141
+  Name: "8ft 2 Lane Road Section"
+  Transform {
+    Location {
+      X: 3200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17703241875779049191
+  ChildIds: 16294039970361487390
+  ChildIds: 593909353977407228
+  ChildIds: 3095827786775411329
+  ChildIds: 5943388454545653802
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5943388454545653802
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 400
+      Y: -800
+    }
+    Rotation {
+      Yaw: -179.999802
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8556963330656101141
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 3095827786775411329
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 400
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8556963330656101141
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8579432163999231251
+    SubobjectId: 8617807625128101009
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 593909353977407228
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8556963330656101141
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15239417624675474955
+    SubobjectId: 15273280762528282505
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 16294039970361487390
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -400
+      Y: 800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8556963330656101141
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9479233319347230826
+    SubobjectId: 9441196301630370280
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 1990677116159817349
+  Name: "Road 2-Lane  Intersection 4-way"
+  Transform {
+    Location {
+      X: 45300
+      Y: -23970
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8552647354057911570
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Road 2-Lane  Intersection 4-way"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1730
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13572771989192271019
+    }
+  }
+}
+Objects {
+  Id: 11306941925741100897
+  Name: "Road 2-Lane  Intersection 4-way"
+  Transform {
+    Location {
+      X: 21300
+      Y: -45600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15716214888619969809
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8552647354057911570
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Road 2-Lane  Intersection 4-way"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 22280
+            Y: 2720
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13572771989192271019
+    }
   }
 }
 Objects {
@@ -84,12 +28561,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5231299593457110798
-  Name: "Short Road"
+  Id: 8486769349549904181
+  Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 3290
-      Y: -24000
+      X: 23020
+      Y: -26730
     }
     Rotation {
     }
@@ -100,6 +28577,41 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 8324781874957309070
+  ChildIds: 12834867354470985079
+  ChildIds: 5697185098598890800
+  ChildIds: 14326628198709150082
+  ChildIds: 18363383869002438566
+  ChildIds: 11172567322457054006
+  ChildIds: 1320640200363342688
+  ChildIds: 5231299593457110798
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 5231299593457110798
+  Name: "Short Road"
+  Transform {
+    Location {
+      X: -19730
+      Y: 2730
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8486769349549904181
   ChildIds: 16630325979402615145
   ChildIds: 1465864495495313654
   ChildIds: 11019831989027494744
@@ -2103,8 +30615,8 @@ Objects {
   Name: "Short Road"
   Transform {
     Location {
-      X: 15310
-      Y: -24000
+      X: -7710
+      Y: 2730
     }
     Rotation {
     }
@@ -2114,7 +30626,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   ChildIds: 17334869702702097251
   ChildIds: 2689371009933461909
   ChildIds: 15866424328443402502
@@ -4129,7 +32641,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   TemplateInstance {
     ParameterOverrideMap {
       key: 8552647354057911570
@@ -4141,8 +32653,21 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2690
-            Y: -23998.0156
+            X: -25710
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -4168,7 +32693,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   TemplateInstance {
     ParameterOverrideMap {
       key: 8552647354057911570
@@ -4180,8 +32705,21 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 9300
-            Y: -23998.0156
+            X: -13720
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -4196,8 +32734,8 @@ Objects {
   Name: "Short Road"
   Transform {
     Location {
-      X: 29100
-      Y: -24290
+      X: 6080
+      Y: 2440
     }
     Rotation {
     }
@@ -4207,7 +32745,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   ChildIds: 15125297996197805421
   ChildIds: 1167238053207739658
   ChildIds: 13535820044577794016
@@ -6221,8 +34759,8 @@ Objects {
   Name: "Short Road"
   Transform {
     Location {
-      X: 39300
-      Y: -24010
+      X: 16280
+      Y: 2720
     }
     Rotation {
     }
@@ -6232,7 +34770,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   ChildIds: 12660829766514616470
   ChildIds: 1803876374829759990
   ChildIds: 12005466851613042605
@@ -9573,7 +38111,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   TemplateInstance {
     ParameterOverrideMap {
       key: 8552647354057911570
@@ -9585,8 +38123,21 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 21290
-            Y: -23998.0156
+            X: -1730
+            Y: 2731.98438
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
@@ -9612,7 +38163,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 8486769349549904181
   TemplateInstance {
     ParameterOverrideMap {
       key: 8552647354057911570
@@ -9624,8 +38175,21 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 45300
-            Y: -24010
+            X: 22280
+            Y: 2720
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
