@@ -38694,6 +38694,7 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       IsMountEnabled: true
+      MaxHitpoints: 100
     }
   }
 }
@@ -38702,6 +38703,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: 37050
+      Y: -45500
       Z: 115
     }
     Rotation {
