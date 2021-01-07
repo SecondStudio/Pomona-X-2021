@@ -38150,6 +38150,7 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
+      Y: -420
     }
     Rotation {
     }
