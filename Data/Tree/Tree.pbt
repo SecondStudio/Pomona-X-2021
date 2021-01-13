@@ -157567,7 +157567,8 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
-      Y: -420
+      X: 18340
+      Y: -6090
     }
     Rotation {
     }
