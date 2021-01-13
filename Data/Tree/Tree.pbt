@@ -15596,7 +15596,7 @@ Objects {
   Transform {
     Location {
       X: 790
-      Y: -34620
+      Y: -35070
     }
     Rotation {
     }
@@ -15636,7 +15636,7 @@ Objects {
   Transform {
     Location {
       X: 1340
-      Y: -35170
+      Y: -35620
     }
     Rotation {
     }
@@ -15676,14 +15676,14 @@ Objects {
   Transform {
     Location {
       X: 4900
-      Y: -34040
+      Y: -33730
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 0.75
+      X: 0.75
+      Y: 0.75
+      Z: 0.5
     }
   }
   ParentId: 4781671109827199097
@@ -15716,7 +15716,7 @@ Objects {
   Transform {
     Location {
       X: 2420
-      Y: -35170
+      Y: -35620
     }
     Rotation {
     }
@@ -15756,14 +15756,14 @@ Objects {
   Transform {
     Location {
       X: 7540
-      Y: -34040
+      Y: -33730
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 0.75
+      X: 0.75
+      Y: 0.75
+      Z: 0.5
     }
   }
   ParentId: 4781671109827199097
@@ -83901,11 +83901,11 @@ Objects {
   Transform {
     Location {
       X: 11487.9443
-      Y: -34285.7891
+      Y: -33780
       Z: 4.99975586
     }
     Rotation {
-      Yaw: -56.2626801
+      Yaw: -56.2626953
     }
     Scale {
       X: 1
@@ -83943,7 +83943,7 @@ Objects {
   Transform {
     Location {
       X: 13070.623
-      Y: -34244.9297
+      Y: -33850
       Z: 5
     }
     Rotation {
@@ -83985,11 +83985,11 @@ Objects {
   Transform {
     Location {
       X: 15366.2754
-      Y: -34197.7617
+      Y: -33680
       Z: 5.00000095
     }
     Rotation {
-      Yaw: -37.2227898
+      Yaw: -37.2227783
     }
     Scale {
       X: 1
@@ -84027,11 +84027,11 @@ Objects {
   Transform {
     Location {
       X: 17499.4707
-      Y: -34238.2031
+      Y: -33750
       Z: 5
     }
     Rotation {
-      Yaw: -3.33996344
+      Yaw: -3.33996582
     }
     Scale {
       X: 1
@@ -84111,11 +84111,11 @@ Objects {
   Transform {
     Location {
       X: 19083.8887
-      Y: -34371.9336
+      Y: -33640
       Z: 4.99975538
     }
     Rotation {
-      Yaw: -3.37291217
+      Yaw: -3.3729248
     }
     Scale {
       X: 1
