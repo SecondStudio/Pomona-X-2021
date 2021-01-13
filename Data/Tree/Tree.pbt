@@ -19,31 +19,37 @@ Objects {
   ChildIds: 5923003282004487933
   ChildIds: 10005074784157121906
   ChildIds: 16621371892162578796
-  ChildIds: 2286727553696862096
-  ChildIds: 12274455069681072406
   ChildIds: 14835481811407554636
-  ChildIds: 5895171644882681609
-  ChildIds: 14523971000237443532
-  ChildIds: 15096225802271725490
-  ChildIds: 6957582293598607049
-  ChildIds: 10994231434797887867
-  ChildIds: 15772812093020603886
-  ChildIds: 5963566208188422832
-  ChildIds: 10331837970434102697
-  ChildIds: 5110853007697332059
-  ChildIds: 7240372760779874254
-  ChildIds: 12860203363867179632
-  ChildIds: 3611694254027188989
-  ChildIds: 12192860851579812136
-  ChildIds: 1481912824725753154
-  ChildIds: 3853554065404354101
-  ChildIds: 11921429516903775821
-  ChildIds: 17421228757735408088
-  ChildIds: 18012267969003594783
-  ChildIds: 11755504142729392765
-  ChildIds: 1580458119231355889
-  ChildIds: 15000274260134183988
-  ChildIds: 4660876044506959382
+  ChildIds: 2473208361758221170
+  ChildIds: 13783961890553516720
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  Folder {
+  }
+}
+Objects {
+  Id: 13783961890553516720
+  Name: "Tree"
+  Transform {
+    Location {
+      X: 29130
+      Y: -35050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
   ChildIds: 803897572800458491
   ChildIds: 1310178884308604
   ChildIds: 13710888031818805948
@@ -116,22 +122,17 @@ Objects {
   ChildIds: 15640394777623183190
   ChildIds: 13950203504844819126
   ChildIds: 7432212790345742203
-  ChildIds: 10285827833932164080
-  ChildIds: 15548722419595337137
-  ChildIds: 767624115972887738
-  ChildIds: 6449589728277981517
-  ChildIds: 3916302707657020783
-  ChildIds: 14868947142939324704
-  ChildIds: 10106726214134817700
-  ChildIds: 15249408317138426006
-  ChildIds: 6653556398762828824
-  ChildIds: 7889944286781088297
-  ChildIds: 4965393995997995307
-  ChildIds: 15103438699067764982
-  ChildIds: 2149320825793364694
-  ChildIds: 7935853863377887390
-  ChildIds: 18347654930827746715
   ChildIds: 12651656499888124527
+  ChildIds: 18347654930827746715
+  ChildIds: 7935853863377887390
+  ChildIds: 2149320825793364694
+  ChildIds: 15103438699067764982
+  ChildIds: 4965393995997995307
+  ChildIds: 7889944286781088297
+  ChildIds: 6653556398762828824
+  ChildIds: 15249408317138426006
+  ChildIds: 10106726214134817700
+  ChildIds: 14868947142939324704
   ChildIds: 2247326311807911725
   ChildIds: 2450717326838921077
   ChildIds: 1983544528839631420
@@ -173,9 +174,6 @@ Objects {
   ChildIds: 7909574598303421337
   ChildIds: 12467635129446262418
   ChildIds: 14181946534158978591
-  ChildIds: 914922217962237037
-  ChildIds: 8614456631120558554
-  ChildIds: 17826305597794438264
   ChildIds: 277147568106828340
   ChildIds: 6968053221056661494
   ChildIds: 7225781517549340822
@@ -248,11 +246,6 @@ Objects {
   ChildIds: 16455775285665007109
   ChildIds: 6267747086806486592
   ChildIds: 16317795647178404722
-  ChildIds: 16612432327318506519
-  ChildIds: 3688381345553104394
-  ChildIds: 7420147353839037365
-  ChildIds: 4486866403211582857
-  ChildIds: 5171042177787337443
   ChildIds: 9603258283259373594
   ChildIds: 16870879427266970894
   ChildIds: 4685654705597235319
@@ -282,8 +275,6 @@ Objects {
   ChildIds: 13112259271938534284
   ChildIds: 7226427624614906277
   ChildIds: 7319680004632125318
-  ChildIds: 11358566992186895426
-  ChildIds: 7146660023091753217
   ChildIds: 16577913132016914593
   ChildIds: 7396544736984323444
   ChildIds: 15120154189679136670
@@ -430,15 +421,476 @@ Objects {
   ChildIds: 4030566988153573122
   ChildIds: 11895433189919498492
   ChildIds: 6363593925190733774
-  UnregisteredParameters {
-  }
+  ChildIds: 7088614090909350282
+  ChildIds: 14550288409639808370
+  ChildIds: 8602714841515093866
+  ChildIds: 6464588041051119034
+  ChildIds: 9967043676516668982
+  ChildIds: 10225868971267478893
+  ChildIds: 18394085071197430325
+  ChildIds: 7373449524292343530
+  ChildIds: 3611694254027188989
+  ChildIds: 12192860851579812136
+  ChildIds: 1481912824725753154
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1481912824725753154
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 11870
+      Y: 2050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12192860851579812136
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 11870
+      Y: 2050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3611694254027188989
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 13420
+      Y: 2050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7373449524292343530
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 7490
+      Y: 21150
+      Z: -0.001953125
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18394085071197430325
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14370
+      Y: 2050
+      Z: 50
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10225868971267478893
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14370
+      Y: 2850
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9967043676516668982
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14370
+      Y: 3600
+      Z: 50
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.75
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6464588041051119034
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14370
+      Y: 4500
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8602714841515093866
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14170
+      Y: -2300
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14550288409639808370
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 13720
+      Y: -2900
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7088614090909350282
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 14370
+      Y: 5300
+      Z: 50
+    }
+    Rotation {
+      Yaw: -24.999979
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -446,12 +898,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 30218.5957
-      Y: -22610.5078
+      X: 1088.5957
+      Y: 12439.4922
       Z: 25
     }
     Rotation {
-      Yaw: -168.249741
+      Yaw: -168.249725
     }
     Scale {
       X: 1.15319681
@@ -459,7 +911,7 @@ Objects {
       Z: 1.15319681
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -488,8 +940,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 28494.2715
-      Y: -22482.9121
+      X: -635.728516
+      Y: 12567.0879
       Z: 24.9999981
     }
     Rotation {
@@ -501,7 +953,7 @@ Objects {
       Z: 1.04895782
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -530,8 +982,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 29236.5039
-      Y: -22547.4902
+      X: 106.503906
+      Y: 12502.5098
       Z: 25
     }
     Rotation {
@@ -543,7 +995,7 @@ Objects {
       Z: 1.08360851
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -572,12 +1024,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23669.2148
-      Y: -25572.4648
+      X: -5460.78516
+      Y: 9477.53516
       Z: 25.0000172
     }
     Rotation {
-      Yaw: -11.2613592
+      Yaw: -11.2613754
     }
     Scale {
       X: 1.1792047
@@ -585,7 +1037,7 @@ Objects {
       Z: 1.1792047
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -614,8 +1066,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 26346.2402
-      Y: -25439.3906
+      X: -2783.75977
+      Y: 9610.60938
       Z: 25
     }
     Rotation {
@@ -627,7 +1079,7 @@ Objects {
       Z: 1.1075716
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -656,12 +1108,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 28818.9492
-      Y: -25663.3047
+      X: -311.050781
+      Y: 9386.69531
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 25.0715466
+      Yaw: 25.0715256
     }
     Scale {
       X: 1.08019662
@@ -669,7 +1121,7 @@ Objects {
       Z: 1.08019662
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -698,8 +1150,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 30255.3398
-      Y: -25461.707
+      X: 1125.33984
+      Y: 9588.29297
       Z: 25
     }
     Rotation {
@@ -711,7 +1163,7 @@ Objects {
       Z: 1.18579674
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -740,12 +1192,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31335.6172
-      Y: -26730.8828
+      X: 2205.61719
+      Y: 8319.11719
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 19.479353
+      Yaw: 19.479351
     }
     Scale {
       X: 1.08281505
@@ -753,7 +1205,7 @@ Objects {
       Z: 1.08281505
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -782,8 +1234,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31352.8
-      Y: -27547.5469
+      X: 2222.80078
+      Y: 7502.45313
       Z: -0.100585938
     }
     Rotation {
@@ -795,7 +1247,7 @@ Objects {
       Z: 1.13562429
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -824,8 +1276,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31462.0352
-      Y: -28344.5313
+      X: 2332.03516
+      Y: 6705.46875
       Z: -0.100830078
     }
     Rotation {
@@ -837,7 +1289,7 @@ Objects {
       Z: 1.07076025
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -866,12 +1318,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 37261.1758
-      Y: -22760
+      X: 8131.17578
+      Y: 12290
       Z: 24.9999981
     }
     Rotation {
-      Yaw: -106.350922
+      Yaw: -106.350937
     }
     Scale {
       X: 1.04328752
@@ -879,7 +1331,7 @@ Objects {
       Z: 1.04328752
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -908,12 +1360,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 38160.1
-      Y: -22713.6836
+      X: 9030.10156
+      Y: 12336.3164
       Z: 25
     }
     Rotation {
-      Yaw: -172.468628
+      Yaw: -172.468613
     }
     Scale {
       X: 1.19761348
@@ -921,7 +1373,7 @@ Objects {
       Z: 1.19761348
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -950,12 +1402,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 34857.6836
-      Y: -17949.4258
+      X: 5727.68359
+      Y: 17100.5742
       Z: 25.0009842
     }
     Rotation {
-      Yaw: 166.107346
+      Yaw: 166.10733
     }
     Scale {
       X: 1.15688956
@@ -963,7 +1415,7 @@ Objects {
       Z: 1.15688956
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -992,12 +1444,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31902.3457
-      Y: -18155.1016
+      X: 2772.3457
+      Y: 16894.8984
       Z: 25.0009766
     }
     Rotation {
-      Yaw: -39.6618538
+      Yaw: -39.6618385
     }
     Scale {
       X: 1.04324472
@@ -1005,7 +1457,7 @@ Objects {
       Z: 1.04324472
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1034,12 +1486,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47219.6055
-      Y: -9583.20117
+      X: 18089.6055
+      Y: 25466.7988
       Z: -0.100830078
     }
     Rotation {
-      Yaw: -41.8592072
+      Yaw: -41.8592186
     }
     Scale {
       X: 1.07422101
@@ -1047,7 +1499,7 @@ Objects {
       Z: 1.07422101
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1076,12 +1528,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47183.582
-      Y: -10533.8828
+      X: 18053.582
+      Y: 24516.1172
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -84.6192856
+      Yaw: -84.619278
     }
     Scale {
       X: 1.06905115
@@ -1089,7 +1541,7 @@ Objects {
       Z: 1.06905115
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1118,8 +1570,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47087.3555
-      Y: -14333.6104
+      X: 17957.3555
+      Y: 20716.3906
       Z: -0.100585938
     }
     Rotation {
@@ -1131,7 +1583,7 @@ Objects {
       Z: 1.17893
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1160,12 +1612,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40369.6914
-      Y: -8849.94824
+      X: 11239.6914
+      Y: 26200.0508
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -155.131714
+      Yaw: -155.131729
     }
     Scale {
       X: 1.07458115
@@ -1173,7 +1625,7 @@ Objects {
       Z: 1.07458115
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1202,12 +1654,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40550.207
-      Y: -10353.4785
+      X: 11420.207
+      Y: 24696.5215
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 67.4251709
+      Yaw: 67.4251785
     }
     Scale {
       X: 1.04257941
@@ -1215,7 +1667,7 @@ Objects {
       Z: 1.04257941
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1244,8 +1696,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40520
-      Y: -11430.5039
+      X: 11390
+      Y: 23619.4961
       Z: -0.100585938
     }
     Rotation {
@@ -1257,7 +1709,7 @@ Objects {
       Z: 1.01672411
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1286,12 +1738,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42841.4219
-      Y: -10222.8906
+      X: 13711.4219
+      Y: 24827.1094
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 47.0119247
+      Yaw: 47.0119095
     }
     Scale {
       X: 1.05642259
@@ -1299,7 +1751,7 @@ Objects {
       Z: 1.05642259
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1328,12 +1780,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42809.8945
-      Y: -11228.5215
+      X: 13679.8945
+      Y: 23821.4785
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 167.480682
+      Yaw: 167.480652
     }
     Scale {
       X: 1.11689818
@@ -1341,7 +1793,7 @@ Objects {
       Z: 1.11689818
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1370,12 +1822,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40457.8789
-      Y: -14055.0137
+      X: 11327.8789
+      Y: 20994.9863
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -5.75701904
+      Yaw: -5.75702333
     }
     Scale {
       X: 1.02738118
@@ -1383,7 +1835,7 @@ Objects {
       Z: 1.02738118
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1412,8 +1864,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40490
-      Y: -14827.2383
+      X: 11360
+      Y: 20222.7617
       Z: -0.100585938
     }
     Rotation {
@@ -1425,7 +1877,7 @@ Objects {
       Z: 1.05729544
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1454,12 +1906,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40490.8555
-      Y: -16090.8057
+      X: 11360.8555
+      Y: 18959.1953
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 170.985413
+      Yaw: 170.985397
     }
     Scale {
       X: 1.12344742
@@ -1467,7 +1919,7 @@ Objects {
       Z: 1.12344742
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1496,12 +1948,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40450
-      Y: -17038.1094
+      X: 11320
+      Y: 18011.8906
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 32.4546204
+      Yaw: 32.4546394
     }
     Scale {
       X: 1.1146214
@@ -1509,7 +1961,7 @@ Objects {
       Z: 1.1146214
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1538,12 +1990,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42608.0742
-      Y: -14905.4238
+      X: 13478.0742
+      Y: 20144.5762
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -6.1305542
+      Yaw: -6.13055849
     }
     Scale {
       X: 1.14397418
@@ -1551,7 +2003,7 @@ Objects {
       Z: 1.14397418
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1580,12 +2032,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42700
-      Y: -14026.1016
+      X: 13570
+      Y: 21023.8984
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -63.4260254
+      Yaw: -63.426033
     }
     Scale {
       X: 1.08186293
@@ -1593,7 +2045,7 @@ Objects {
       Z: 1.08186293
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1622,8 +2074,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40470
-      Y: -19309.6797
+      X: 11340
+      Y: 15740.3203
       Z: -0.100585938
     }
     Rotation {
@@ -1635,7 +2087,7 @@ Objects {
       Z: 1.1749016
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1664,12 +2116,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40407.1641
-      Y: -18509.3594
+      X: 11277.1641
+      Y: 16540.6406
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -49.7146606
+      Yaw: -49.7146645
     }
     Scale {
       X: 1.05595267
@@ -1677,7 +2129,7 @@ Objects {
       Z: 1.05595267
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1706,12 +2158,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42597.1641
-      Y: -18509.3594
+      X: 13467.1641
+      Y: 16540.6406
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -49.7146606
+      Yaw: -49.7146645
     }
     Scale {
       X: 1.05595267
@@ -1719,7 +2171,7 @@ Objects {
       Z: 1.05595267
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1748,8 +2200,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42660
-      Y: -19309.6797
+      X: 13530
+      Y: 15740.3203
       Z: -0.100585938
     }
     Rotation {
@@ -1761,7 +2213,7 @@ Objects {
       Z: 1.1749016
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1790,12 +2242,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42680
-      Y: -16166.1016
+      X: 13550
+      Y: 18883.8984
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -63.4260254
+      Yaw: -63.426033
     }
     Scale {
       X: 1.08186293
@@ -1803,7 +2255,7 @@ Objects {
       Z: 1.08186293
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1832,12 +2284,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42608.0742
-      Y: -17045.4238
+      X: 13478.0742
+      Y: 18004.5762
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -6.1305542
+      Yaw: -6.13055849
     }
     Scale {
       X: 1.14397418
@@ -1845,7 +2297,7 @@ Objects {
       Z: 1.14397418
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1874,8 +2326,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42660
-      Y: -21200
+      X: 13530
+      Y: 13850
       Z: -0.100585938
     }
     Rotation {
@@ -1887,7 +2339,7 @@ Objects {
       Z: 1.1749016
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1916,12 +2368,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 42597.1641
-      Y: -20399.6797
+      X: 13467.1641
+      Y: 14650.3203
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -49.7146606
+      Yaw: -49.7146645
     }
     Scale {
       X: 1.05595267
@@ -1929,7 +2381,7 @@ Objects {
       Z: 1.05595267
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1958,12 +2410,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40407.1641
-      Y: -20399.6797
+      X: 11277.1641
+      Y: 14650.3203
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -49.7146606
+      Yaw: -49.7146645
     }
     Scale {
       X: 1.05595267
@@ -1971,7 +2423,7 @@ Objects {
       Z: 1.05595267
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2000,8 +2452,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40470
-      Y: -21200
+      X: 11340
+      Y: 13850
       Z: -0.100585938
     }
     Rotation {
@@ -2013,7 +2465,7 @@ Objects {
       Z: 1.1749016
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2042,12 +2494,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 12468.9873
-      Y: -25283.7031
+      X: -16661.0117
+      Y: 9766.29688
       Z: 25
     }
     Rotation {
-      Yaw: 17.6336079
+      Yaw: 17.6336193
     }
     Scale {
       X: 1.07517326
@@ -2055,7 +2507,7 @@ Objects {
       Z: 1.07517326
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2084,8 +2536,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 11907.4414
-      Y: -22755.5879
+      X: -17222.5586
+      Y: 12294.4121
       Z: 25
     }
     Rotation {
@@ -2097,7 +2549,7 @@ Objects {
       Z: 1.08384049
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2126,8 +2578,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 12972.4619
-      Y: -22610.9727
+      X: -16157.5381
+      Y: 12439.0273
       Z: 25
     }
     Rotation {
@@ -2139,7 +2591,7 @@ Objects {
       Z: 1.13195598
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2168,12 +2620,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 15556.2861
-      Y: -22726.0137
+      X: -13573.7139
+      Y: 12323.9863
       Z: 24.9999981
     }
     Rotation {
-      Yaw: -8.69046879
+      Yaw: -8.69047928
     }
     Scale {
       X: 1.08361459
@@ -2181,7 +2633,7 @@ Objects {
       Z: 1.08361459
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2210,12 +2662,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 17807.8984
-      Y: -22550.7617
+      X: -11322.1016
+      Y: 12499.2383
       Z: 25.0000019
     }
     Rotation {
-      Yaw: -3.4058609
+      Yaw: -3.40586138
     }
     Scale {
       X: 1.09892881
@@ -2223,7 +2675,7 @@ Objects {
       Z: 1.09892881
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2252,12 +2704,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 15545.3535
-      Y: -25776.582
+      X: -13584.6465
+      Y: 9273.41797
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -23.1598682
+      Yaw: -23.1598492
     }
     Scale {
       X: 1.0416944
@@ -2265,7 +2717,7 @@ Objects {
       Z: 1.0416944
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2294,12 +2746,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 17436.5371
-      Y: -25545.4824
+      X: -11693.4629
+      Y: 9504.51758
       Z: 25
     }
     Rotation {
-      Yaw: -66.6670837
+      Yaw: -66.6671
     }
     Scale {
       X: 1.05681932
@@ -2307,7 +2759,7 @@ Objects {
       Z: 1.05681932
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2336,12 +2788,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 16243.2
-      Y: -29871.3535
+      X: -12886.8
+      Y: 5178.64648
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 85.0038071
+      Yaw: 85.0038
     }
     Scale {
       X: 1.14302194
@@ -2349,7 +2801,7 @@ Objects {
       Z: 1.14302194
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2378,12 +2830,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 17029.375
-      Y: -29936.416
+      X: -12100.625
+      Y: 5113.58398
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -76.192482
+      Yaw: -76.1924591
     }
     Scale {
       X: 1.00128794
@@ -2391,7 +2843,7 @@ Objects {
       Z: 1.00128794
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2420,12 +2872,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 10986.8643
-      Y: -8546.93066
+      X: -18143.1367
+      Y: 26503.0703
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -113.525185
+      Yaw: -113.525162
     }
     Scale {
       X: 1.00666523
@@ -2433,7 +2885,7 @@ Objects {
       Z: 1.00666523
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2462,8 +2914,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 11035.0342
-      Y: -6538.67334
+      X: -18094.9648
+      Y: 28511.3262
       Z: -0.100585938
     }
     Rotation {
@@ -2475,7 +2927,7 @@ Objects {
       Z: 1.11586046
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2504,12 +2956,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 10797.6279
-      Y: -335.151276
+      X: -18332.3711
+      Y: 34714.8477
       Z: 24.9990444
     }
     Rotation {
-      Yaw: -126.368599
+      Yaw: -126.368576
     }
     Scale {
       X: 1.05140543
@@ -2517,7 +2969,7 @@ Objects {
       Z: 1.05140543
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2546,8 +2998,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 10791.6064
-      Y: 147.677368
+      X: -18338.3945
+      Y: 35197.6758
       Z: 25.0009842
     }
     Rotation {
@@ -2559,7 +3011,7 @@ Objects {
       Z: 1.1445235
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2588,12 +3040,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 10842.5342
-      Y: 724.711304
+      X: -18287.4648
+      Y: 35774.7109
       Z: 25.0009823
     }
     Rotation {
-      Yaw: 18.5454941
+      Yaw: 18.5455
     }
     Scale {
       X: 1.11819208
@@ -2601,7 +3053,7 @@ Objects {
       Z: 1.11819208
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2630,12 +3082,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 10822.5527
-      Y: 1740.3573
+      X: -18307.4473
+      Y: 36790.3555
       Z: 25.0009842
     }
     Rotation {
-      Yaw: 105.373108
+      Yaw: 105.373123
     }
     Scale {
       X: 1.19883418
@@ -2643,7 +3095,7 @@ Objects {
       Z: 1.19883418
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2672,8 +3124,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 13297.1729
-      Y: 6191.51807
+      X: -15832.8271
+      Y: 41241.5195
       Z: -0.100585938
     }
     Rotation {
@@ -2685,7 +3137,7 @@ Objects {
       Z: 1.12887359
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2714,8 +3166,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 14107.418
-      Y: 6399.27344
+      X: -15022.582
+      Y: 41449.2734
       Z: 25.0000019
     }
     Rotation {
@@ -2727,7 +3179,7 @@ Objects {
       Z: 1.10692465
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2756,12 +3208,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 13391.4746
-      Y: 5645
+      X: -15738.5254
+      Y: 40695
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -21.1822929
+      Yaw: -21.1822834
     }
     Scale {
       X: 1.06115305
@@ -2769,7 +3221,7 @@ Objects {
       Z: 1.06115305
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2798,8 +3250,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 13346.5889
-      Y: 4777.62646
+      X: -15783.4111
+      Y: 39827.625
       Z: -0.100585938
     }
     Rotation {
@@ -2811,7 +3263,7 @@ Objects {
       Z: 1.17501152
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2840,12 +3292,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 13340.2627
-      Y: 4110.80176
+      X: -15789.7373
+      Y: 39160.8
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 147.199295
+      Yaw: 147.199265
     }
     Scale {
       X: 1.17841733
@@ -2853,7 +3305,7 @@ Objects {
       Z: 1.17841733
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2882,8 +3334,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 13274.8086
-      Y: 3283.0061
+      X: -15855.1914
+      Y: 38333.0078
       Z: -0.100585938
     }
     Rotation {
@@ -2895,7 +3347,7 @@ Objects {
       Z: 1.18377638
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2924,12 +3376,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2564.29272
-      Y: 23650.2168
+      X: -31694.293
+      Y: 58700.2188
       Z: 25.0009766
     }
     Rotation {
-      Yaw: -26.7964554
+      Yaw: -26.7964382
     }
     Scale {
       X: 1.06391191
@@ -2937,7 +3389,7 @@ Objects {
       Z: 1.06391191
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2966,8 +3418,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2621.53418
-      Y: 22355.7617
+      X: -31751.5352
+      Y: 57405.7617
       Z: 25.0009766
     }
     Rotation {
@@ -2979,7 +3431,7 @@ Objects {
       Z: 1.0391674
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3008,12 +3460,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2688.00391
-      Y: 15089.8389
+      X: -31818.0039
+      Y: 50139.8398
       Z: 25.0009804
     }
     Rotation {
-      Yaw: 140.893
+      Yaw: 140.893021
     }
     Scale {
       X: 1.1611073
@@ -3021,7 +3473,7 @@ Objects {
       Z: 1.1611073
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3050,8 +3502,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2766.42334
-      Y: 14342.1807
+      X: -31896.4238
+      Y: 49392.1797
       Z: -0.100585938
     }
     Rotation {
@@ -3063,7 +3515,7 @@ Objects {
       Z: 1.09798884
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3092,12 +3544,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2836.2373
-      Y: 12589.8662
+      X: -31966.2383
+      Y: 47639.8672
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 8.52566147
+      Yaw: 8.52567101
     }
     Scale {
       X: 1.10560012
@@ -3105,7 +3557,7 @@ Objects {
       Z: 1.10560012
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3134,12 +3586,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -2805.07544
-      Y: 11363.0322
+      X: -31935.0762
+      Y: 46413.0313
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 36.6954498
+      Yaw: 36.6954384
     }
     Scale {
       X: 1.00227058
@@ -3147,7 +3599,7 @@ Objects {
       Z: 1.00227058
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3176,8 +3628,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 7493.8916
-      Y: 22968.457
+      X: -21636.1094
+      Y: 58018.457
       Z: -0.100585938
     }
     Rotation {
@@ -3189,7 +3641,7 @@ Objects {
       Z: 1.16995764
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3218,12 +3670,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 6137.25781
-      Y: 22191.5293
+      X: -22992.7422
+      Y: 57241.5313
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 22.4567223
+      Yaw: 22.456707
     }
     Scale {
       X: 1.00209355
@@ -3231,7 +3683,7 @@ Objects {
       Z: 1.00209355
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3260,12 +3712,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 4088.58276
-      Y: 26672.9844
+      X: -25041.418
+      Y: 61722.9844
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 79.774147
+      Yaw: 79.7741318
     }
     Scale {
       X: 1.0499649
@@ -3273,7 +3725,7 @@ Objects {
       Z: 1.0499649
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3302,12 +3754,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 4091.56934
-      Y: 27529.4277
+      X: -25038.4297
+      Y: 62579.4297
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 87.5966568
+      Yaw: 87.5966492
     }
     Scale {
       X: 1.10468459
@@ -3315,7 +3767,7 @@ Objects {
       Z: 1.10468459
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3344,8 +3796,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 7765.16699
-      Y: 26120.2266
+      X: -21364.832
+      Y: 61170.2266
       Z: 25.0009766
     }
     Rotation {
@@ -3357,7 +3809,7 @@ Objects {
       Z: 1.15555894
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3386,12 +3838,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 7668.20264
-      Y: 27606.1133
+      X: -21461.7969
+      Y: 62656.1133
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 133.641769
+      Yaw: 133.641754
     }
     Scale {
       X: 1.17755675
@@ -3399,7 +3851,7 @@ Objects {
       Z: 1.17755675
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3428,8 +3880,8 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 16757.5547
-      Y: 31780
+      X: -12372.4453
+      Y: 66830
       Z: -0.100585938
     }
     Rotation {
@@ -3441,7 +3893,7 @@ Objects {
       Z: 1.01803029
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3470,12 +3922,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 18898.4512
-      Y: 31600.5293
+      X: -10231.5488
+      Y: 66650.5313
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 28.1807804
+      Yaw: 28.1807728
     }
     Scale {
       X: 1.15823853
@@ -3483,7 +3935,7 @@ Objects {
       Z: 1.15823853
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3512,12 +3964,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 16218.7051
-      Y: 27237.8711
+      X: -12911.2949
+      Y: 62287.8711
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -68.315094
+      Yaw: -68.3151093
     }
     Scale {
       X: 1.08095336
@@ -3525,7 +3977,7 @@ Objects {
       Z: 1.08095336
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3554,12 +4006,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 17603.832
-      Y: 27483.3711
+      X: -11526.168
+      Y: 62533.3711
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 18.6663475
+      Yaw: 18.6663532
     }
     Scale {
       X: 1.01631522
@@ -3567,7 +4019,7 @@ Objects {
       Z: 1.01631522
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3596,12 +4048,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 19068.4316
-      Y: 27006
+      X: -10061.5684
+      Y: 62056
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -174.709915
+      Yaw: -174.7099
     }
     Scale {
       X: 1.12485731
@@ -3609,7 +4061,7 @@ Objects {
       Z: 1.12485731
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3638,12 +4090,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 19107.3262
-      Y: 25566.9473
+      X: -10022.6738
+      Y: 60616.9453
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 117.469383
+      Yaw: 117.46936
     }
     Scale {
       X: 1.14247262
@@ -3651,7 +4103,7 @@ Objects {
       Z: 1.14247262
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3680,12 +4132,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 19119.8516
-      Y: 23959.7813
+      X: -10010.1484
+      Y: 59009.7813
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -5.50431585
+      Yaw: -5.50431871
     }
     Scale {
       X: 1.1634388
@@ -3693,7 +4145,7 @@ Objects {
       Z: 1.1634388
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3722,12 +4174,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 19114.873
-      Y: 22652.6152
+      X: -10015.127
+      Y: 57702.6172
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 81.1804428
+      Yaw: 81.1804276
     }
     Scale {
       X: 1.18171942
@@ -3735,7 +4187,7 @@ Objects {
       Z: 1.18171942
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3764,12 +4216,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 15949.7793
-      Y: 21407.6523
+      X: -13180.2207
+      Y: 56457.6523
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -48.4401817
+      Yaw: -48.4401665
     }
     Scale {
       X: 1.0696311
@@ -3777,7 +4229,7 @@ Objects {
       Z: 1.0696311
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3806,12 +4258,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 16994.5059
-      Y: 21246.7051
+      X: -12135.4941
+      Y: 56296.7031
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -52.7689629
+      Yaw: -52.7689743
     }
     Scale {
       X: 1.1231178
@@ -3819,7 +4271,7 @@ Objects {
       Z: 1.1231178
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3848,12 +4300,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 17894.3301
-      Y: 21267.3438
+      X: -11235.6699
+      Y: 56317.3438
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 75.3575
+      Yaw: 75.3574753
     }
     Scale {
       X: 1.0803858
@@ -3861,7 +4313,7 @@ Objects {
       Z: 1.0803858
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3890,12 +4342,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 18890.7695
-      Y: 21087.3789
+      X: -10239.2305
+      Y: 56137.3789
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -128.840591
+      Yaw: -128.840576
     }
     Scale {
       X: 1.08279669
@@ -3903,7 +4355,7 @@ Objects {
       Z: 1.08279669
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3932,12 +4384,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23625
-      Y: 31562.2344
+      X: -5505
+      Y: 66612.2344
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -3.51574516
+      Yaw: -3.51574588
     }
     Scale {
       X: 1.18969703
@@ -3945,7 +4397,7 @@ Objects {
       Z: 1.18969703
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3974,8 +4426,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24825.3848
-      Y: 31655.5508
+      X: -4304.61523
+      Y: 66705.5469
       Z: -0.100585938
     }
     Rotation {
@@ -3987,7 +4439,7 @@ Objects {
       Z: 1.01542401
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4016,12 +4468,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 25689.084
-      Y: 31504.1523
+      X: -3440.91602
+      Y: 66554.1563
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 22.379818
+      Yaw: 22.3798
     }
     Scale {
       X: 1.09450972
@@ -4029,7 +4481,7 @@ Objects {
       Z: 1.09450972
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4058,12 +4510,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 26959.4531
-      Y: 31429.0469
+      X: -2170.54688
+      Y: 66479.0469
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 27.9720383
+      Yaw: 27.9720268
     }
     Scale {
       X: 1.1679312
@@ -4071,7 +4523,7 @@ Objects {
       Z: 1.1679312
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4100,12 +4552,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 26780.6523
-      Y: 27534.8945
+      X: -2349.34766
+      Y: 62584.8945
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 75.6981
+      Yaw: 75.698082
     }
     Scale {
       X: 1.01913512
@@ -4113,7 +4565,7 @@ Objects {
       Z: 1.01913512
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4142,8 +4594,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24882.918
-      Y: 26613.3203
+      X: -4247.08203
+      Y: 61663.3203
       Z: -0.100830078
     }
     Rotation {
@@ -4155,7 +4607,7 @@ Objects {
       Z: 1.08654439
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4184,8 +4636,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23019.9902
-      Y: 27700.7676
+      X: -6110.01
+      Y: 62750.7656
       Z: -0.100585938
     }
     Rotation {
@@ -4197,7 +4649,7 @@ Objects {
       Z: 1.13382983
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4226,8 +4678,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23109.8164
-      Y: 26258.623
+      X: -6020.18359
+      Y: 61308.625
       Z: -0.100585938
     }
     Rotation {
@@ -4239,7 +4691,7 @@ Objects {
       Z: 1.08837557
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4268,12 +4720,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23105.6016
-      Y: 24748.6328
+      X: -6024.39844
+      Y: 59798.6328
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 83.5315933
+      Yaw: 83.5315857
     }
     Scale {
       X: 1.01192057
@@ -4281,7 +4733,7 @@ Objects {
       Z: 1.01192057
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4310,8 +4762,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24922.5195
-      Y: 24834.1055
+      X: -4207.48047
+      Y: 59884.1055
       Z: -0.100585938
     }
     Rotation {
@@ -4323,7 +4775,7 @@ Objects {
       Z: 1.18189645
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4352,12 +4804,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24954.3945
-      Y: 23768.3652
+      X: -4175.60547
+      Y: 58818.3672
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 32.0700874
+      Yaw: 32.0701065
     }
     Scale {
       X: 1.19842529
@@ -4365,7 +4817,7 @@ Objects {
       Z: 1.19842529
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4394,12 +4846,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24987.0156
-      Y: 22921.4395
+      X: -4142.98438
+      Y: 57971.4375
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 8.2400074
+      Yaw: 8.24001694
     }
     Scale {
       X: 1.09546804
@@ -4407,7 +4859,7 @@ Objects {
       Z: 1.09546804
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4436,12 +4888,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24956.6113
-      Y: 21075.459
+      X: -4173.38867
+      Y: 56125.4609
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -42.3975449
+      Yaw: -42.3975601
     }
     Scale {
       X: 1.16146123
@@ -4449,7 +4901,7 @@ Objects {
       Z: 1.16146123
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4478,12 +4930,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 25348.8359
-      Y: 21125.4902
+      X: -3781.16406
+      Y: 56175.4922
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -81.8506165
+      Yaw: -81.8506
     }
     Scale {
       X: 1.01253092
@@ -4491,7 +4943,7 @@ Objects {
       Z: 1.01253092
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4520,8 +4972,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 27750
-      Y: 21210
+      X: -1380
+      Y: 56260
       Z: -0.100585938
     }
     Rotation {
@@ -4533,7 +4985,7 @@ Objects {
       Z: 1.08323622
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4562,12 +5014,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 27995.0195
-      Y: 23587.4238
+      X: -1134.98047
+      Y: 58637.4219
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -82.9053345
+      Yaw: -82.9053268
     }
     Scale {
       X: 1.17062294
@@ -4575,7 +5027,7 @@ Objects {
       Z: 1.17062294
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4604,8 +5056,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 28242.5605
-      Y: 22054.8477
+      X: -887.439453
+      Y: 57104.8477
       Z: -0.100585938
     }
     Rotation {
@@ -4617,7 +5069,7 @@ Objects {
       Z: 1.16049075
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4646,12 +5098,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 28815.8457
-      Y: 22248.1895
+      X: -314.154297
+      Y: 57298.1875
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -165.448151
+      Yaw: -165.44812
     }
     Scale {
       X: 1.04410541
@@ -4659,7 +5111,7 @@ Objects {
       Z: 1.04410541
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4688,12 +5140,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 30518.543
-      Y: 23543.6953
+      X: 1388.54297
+      Y: 58593.6953
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -82.399971
+      Yaw: -82.3999557
     }
     Scale {
       X: 1.16219366
@@ -4701,7 +5153,7 @@ Objects {
       Z: 1.16219366
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4730,8 +5182,8 @@ Objects {
   Name: "Tree Oak 01"
   Transform {
     Location {
-      X: 30890
-      Y: 22430
+      X: 1760
+      Y: 57480
     }
     Rotation {
     }
@@ -4741,7 +5193,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4770,12 +5222,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31632.416
-      Y: 14380.7754
+      X: 2502.41602
+      Y: 49430.7734
       Z: -0.100830078
     }
     Rotation {
-      Yaw: 54.2741127
+      Yaw: 54.2741089
     }
     Scale {
       X: 1.04431903
@@ -4783,7 +5235,7 @@ Objects {
       Z: 1.04431903
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4812,12 +5264,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31592.6016
-      Y: 13322.4053
+      X: 2462.60156
+      Y: 48372.4063
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 174.00676
+      Yaw: 174.006744
     }
     Scale {
       X: 1.07533801
@@ -4825,7 +5277,7 @@ Objects {
       Z: 1.07533801
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4854,12 +5306,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 35298.5273
-      Y: 14382.7852
+      X: 6168.52734
+      Y: 49432.7852
       Z: -0.100830078
     }
     Rotation {
-      Yaw: -48.4621735
+      Yaw: -48.4621582
     }
     Scale {
       X: 1.02006292
@@ -4867,7 +5319,7 @@ Objects {
       Z: 1.02006292
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4896,12 +5348,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 35200.7695
-      Y: 13448.1348
+      X: 6070.76953
+      Y: 48498.1328
       Z: -0.100830078
     }
     Rotation {
-      Yaw: -168.502441
+      Yaw: -168.502411
     }
     Scale {
       X: 1.07073581
@@ -4909,7 +5361,7 @@ Objects {
       Z: 1.07073581
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4938,12 +5390,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31893.293
-      Y: 9614.7207
+      X: 2763.29297
+      Y: 44664.7188
       Z: 24.9999962
     }
     Rotation {
-      Yaw: 63.5908279
+      Yaw: 63.590847
     }
     Scale {
       X: 1.11769772
@@ -4951,7 +5403,7 @@ Objects {
       Z: 1.11769772
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4980,12 +5432,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 35060.918
-      Y: 10282.4727
+      X: 5930.91797
+      Y: 45332.4727
       Z: -0.100830078
     }
     Rotation {
-      Yaw: -121.073036
+      Yaw: -121.073044
     }
     Scale {
       X: 1.16816306
@@ -4993,7 +5445,7 @@ Objects {
       Z: 1.16816306
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5022,12 +5474,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 31401.4375
-      Y: 6228.73877
+      X: 2271.4375
+      Y: 41278.7383
       Z: 804.399536
     }
     Rotation {
-      Yaw: -168.667236
+      Yaw: -168.667206
     }
     Scale {
       X: 1.07138276
@@ -5035,7 +5487,7 @@ Objects {
       Z: 1.07138276
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5064,12 +5516,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 35185.9453
-      Y: 6236.66504
+      X: 6055.94531
+      Y: 41286.6641
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 167.810287
+      Yaw: 167.810272
     }
     Scale {
       X: 1.19315171
@@ -5077,7 +5529,7 @@ Objects {
       Z: 1.19315171
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5106,12 +5558,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 29421.1855
-      Y: -357.499664
+      X: 291.185547
+      Y: 34692.5
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -13.0851307
+      Yaw: -13.0851498
     }
     Scale {
       X: 1.01143229
@@ -5119,7 +5571,7 @@ Objects {
       Z: 1.01143229
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5148,8 +5600,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 30902.1543
-      Y: -404.484833
+      X: 1772.1543
+      Y: 34645.5156
       Z: -0.100585938
     }
     Rotation {
@@ -5161,7 +5613,7 @@ Objects {
       Z: 1.11962652
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5190,8 +5642,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23312.8438
-      Y: 5929.63477
+      X: -5817.15625
+      Y: 40979.6328
       Z: -0.100585938
     }
     Rotation {
@@ -5203,7 +5655,7 @@ Objects {
       Z: 1.08913243
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5232,12 +5684,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23453.4199
-      Y: 4537.13037
+      X: -5676.58
+      Y: 39587.1289
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -74.7093048
+      Yaw: -74.7092896
     }
     Scale {
       X: 1.1938597
@@ -5245,7 +5697,7 @@ Objects {
       Z: 1.1938597
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5274,12 +5726,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 27123.127
-      Y: 4679.4248
+      X: -2006.87305
+      Y: 39729.4258
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 109.559
+      Yaw: 109.55899
     }
     Scale {
       X: 1.18505204
@@ -5287,7 +5739,7 @@ Objects {
       Z: 1.18505204
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5316,12 +5768,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 23597.2305
-      Y: 3499.02759
+      X: -5532.76953
+      Y: 38549.0273
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -24.3574162
+      Yaw: -24.3573933
     }
     Scale {
       X: 1.15898931
@@ -5329,7 +5781,7 @@ Objects {
       Z: 1.15898931
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5358,12 +5810,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 24451.4297
-      Y: 3566.00195
+      X: -4678.57031
+      Y: 38616
       Z: -0.100830078
     }
     Rotation {
-      Yaw: 145.935837
+      Yaw: 145.935806
     }
     Scale {
       X: 1.17162395
@@ -5371,7 +5823,7 @@ Objects {
       Z: 1.17162395
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5400,12 +5852,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 27055.1309
-      Y: 3456.07178
+      X: -2074.86914
+      Y: 38506.0703
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -85.4103088
+      Yaw: -85.4103
     }
     Scale {
       X: 1.00147104
@@ -5413,7 +5865,7 @@ Objects {
       Z: 1.00147104
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5442,12 +5894,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 31946.7441
-      Y: 20818.7148
+      X: 2816.74414
+      Y: 55868.7148
       Z: 24.9999962
     }
     Rotation {
-      Yaw: 52.2086449
+      Yaw: 52.2086601
     }
     Scale {
       X: 1.09277022
@@ -5455,7 +5907,7 @@ Objects {
       Z: 1.09277022
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5484,12 +5936,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 34869.7695
-      Y: 20959.5
+      X: 5739.76953
+      Y: 56009.5
       Z: 25.000021
     }
     Rotation {
-      Yaw: -20.38027
+      Yaw: -20.3802681
     }
     Scale {
       X: 1.15600455
@@ -5497,7 +5949,7 @@ Objects {
       Z: 1.15600455
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5526,12 +5978,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 32144.5527
-      Y: 17311.502
+      X: 3014.55273
+      Y: 52361.5
       Z: 21.664711
     }
     Rotation {
-      Pitch: 4.27960491
+      Pitch: 4.27959824
       Yaw: -178.342438
       Roll: 0.123729348
     }
@@ -5541,7 +5993,7 @@ Objects {
       Z: 1.01602829
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5570,12 +6022,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 34812.918
-      Y: 17161.1504
+      X: 5682.91797
+      Y: 52211.1484
       Z: 25.0000095
     }
     Rotation {
-      Yaw: -44.5069695
+      Yaw: -44.5069466
     }
     Scale {
       X: 1.15755486
@@ -5583,7 +6035,7 @@ Objects {
       Z: 1.15755486
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5612,12 +6064,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40331.7734
-      Y: 21169.1836
+      X: 11201.7734
+      Y: 56219.1836
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -124.885429
+      Yaw: -124.885437
     }
     Scale {
       X: 1.16587424
@@ -5625,7 +6077,7 @@ Objects {
       Z: 1.16587424
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5654,12 +6106,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 43026.9063
-      Y: 21072.4824
+      X: 13896.9063
+      Y: 56122.4844
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 19.3145561
+      Yaw: 19.314558
     }
     Scale {
       X: 1.14551234
@@ -5667,7 +6119,7 @@ Objects {
       Z: 1.14551234
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5696,12 +6148,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 40905.4102
-      Y: 22714.2617
+      X: 11775.4102
+      Y: 57764.2617
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 65.8540878
+      Yaw: 65.8541
     }
     Scale {
       X: 1.01221967
@@ -5709,7 +6161,7 @@ Objects {
       Z: 1.01221967
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5738,12 +6190,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41464.3633
-      Y: 23350
+      X: 12334.3633
+      Y: 58400
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 17.7984028
+      Yaw: 17.7984123
     }
     Scale {
       X: 1.13893867
@@ -5751,7 +6203,7 @@ Objects {
       Z: 1.13893867
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5780,12 +6232,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41409.7813
-      Y: 24359.3496
+      X: 12279.7813
+      Y: 59409.3516
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -134.465759
+      Yaw: -134.465729
     }
     Scale {
       X: 1.10886562
@@ -5793,7 +6245,7 @@ Objects {
       Z: 1.10886562
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5822,12 +6274,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41337.2227
-      Y: 25381.3281
+      X: 12207.2227
+      Y: 60431.3281
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 75.038887
+      Yaw: 75.0388641
     }
     Scale {
       X: 1.07029021
@@ -5835,7 +6287,7 @@ Objects {
       Z: 1.07029021
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5864,12 +6316,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41496.2109
-      Y: 30918.4727
+      X: 12366.2109
+      Y: 65968.4688
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 9.19584942
+      Yaw: 9.19586182
     }
     Scale {
       X: 1.18801844
@@ -5877,7 +6329,7 @@ Objects {
       Z: 1.18801844
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5906,12 +6358,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41530
-      Y: 29090
+      X: 12400
+      Y: 64140
       Z: -0.099609375
     }
     Rotation {
-      Yaw: -110.811478
+      Yaw: -110.81147
     }
     Scale {
       X: 1.09955752
@@ -5919,7 +6371,7 @@ Objects {
       Z: 1.09955752
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5948,8 +6400,8 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 42639.7617
-      Y: 31209.4395
+      X: 13509.7617
+      Y: 66259.4375
       Z: -0.100830078
     }
     Rotation {
@@ -5961,7 +6413,7 @@ Objects {
       Z: 1.14522541
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5990,12 +6442,12 @@ Objects {
   Name: "Tree Birch 02"
   Transform {
     Location {
-      X: 42774.957
-      Y: 29082.0469
+      X: 13644.957
+      Y: 64132.0469
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 146.397263
+      Yaw: 146.397232
     }
     Scale {
       X: 1.16003907
@@ -6003,7 +6455,7 @@ Objects {
       Z: 1.16003907
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6032,8 +6484,8 @@ Objects {
   Name: "Tree Oak 01"
   Transform {
     Location {
-      X: 41980
-      Y: 6100
+      X: 12850
+      Y: 41150
     }
     Rotation {
     }
@@ -6043,7 +6495,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6072,12 +6524,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47132.1
-      Y: 5900.49805
+      X: 18002.1016
+      Y: 40950.5
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -156.867615
+      Yaw: -156.86763
     }
     Scale {
       X: 1.1588428
@@ -6085,7 +6537,7 @@ Objects {
       Z: 1.1588428
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6114,12 +6566,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47046.4961
-      Y: 3134.43579
+      X: 17916.4961
+      Y: 38184.4375
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 36.3109169
+      Yaw: 36.3109131
     }
     Scale {
       X: 1.00891757
@@ -6127,7 +6579,7 @@ Objects {
       Z: 1.00891757
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6156,12 +6608,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47128.7734
-      Y: 2736.3584
+      X: 17998.7734
+      Y: 37786.3594
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -50.1761131
+      Yaw: -50.1761284
     }
     Scale {
       X: 1.09341109
@@ -6169,7 +6621,7 @@ Objects {
       Z: 1.09341109
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6198,12 +6650,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 47010.3203
-      Y: 238.284485
+      X: 17880.3203
+      Y: 35288.2852
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -82.2791214
+      Yaw: -82.2791138
     }
     Scale {
       X: 1.07228613
@@ -6211,7 +6663,7 @@ Objects {
       Z: 1.07228613
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6240,12 +6692,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 39241.1875
-      Y: 17819.1582
+      X: 10111.1875
+      Y: 52869.1563
       Z: 25
     }
     Rotation {
-      Yaw: -144.870148
+      Yaw: -144.870132
     }
     Scale {
       X: 1.17413867
@@ -6253,7 +6705,7 @@ Objects {
       Z: 1.17413867
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6282,12 +6734,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41369.0156
-      Y: 16502.3047
+      X: 12239.0156
+      Y: 51552.3047
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 9.07499599
+      Yaw: 9.07500744
     }
     Scale {
       X: 1.04718769
@@ -6295,7 +6747,7 @@ Objects {
       Z: 1.04718769
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6324,8 +6776,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41252.2031
-      Y: 15361.9961
+      X: 12122.2031
+      Y: 50411.9961
       Z: -0.100585938
     }
     Rotation {
@@ -6337,7 +6789,7 @@ Objects {
       Z: 1.11405993
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6366,8 +6818,8 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41155.6563
-      Y: 12808.1455
+      X: 12025.6563
+      Y: 47858.1445
       Z: -0.100585938
     }
     Rotation {
@@ -6379,7 +6831,7 @@ Objects {
       Z: 1.03853881
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6408,12 +6860,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41326.6
-      Y: 10179.3975
+      X: 12196.6016
+      Y: 45229.4
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 126.126892
+      Yaw: 126.126884
     }
     Scale {
       X: 1.04171884
@@ -6421,7 +6873,7 @@ Objects {
       Z: 1.04171884
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6450,12 +6902,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40774.5078
-      Y: -639.856934
+      X: 11644.5078
+      Y: 34410.1445
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -131.411499
+      Yaw: -131.411514
     }
     Scale {
       X: 1.0947783
@@ -6463,7 +6915,7 @@ Objects {
       Z: 1.0947783
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6492,12 +6944,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 41245.2031
-      Y: -627.708
+      X: 12115.2031
+      Y: 34422.293
       Z: -0.100585938
     }
     Rotation {
-      Yaw: -65.7222519
+      Yaw: -65.7222748
     }
     Scale {
       X: 1.13364053
@@ -6505,7 +6957,7 @@ Objects {
       Z: 1.13364053
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6534,12 +6986,12 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 40925.6
-      Y: 877.554932
+      X: 11795.6016
+      Y: 35927.5547
       Z: -0.100585938
     }
     Rotation {
-      Yaw: 22.7423763
+      Yaw: 22.7423592
     }
     Scale {
       X: 1.08393812
@@ -6547,7 +6999,7 @@ Objects {
       Z: 1.08393812
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 13783961890553516720
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6572,12 +7024,9443 @@ Objects {
   }
 }
 Objects {
-  Id: 7146660023091753217
-  Name: "Long Road"
+  Id: 7319680004632125318
+  Name: "Tree Birch 01"
   Transform {
     Location {
-      X: 33400
-      Y: 27930
+      X: 6052.45313
+      Y: 35268.3438
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 65.0630646
+    }
+    Scale {
+      X: 1.05341959
+      Y: 1.05341959
+      Z: 1.05341959
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7226427624614906277
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 10033.9063
+      Y: 34394.5625
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -161.416046
+    }
+    Scale {
+      X: 1.10379958
+      Y: 1.10379958
+      Z: 1.10379958
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13112259271938534284
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 13656.2461
+      Y: 34600.5898
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -56.504364
+    }
+    Scale {
+      X: 1.07077849
+      Y: 1.07077849
+      Z: 1.07077849
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4200781672824046648
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9435.79688
+      Y: 25761.2773
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 175.281219
+    }
+    Scale {
+      X: 1.10270703
+      Y: 1.10270703
+      Z: 1.10270703
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9586815565914287946
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9378.95313
+      Y: 25062.2656
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 142.793671
+    }
+    Scale {
+      X: 1.16070437
+      Y: 1.16070437
+      Z: 1.16070437
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6730366879390108023
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9507.43359
+      Y: 24467.8594
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -45.9352608
+    }
+    Scale {
+      X: 1.08423722
+      Y: 1.08423722
+      Z: 1.08423722
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18071272960483059649
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7510.98438
+      Y: 29201.9609
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.4422874
+    }
+    Scale {
+      X: 1.18106639
+      Y: 1.18106639
+      Z: 1.18106639
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9139163438130750398
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5679.45313
+      Y: 25624.6289
+      Z: 5.56529522
+    }
+    Rotation {
+      Yaw: 73.7644196
+    }
+    Scale {
+      X: 1.00488293
+      Y: 1.00488293
+      Z: 1.00488293
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 910334977192952775
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5630
+      Y: 27811.3438
+      Z: 5.00097656
+    }
+    Rotation {
+      Yaw: 51.263813
+    }
+    Scale {
+      X: 1.16730857
+      Y: 1.16730857
+      Z: 1.16730857
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18041225134924894970
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2810
+      Y: 27778.0898
+      Z: 5.5652957
+    }
+    Rotation {
+      Yaw: -120.52372
+    }
+    Scale {
+      X: 1.03126931
+      Y: 1.03126931
+      Z: 1.03126931
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14587984028939736406
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2880.34961
+      Y: 25614.5508
+      Z: 5.00097799
+    }
+    Rotation {
+      Yaw: 11.5580044
+    }
+    Scale {
+      X: 1.1206702
+      Y: 1.1206702
+      Z: 1.1206702
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14575716893544852078
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2051.38281
+      Y: 22584.8887
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -24.2475414
+    }
+    Scale {
+      X: 1.05799127
+      Y: 1.05799127
+      Z: 1.05799127
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6131071502708089516
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2048.6543
+      Y: 23556.75
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 109.613945
+    }
+    Scale {
+      X: 1.14737391
+      Y: 1.14737391
+      Z: 1.14737391
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3796506993626522626
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2015.82813
+      Y: 24683.1563
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -122.55629
+    }
+    Scale {
+      X: 1.00380874
+      Y: 1.00380874
+      Z: 1.00380874
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 944742070216500919
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -4597.38477
+      Y: 22168.5781
+      Z: 24.9990234
+    }
+    Rotation {
+      Yaw: -63.2062874
+    }
+    Scale {
+      X: 1.00061643
+      Y: 1.00061643
+      Z: 1.00061643
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5987953496112156888
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5710.00195
+      Y: 22387.7949
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 63.0964432
+    }
+    Scale {
+      X: 1.03440654
+      Y: 1.03440654
+      Z: 1.03440654
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15010132005469405432
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 267.677734
+      Y: 24758.0156
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 104.735893
+    }
+    Scale {
+      X: 1.03107393
+      Y: 1.03107393
+      Z: 1.03107393
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18232217103212085023
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -1077.62305
+      Y: 24783.6152
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -157.933289
+    }
+    Scale {
+      X: 1.05089271
+      Y: 1.05089271
+      Z: 1.05089271
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16579319108126607399
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -1798.08398
+      Y: 24722.8457
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 132.400314
+    }
+    Scale {
+      X: 1.18936133
+      Y: 1.18936133
+      Z: 1.18936133
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7725740895566057178
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3834.58203
+      Y: 24623.668
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 96.7485657
+    }
+    Scale {
+      X: 1.1058321
+      Y: 1.1058321
+      Z: 1.1058321
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15120799922502969488
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5362.11719
+      Y: 24564.9102
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 111.624481
+    }
+    Scale {
+      X: 1.07148051
+      Y: 1.07148051
+      Z: 1.07148051
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13819244299839279529
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5993.5957
+      Y: 24427.7734
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -113.052727
+    }
+    Scale {
+      X: 1.13800478
+      Y: 1.13800478
+      Z: 1.13800478
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2904610198096567282
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5993.23828
+      Y: 23873.873
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -70.9628525
+    }
+    Scale {
+      X: 1.01302528
+      Y: 1.01302528
+      Z: 1.01302528
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6294390999034627917
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5247.11328
+      Y: 26410
+    }
+    Rotation {
+      Yaw: 38.9916191
+    }
+    Scale {
+      X: 1.05289471
+      Y: 1.05289471
+      Z: 1.05289471
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17763388187761772225
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3839.85547
+      Y: 26412.9219
+      Z: 0.000244140625
+    }
+    Rotation {
+      Yaw: -129.411865
+    }
+    Scale {
+      X: 1.03900874
+      Y: 1.03900874
+      Z: 1.03900874
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17656929239431461644
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2132.92578
+      Y: 26307.1289
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -57.3503494
+    }
+    Scale {
+      X: 1.00845969
+      Y: 1.00845969
+      Z: 1.00845969
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4685654705597235319
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5656.76563
+      Y: 27910
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 168.150833
+    }
+    Scale {
+      X: 1.18948948
+      Y: 1.18948948
+      Z: 1.18948948
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16870879427266970894
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -4002.15039
+      Y: 28106.1074
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 71.0287628
+    }
+    Scale {
+      X: 1.076455
+      Y: 1.076455
+      Z: 1.076455
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9603258283259373594
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2175.47266
+      Y: 28322.7852
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 61.0199242
+    }
+    Scale {
+      X: 1.04492331
+      Y: 1.04492331
+      Z: 1.04492331
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16317795647178404722
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -11156.3066
+      Y: 52253.8125
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 155.92276
+    }
+    Scale {
+      X: 1.18575406
+      Y: 1.18575406
+      Z: 1.18575406
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6267747086806486592
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -13047.8115
+      Y: 52136.2422
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -87.9482346
+    }
+    Scale {
+      X: 1.18941009
+      Y: 1.18941009
+      Z: 1.18941009
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16455775285665007109
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -9873.42
+      Y: 44986.1719
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 121.490532
+    }
+    Scale {
+      X: 1.01436806
+      Y: 1.01436806
+      Z: 1.01436806
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1049961593135572426
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -11073.5273
+      Y: 45082.4609
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 52.0658379
+    }
+    Scale {
+      X: 1.02063668
+      Y: 1.02063668
+      Z: 1.02063668
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7305651450448463581
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -12792.8379
+      Y: 44936.7656
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 16.8755417
+    }
+    Scale {
+      X: 1.10466015
+      Y: 1.10466015
+      Z: 1.10466015
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4543533047087975608
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -15345.9639
+      Y: 46929.6055
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -119.864487
+    }
+    Scale {
+      X: 1.15126193
+      Y: 1.15126193
+      Z: 1.15126193
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17442080011602820339
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -14417.2754
+      Y: 46983.9258
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -131.675186
+    }
+    Scale {
+      X: 1.01789606
+      Y: 1.01789606
+      Z: 1.01789606
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12280508725129477262
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -15121.5898
+      Y: 45065.332
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 163.986908
+    }
+    Scale {
+      X: 1.082986
+      Y: 1.082986
+      Z: 1.082986
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6925549695211724543
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -14663.4092
+      Y: 45152.5
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 35.3770638
+    }
+    Scale {
+      X: 1.10468459
+      Y: 1.10468459
+      Z: 1.10468459
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12859334688463403490
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -16671.377
+      Y: 45076.4141
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 158.823212
+    }
+    Scale {
+      X: 1.18504596
+      Y: 1.18504596
+      Z: 1.18504596
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16556077710323651615
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -17701.498
+      Y: 44953.2305
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -107.4496
+    }
+    Scale {
+      X: 1.14417553
+      Y: 1.14417553
+      Z: 1.14417553
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14454350684101609100
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24231.8125
+      Y: 48296.3789
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -62.1955338
+    }
+    Scale {
+      X: 1.02170479
+      Y: 1.02170479
+      Z: 1.02170479
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15668288898913939915
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21601.1367
+      Y: 48233.8086
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -39.0355835
+    }
+    Scale {
+      X: 1.12912989
+      Y: 1.12912989
+      Z: 1.12912989
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4339008516294937039
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21586.6719
+      Y: 46738.3281
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -72.4789734
+    }
+    Scale {
+      X: 1.08567762
+      Y: 1.08567762
+      Z: 1.08567762
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3469101300125410007
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22497.6328
+      Y: 44425.0977
+      Z: 24.9999981
+    }
+    Rotation {
+      Yaw: 162.591583
+    }
+    Scale {
+      X: 1.08880889
+      Y: 1.08880889
+      Z: 1.08880889
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2850330955879084629
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23691.1367
+      Y: 44454.8242
+      Z: 25
+    }
+    Rotation {
+      Yaw: -120.26001
+    }
+    Scale {
+      X: 1.18748748
+      Y: 1.18748748
+      Z: 1.18748748
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5139764365466122618
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25654.877
+      Y: 44268.1875
+      Z: 25
+    }
+    Rotation {
+      Yaw: -74.1489563
+    }
+    Scale {
+      X: 1.05504322
+      Y: 1.05504322
+      Z: 1.05504322
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4075440564547603202
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -26536.0234
+      Y: 44424.25
+      Z: 24.9999981
+    }
+    Rotation {
+      Yaw: -84.5313797
+    }
+    Scale {
+      X: 1.12384415
+      Y: 1.12384415
+      Z: 1.12384415
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5405345438440838341
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28830
+      Y: 48039.9844
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 40.277092
+    }
+    Scale {
+      X: 1.00943017
+      Y: 1.00943017
+      Z: 1.00943017
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 877054343159229198
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28910
+      Y: 47214.9648
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 115.414864
+    }
+    Scale {
+      X: 1.17103791
+      Y: 1.17103791
+      Z: 1.17103791
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8652052419901935339
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -29000
+      Y: 45470
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -23.6762486
+    }
+    Scale {
+      X: 1.10248113
+      Y: 1.10248113
+      Z: 1.10248113
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5291926936127856883
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21081.2227
+      Y: 36715.125
+      Z: 25.0009785
+    }
+    Rotation {
+      Yaw: -86.2233505
+    }
+    Scale {
+      X: 1.03753161
+      Y: 1.03753161
+      Z: 1.03753161
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14086422830271239470
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21061.7344
+      Y: 38132.7891
+      Z: 25.0009766
+    }
+    Rotation {
+      Yaw: -136.783936
+    }
+    Scale {
+      X: 1.00390029
+      Y: 1.00390029
+      Z: 1.00390029
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4734665481231478519
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21101.8574
+      Y: 39521.4492
+      Z: 25.0009766
+    }
+    Rotation {
+      Yaw: 154.362671
+    }
+    Scale {
+      X: 1.04535055
+      Y: 1.04535055
+      Z: 1.04535055
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16198295743638967355
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21143.4785
+      Y: 40902.1641
+      Z: 25.000021
+    }
+    Rotation {
+      Yaw: 48.6928749
+    }
+    Scale {
+      X: 1.04860377
+      Y: 1.04860377
+      Z: 1.04860377
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13711190972145604132
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21693.6621
+      Y: 41790
+      Z: 9.99999905
+    }
+    Rotation {
+      Yaw: 1.05471957
+    }
+    Scale {
+      X: 1.08142948
+      Y: 1.08142948
+      Z: 1.08142948
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15547319822490149855
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23330.6523
+      Y: 41709.1484
+      Z: 28.9613724
+    }
+    Rotation {
+      Pitch: -0.43343696
+      Yaw: -77.1194839
+      Roll: 2.56275439
+    }
+    Scale {
+      X: 1.02668536
+      Y: 1.02668536
+      Z: 1.02668536
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4358013975558087039
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24915.6309
+      Y: 41717.5078
+      Z: 25
+    }
+    Rotation {
+      Yaw: -158.944061
+    }
+    Scale {
+      X: 1.10616779
+      Y: 1.10616779
+      Z: 1.10616779
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14369855875404744553
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -27929.7813
+      Y: 41591.2695
+      Z: 25.0000191
+    }
+    Rotation {
+      Yaw: -74.8850784
+    }
+    Scale {
+      X: 1.15451527
+      Y: 1.15451527
+      Z: 1.15451527
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13799668898088126105
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28267.832
+      Y: 40780
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 77.532814
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10637414119218949457
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28210
+      Y: 40080
+      Z: -0.0986328125
+    }
+    Rotation {
+      Yaw: 163.250793
+    }
+    Scale {
+      X: 0.810950756
+      Y: 0.810950756
+      Z: 0.810950756
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5835194223051239955
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28267.832
+      Y: 39230
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 77.5328369
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1985154591461960313
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28233.2871
+      Y: 37553.1133
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 104.494186
+    }
+    Scale {
+      X: 0.728712201
+      Y: 0.728712201
+      Z: 0.728712201
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12783829127599848693
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28214.6934
+      Y: 35739.2734
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -1.27444446
+    }
+    Scale {
+      X: 0.818311
+      Y: 0.818311
+      Z: 0.818311
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 337728297630190112
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28210
+      Y: 38433.1133
+      Z: -0.0986328125
+    }
+    Rotation {
+      Yaw: 163.250793
+    }
+    Scale {
+      X: 0.810950756
+      Y: 0.810950756
+      Z: 0.810950756
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 922521738404884673
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28260
+      Y: 36673.1133
+      Z: -0.1015625
+    }
+    Rotation {
+      Yaw: -26.994215
+    }
+    Scale {
+      X: 0.745590627
+      Y: 0.745590627
+      Z: 0.745590627
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7172897623440521086
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28230
+      Y: 34773.1133
+      Z: -0.1015625
+    }
+    Rotation {
+      Yaw: -139.475708
+    }
+    Scale {
+      X: 0.785020351
+      Y: 0.785020351
+      Z: 0.785020351
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9752231655982438489
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -27551.0234
+      Y: 34442.9336
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -108.295547
+    }
+    Scale {
+      X: 1.05213177
+      Y: 1.05213177
+      Z: 1.05213177
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15864178290897212849
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -26569.4434
+      Y: 34380
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 159.14183
+    }
+    Scale {
+      X: 1.02452469
+      Y: 1.02452469
+      Z: 1.02452469
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9244458699150083898
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25117.6914
+      Y: 34480
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -78.1700821
+    }
+    Scale {
+      X: 1.01897645
+      Y: 1.01897645
+      Z: 1.01897645
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5212431518050432396
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24021.3613
+      Y: 34512.3867
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 170.567947
+    }
+    Scale {
+      X: 1.13975644
+      Y: 1.13975644
+      Z: 1.13975644
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 219297255370799281
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22149.6973
+      Y: 34457.0859
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -21.3141041
+    }
+    Scale {
+      X: 1.10693073
+      Y: 1.10693073
+      Z: 1.10693073
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3595104138248340074
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32312.2754
+      Y: 27761.1191
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 175.522949
+    }
+    Scale {
+      X: 1.09202552
+      Y: 1.09202552
+      Z: 1.09202552
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15728940856866974470
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32397.0977
+      Y: 28651.7344
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 23.4784641
+    }
+    Scale {
+      X: 1.18289137
+      Y: 1.18289137
+      Z: 1.18289137
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18259097594267997184
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32663.9199
+      Y: 26378.9766
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -140.299698
+    }
+    Scale {
+      X: 1.03941166
+      Y: 1.03941166
+      Z: 1.03941166
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6365608234397258903
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32567.0586
+      Y: 27113.832
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 1.68095946
+    }
+    Scale {
+      X: 1.1591419
+      Y: 1.1591419
+      Z: 1.1591419
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11587209949323956392
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32834.3867
+      Y: 25585.707
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -125.86322
+    }
+    Scale {
+      X: 1.00667751
+      Y: 1.00667751
+      Z: 1.00667751
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9248489932406480099
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32305.1309
+      Y: 17229.6973
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -153.61557
+    }
+    Scale {
+      X: 1.12544334
+      Y: 1.12544334
+      Z: 1.12544334
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5849682659226933456
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32365.2656
+      Y: 16169.7793
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -6.83372593
+    }
+    Scale {
+      X: 1.13353074
+      Y: 1.13353074
+      Z: 1.13353074
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5271570661012262706
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32554.7227
+      Y: 15248.5156
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 120.963173
+    }
+    Scale {
+      X: 1.11652577
+      Y: 1.11652577
+      Z: 1.11652577
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4052396091754377691
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -32480.543
+      Y: 13774.1133
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 42.5294113
+    }
+    Scale {
+      X: 1.06298411
+      Y: 1.06298411
+      Z: 1.06298411
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14118002718010919320
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -32810
+      Y: 24020
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -92.3758774
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12173845325175434101
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28905.2813
+      Y: 6590
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: 16.7546902
+    }
+    Scale {
+      X: 1.16636252
+      Y: 1.16636252
+      Z: 1.16636252
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9142544630962125833
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -29075.7988
+      Y: 5100
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: 92.5077057
+    }
+    Scale {
+      X: 1.19711912
+      Y: 1.19711912
+      Z: 1.19711912
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 261396916289269616
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28223.8203
+      Y: 4922.07617
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 174.09465
+    }
+    Scale {
+      X: 1.11440778
+      Y: 1.11440778
+      Z: 1.11440778
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2382936412798119186
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28424.1113
+      Y: 3829.80469
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -146.155533
+    }
+    Scale {
+      X: 1.11731923
+      Y: 1.11731923
+      Z: 1.11731923
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9807953969902606390
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -26957.9902
+      Y: -12639.8672
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 16.6777878
+    }
+    Scale {
+      X: 1.10110176
+      Y: 1.10110176
+      Z: 1.10110176
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12587794039865507248
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28291.1172
+      Y: -12844.4063
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 155.955719
+    }
+    Scale {
+      X: 1.17911935
+      Y: 1.17911935
+      Z: 1.17911935
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1814395939308150769
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -27522.5078
+      Y: -12770.875
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -166.546783
+    }
+    Scale {
+      X: 1.06293523
+      Y: 1.06293523
+      Z: 1.06293523
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 410826660848199617
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -26236.1055
+      Y: -12699.332
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 68.3041153
+    }
+    Scale {
+      X: 1.04093146
+      Y: 1.04093146
+      Z: 1.04093146
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17062394839350316617
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25196.5195
+      Y: -12556.9844
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 1.19754612
+    }
+    Scale {
+      X: 1.05775928
+      Y: 1.05775928
+      Z: 1.05775928
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4859989777546541646
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22297.9863
+      Y: -12475.5156
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 147.473938
+    }
+    Scale {
+      X: 1.06978369
+      Y: 1.06978369
+      Z: 1.06978369
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9172724690892129109
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -27798.0156
+      Y: -8867.68
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 134.22403
+    }
+    Scale {
+      X: 1.19262064
+      Y: 1.19262064
+      Z: 1.19262064
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9777799962467140130
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24648.4102
+      Y: -5411.35156
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -51.011116
+    }
+    Scale {
+      X: 1.11709344
+      Y: 1.11709344
+      Z: 1.11709344
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13341918583307622169
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24189.4727
+      Y: -6335.83203
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 26.7415047
+    }
+    Scale {
+      X: 1.06654871
+      Y: 1.06654871
+      Z: 1.06654871
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7976167209847991344
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22701.6387
+      Y: -6317.44141
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 138.102325
+    }
+    Scale {
+      X: 1.05141759
+      Y: 1.05141759
+      Z: 1.05141759
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1083718084157857936
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21685.8652
+      Y: -6149.03516
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 20.4791279
+    }
+    Scale {
+      X: 1.19299912
+      Y: 1.19299912
+      Z: 1.19299912
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1419522919931392613
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -28340
+      Y: -20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2919672089675828125
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -27790
+      Y: -570
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7225781517549340822
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -24230
+      Y: 1320
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6968053221056661494
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -26710
+      Y: -570
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 277147568106828340
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -21590
+      Y: 1320
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14181946534158978591
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -13440
+      Y: 19800
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -5.96576309
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12467635129446262418
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -12330
+      Y: 17210
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7909574598303421337
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -11180
+      Y: 19150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4339909592138265478
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21926.2695
+      Y: 26926.1
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -154.164902
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8763144461222503984
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25808.2734
+      Y: 23951.6445
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -21.1932697
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15853859729965429050
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25183.7988
+      Y: 24212.6719
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 53.406189
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11066357881077994692
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25099.3867
+      Y: 24857.375
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -56.6252327
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1910992274758963088
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25086.7852
+      Y: 25749.1
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 3.6146152
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4761616734888161714
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24962.7305
+      Y: 26746.0293
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 94.3205109
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18077554431103202853
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24287.6758
+      Y: 26822.668
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 45.6056747
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2975621847352705643
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21740
+      Y: 16288.0078
+      Z: 25.0009766
+    }
+    Rotation {
+      Yaw: -97.6055374
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3680545784663177185
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21840
+      Y: 13200.2891
+      Z: 24.9999962
+    }
+    Rotation {
+      Yaw: -97.0891495
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6205343904913420064
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21720
+      Y: 21883.6094
+      Z: 25.0009766
+    }
+    Rotation {
+      Yaw: 91.9363937
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1090059138040576279
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23412.2168
+      Y: 24538.5254
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 143.672607
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3944494836111284256
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23325.1582
+      Y: 23360.4375
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 159.921875
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12961774930547508769
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23440.709
+      Y: 22129.3184
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 19.6441517
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12735268937257966359
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23378.4844
+      Y: 20966.2012
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -147.605759
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17165029620839732843
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23471.0977
+      Y: 19646.7
+      Z: -0.101074219
+    }
+    Rotation {
+      Yaw: 152.472946
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6419705756896724572
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23373.6016
+      Y: 18274.0195
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -119.996338
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3964053681033493676
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -26862.4473
+      Y: 23120.8125
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -58.3281746
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9573041752828017519
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -32810
+      Y: 20540
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -92.3758774
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1610847240817802698
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -26343.3125
+      Y: 19876.9297
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -164.239594
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12086503883332338119
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: -24870
+      Y: 19270
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5594293638607657983
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7528251125830410259
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -26370
+      Y: 13340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6068382517363308047
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -25627.4258
+      Y: 14095.7129
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 146.529083
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8211522064855046320
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24352.7188
+      Y: 12954.3848
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 151.11055
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14164063241020352854
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24800.2285
+      Y: 9494.0918
+      Z: 25
+    }
+    Rotation {
+      Yaw: 156.647888
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3835172887945578488
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24826.9434
+      Y: 8883.26
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -175.105423
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3809982671960863184
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -26440.3242
+      Y: 9980.04492
+      Z: 23.3130322
+    }
+    Rotation {
+      Pitch: 1.13493836
+      Yaw: 24.3504257
+      Roll: 0.650336146
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10645782092999365005
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -27084.3379
+      Y: 9980.07422
+      Z: 25
+    }
+    Rotation {
+      Yaw: 8.45975113
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3903826802828898117
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -28007.7676
+      Y: 9865.26
+      Z: 25.0000172
+    }
+    Rotation {
+      Yaw: -157.142258
+    }
+    Scale {
+      X: 0.75
+      Y: 0.75
+      Z: 0.75
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2192307395925247834
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23853.4922
+      Y: 9350.69727
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 164.810883
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16830450467510906399
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23074.4824
+      Y: 9362.4375
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -5.15275478
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13797525454403117063
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22194.5391
+      Y: 9387.53516
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -122.017891
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15444593796827360142
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21563.9023
+      Y: 9258.89063
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -71.6879578
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8172043753052656660
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21534.2383
+      Y: 8556.42188
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.775406
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14655075574989580618
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21526.918
+      Y: 7886.67188
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -130.80722
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 265930584612204676
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24545.2305
+      Y: 5894.1875
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 174.039734
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1983544528839631420
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23787.3242
+      Y: 5899.01563
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 33.4654121
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2450717326838921077
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21550
+      Y: 7350
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -98.3526306
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2247326311807911725
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21929.2656
+      Y: 5890
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -58.9544182
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14868947142939324704
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24728.875
+      Y: 1988.53516
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 150.396393
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10106726214134817700
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23559.8242
+      Y: 2304.07813
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 105.999382
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15249408317138426006
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23914.0059
+      Y: 2175.98438
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 106.296021
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6653556398762828824
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22689.6406
+      Y: 2405.7832
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -147.265182
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7889944286781088297
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22044.502
+      Y: 2351.54688
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 21.3360615
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4965393995997995307
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21852.7949
+      Y: 4379.28711
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 122.314529
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15103438699067764982
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22755.9863
+      Y: 4361.45703
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -112.613243
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2149320825793364694
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -23550
+      Y: 4353.73242
+    }
+    Rotation {
+      Yaw: -57.0426826
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7935853863377887390
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -24580
+      Y: 4369.83594
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -0.318603396
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18347654930827746715
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22838.6816
+      Y: 5900
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -27.9390278
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12651656499888124527
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -22073.1934
+      Y: 6221.9707
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 61.9098549
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7432212790345742203
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -21660
+      Y: -5400
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -104.713928
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13950203504844819126
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -18203.0352
+      Y: 1470.60156
+      Z: 25
+    }
+    Rotation {
+      Yaw: 77.3900223
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15640394777623183190
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -9402.50781
+      Y: 1280.625
+      Z: 24.9999962
+    }
+    Rotation {
+      Yaw: 55.3727531
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7071377850868665912
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -17642.0547
+      Y: 1270
+      Z: 4.99975586
+    }
+    Rotation {
+      Yaw: -56.2626762
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10354853886423651197
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -16059.377
+      Y: 1200
+      Z: 5
+    }
+    Rotation {
+      Yaw: 131.949829
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16311117230184155786
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -13763.7246
+      Y: 1370
+      Z: 5.00000095
+    }
+    Rotation {
+      Yaw: -37.2227631
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6394779170053372769
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -11630.5293
+      Y: 1300
+      Z: 5
+    }
+    Rotation {
+      Yaw: -3.33996654
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4606812338567740127
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -10203.0078
+      Y: -469.375
+      Z: 4.99975586
+    }
+    Rotation {
+      Yaw: -174.105637
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15142487362233647360
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: -10046.1113
+      Y: 1410
+      Z: 4.99975538
+    }
+    Rotation {
+      Yaw: -3.37292576
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14790864576816224885
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2280
+      Y: -2550
+      Z: -0.100341797
+    }
+    Rotation {
+      Yaw: 36.1570892
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6539296919169603697
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2259.83789
+      Y: -4003.17969
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.3324
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12934973999043628378
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2215.11133
+      Y: -5572.51953
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3725092657489366845
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2113.68945
+      Y: -8160.39063
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3045617979469251349
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3792.07617
+      Y: -6950.45313
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3512280782782124957
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3713.68945
+      Y: -8160.39063
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17446778745260203188
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3815.11133
+      Y: -5572.51953
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1461299445629342544
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2192.07617
+      Y: -6950.45313
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18022066523704864536
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3880
+      Y: -2550
+      Z: -0.100341797
+    }
+    Rotation {
+      Yaw: 36.1570816
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3025788359986802252
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5742.07617
+      Y: -6950.45313
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3606097304304376190
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5663.68945
+      Y: -8160.39063
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8869373017365338592
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5765.11133
+      Y: -5572.51953
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14207080480426974566
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3859.83789
+      Y: -4003.17969
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.3323746
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10180007062246801513
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5830
+      Y: -2550
+      Z: -0.100341797
+    }
+    Rotation {
+      Yaw: 36.1570778
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9949451360362548085
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5809.83789
+      Y: -4003.17969
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.3323555
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 836707720015366054
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5830
+      Y: 8445.31055
+      Z: -0.100341797
+    }
+    Rotation {
+      Yaw: 36.1570816
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14521518411417090828
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5809.83789
+      Y: 6992.12891
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.3323746
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12610414149367562120
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5765.11133
+      Y: 5422.79102
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15884972513095665483
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5663.68945
+      Y: 2834.92188
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12809966432616998206
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -5742.07617
+      Y: 4044.85547
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10479058398908011162
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3815.11133
+      Y: 5422.79102
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9591990382408543416
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3713.68945
+      Y: 2834.92188
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12834144211848275211
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -3792.07617
+      Y: 4044.85547
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10454940645868585813
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2113.68945
+      Y: 2834.92188
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -100.05558
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4425851362648557458
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2192.07617
+      Y: 4044.85547
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -176.094254
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8203261167590208000
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2215.11133
+      Y: 5422.79102
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 108.064827
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6845450023838092397
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2259.83789
+      Y: 6992.12891
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 38.3324242
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16156934155369226775
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -2280
+      Y: 8445.31055
+      Z: -0.100341797
+    }
+    Rotation {
+      Yaw: 36.1571
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10134292251058282065
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -320.355469
+      Y: 2069.48438
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 54.7684898
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17151645757929752717
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: -862.972656
+      Y: 2100
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -32.7073288
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2857645932772767899
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 255.4375
+      Y: 3437.89648
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 123.292366
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15608929405399802835
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2302.6582
+      Y: 5250
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -97.8362427
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8071097284314571564
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 1366.06641
+      Y: 2052.0625
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 14.4584885
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10171269384132220414
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2980.08984
+      Y: 4129.28711
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: -22.2149944
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12560111052901980264
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5683.53906
+      Y: 4139.38672
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: -124.259178
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6873331688147934909
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5980.75781
+      Y: 1817.80859
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 133.652756
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15526753354490799103
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2302.6582
+      Y: 1999.69922
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -97.8362427
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3320950464034261927
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2885.37891
+      Y: -2615.78516
+      Z: 25.0009727
+    }
+    Rotation {
+      Yaw: -170.095505
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18045770592868012538
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5726.09
+      Y: -2494.89063
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: 168.425522
+    }
+    Scale {
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10574822223238634867
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5558.39063
+      Y: -6113.37109
+      Z: 25.0009842
+    }
+    Rotation {
+      Yaw: -123.786774
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 371638534579745055
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2903.16797
+      Y: -6206.50781
+      Z: 25.0009766
+    }
+    Rotation {
+      Yaw: -172.534546
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3497097635799458463
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 2945.0918
+      Y: -7804.66
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: -118.996559
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 498577730742990241
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 5573.00391
+      Y: -7858.97266
+      Z: 25.0009804
+    }
+    Rotation {
+      Yaw: -88.2338867
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4386453469647487416
+  Name: "Tree Birch 02"
+  Transform {
+    Location {
+      X: 11370
+      Y: -2800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 2.25000048
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7989301038156286044
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9149425357509690702
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 10270
+      Y: -2149.42969
+    }
+    Rotation {
+      Yaw: -81.6748505
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4178654556361442117
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 11570
+      Y: -2350
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: 5.1747241
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1991635300595199255
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 10984.1719
+      Y: -1999.00781
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 93.4086
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3875301849953154167
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 11256.8047
+      Y: -3880.69141
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 18.5455
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6924383116077181073
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 11182.1563
+      Y: -4559.89844
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -159.218735
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12420798697833431318
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 10200.0781
+      Y: -5744.25391
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 73.5666656
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 259586330000398230
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 14370
+      Y: -8433.4375
+      Z: 25
+    }
+    Rotation {
+      Yaw: -104.790855
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9385743804919419651
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9720
+      Y: 2800
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 100.87957
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18260122561085618811
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9166.46484
+      Y: 3215.12305
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 140.84906
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3246872592774886060
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9179.37109
+      Y: 3912.62891
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 129.499756
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5847418756978694573
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9254.13281
+      Y: 4528.24414
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 3.81237531
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4380720895783271023
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9197.91797
+      Y: 5054.92773
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 85.135643
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10490206083785666453
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 9188.35938
+      Y: 5600
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -147.199265
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9185245665853376321
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7320
+      Y: 2850
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 56.0099678
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1725428693150778871
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7803.42578
+      Y: 2938.69141
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 41.540596
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16885379648551996408
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7816.28906
+      Y: 3461.38281
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -149.363693
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13710888031818805948
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7857.30859
+      Y: 3984.51563
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: 70.0289917
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1310178884308604
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7823.14844
+      Y: 4663.76563
+      Z: -0.100585938
+    }
+    Rotation {
+      Yaw: -64.4478149
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 803897572800458491
+  Name: "Tree Birch 01"
+  Transform {
+    Location {
+      X: 7820
+      Y: 5350
+      Z: -0.100830078
+    }
+    Rotation {
+      Yaw: -176.028336
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13783961890553516720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3181961447601484337
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2473208361758221170
+  Name: "Road"
+  Transform {
+    Location {
+      X: 22250
+      Y: -6660
     }
     Rotation {
     }
@@ -6588,6 +16471,589 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 5895171644882681609
+  ChildIds: 14523971000237443532
+  ChildIds: 15096225802271725490
+  ChildIds: 6957582293598607049
+  ChildIds: 10994231434797887867
+  ChildIds: 15772812093020603886
+  ChildIds: 5963566208188422832
+  ChildIds: 10331837970434102697
+  ChildIds: 5110853007697332059
+  ChildIds: 7240372760779874254
+  ChildIds: 3853554065404354101
+  ChildIds: 11921429516903775821
+  ChildIds: 17421228757735408088
+  ChildIds: 18012267969003594783
+  ChildIds: 11755504142729392765
+  ChildIds: 1580458119231355889
+  ChildIds: 15000274260134183988
+  ChildIds: 4660876044506959382
+  ChildIds: 10285827833932164080
+  ChildIds: 15548722419595337137
+  ChildIds: 767624115972887738
+  ChildIds: 6449589728277981517
+  ChildIds: 3916302707657020783
+  ChildIds: 914922217962237037
+  ChildIds: 8614456631120558554
+  ChildIds: 17826305597794438264
+  ChildIds: 16612432327318506519
+  ChildIds: 3688381345553104394
+  ChildIds: 7420147353839037365
+  ChildIds: 4486866403211582857
+  ChildIds: 5171042177787337443
+  ChildIds: 11358566992186895426
+  ChildIds: 7146660023091753217
+  ChildIds: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12274455069681072406
+  Name: "Merge"
+  Transform {
+    Location {
+      X: 10790
+      Y: -42560
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
+  ChildIds: 13934104434717028056
+  ChildIds: 14281249842430266991
+  ChildIds: 17421952181396248298
+  ChildIds: 10027893098633252135
+  ChildIds: 9644524625833614100
+  ChildIds: 18143340113967626683
+  ChildIds: 18100017163253574499
+  ChildIds: 13095596165606186158
+  ChildIds: 13642366912995420555
+  ChildIds: 7171847658452651942
+  ChildIds: 3534938416775609844
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 3534938416775609844
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 440
+      Y: -440
+      Z: -0.00048828125
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7171847658452651942
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 1240
+      Y: 1160
+      Z: -0.00048828125
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13642366912995420555
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 440
+      Y: 1160
+      Z: -0.00048828125
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13095596165606186158
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: 440
+      Y: 360
+      Z: -0.00048828125
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Street_CenterStripe:id"
+      AssetReference {
+        Id: 9802724784644488365
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 18100017163253574499
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: -1960
+      Y: 360
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18143340113967626683
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -360
+      Y: 360
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 2
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9644524625833614100
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 1240
+      Y: 1160
+    }
+    Rotation {
+      Yaw: -89.9999695
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10027893098633252135
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -360
+      Y: -440
+      Z: -0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17421952181396248298
+  Name: "Road Center"
+  Transform {
+    Location {
+      X: -360
+      Y: -1240
+      Z: -0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6189828773244592854
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14281249842430266991
+  Name: "Road Sidewalk Lane Merge"
+  Transform {
+    Location {
+      X: 440
+      Y: -1240
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2891332054519029206
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13934104434717028056
+  Name: "Road Sidewalk Lane Merge"
+  Transform {
+    Location {
+      X: -1160
+      Y: -1240
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12274455069681072406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2891332054519029206
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7146660023091753217
+  Name: "Long Road"
+  Transform {
+    Location {
+      X: 11150
+      Y: 34590
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
   ChildIds: 1974872713181290005
   ChildIds: 3050698989828675700
   ChildIds: 11833051344288906157
@@ -8218,8 +18684,8 @@ Objects {
   Name: "a"
   Transform {
     Location {
-      X: 39230
-      Y: 8180
+      X: 16980
+      Y: 14840
     }
     Rotation {
     }
@@ -8229,7 +18695,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8241,1229 +18707,12 @@ Objects {
   }
 }
 Objects {
-  Id: 7319680004632125318
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 35182.4531
-      Y: 218.345642
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 65.0630417
-    }
-    Scale {
-      X: 1.05341959
-      Y: 1.05341959
-      Z: 1.05341959
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7226427624614906277
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 39163.9063
-      Y: -655.438965
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -161.416061
-    }
-    Scale {
-      X: 1.10379958
-      Y: 1.10379958
-      Z: 1.10379958
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13112259271938534284
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 42786.2461
-      Y: -449.409912
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -56.5043869
-    }
-    Scale {
-      X: 1.07077849
-      Y: 1.07077849
-      Z: 1.07077849
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4200781672824046648
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38565.7969
-      Y: -9288.72168
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 175.281219
-    }
-    Scale {
-      X: 1.10270703
-      Y: 1.10270703
-      Z: 1.10270703
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9586815565914287946
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38508.9531
-      Y: -9987.7334
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 142.793671
-    }
-    Scale {
-      X: 1.16070437
-      Y: 1.16070437
-      Z: 1.16070437
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6730366879390108023
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38637.4336
-      Y: -10582.1396
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -45.9352493
-    }
-    Scale {
-      X: 1.08423722
-      Y: 1.08423722
-      Z: 1.08423722
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18071272960483059649
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36640.9844
-      Y: -5848.03809
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.4423141
-    }
-    Scale {
-      X: 1.18106639
-      Y: 1.18106639
-      Z: 1.18106639
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9139163438130750398
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34809.4531
-      Y: -9425.37
-      Z: 5.56529522
-    }
-    Rotation {
-      Yaw: 73.7644424
-    }
-    Scale {
-      X: 1.00488293
-      Y: 1.00488293
-      Z: 1.00488293
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 910334977192952775
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34760
-      Y: -7238.65723
-      Z: 5.00097656
-    }
-    Rotation {
-      Yaw: 51.2637901
-    }
-    Scale {
-      X: 1.16730857
-      Y: 1.16730857
-      Z: 1.16730857
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18041225134924894970
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31940
-      Y: -7271.90967
-      Z: 5.5652957
-    }
-    Rotation {
-      Yaw: -120.523712
-    }
-    Scale {
-      X: 1.03126931
-      Y: 1.03126931
-      Z: 1.03126931
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14587984028939736406
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 32010.3496
-      Y: -9435.44922
-      Z: 5.00097799
-    }
-    Rotation {
-      Yaw: 11.5579872
-    }
-    Scale {
-      X: 1.1206702
-      Y: 1.1206702
-      Z: 1.1206702
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14575716893544852078
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31181.3828
-      Y: -12465.1113
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -24.2475605
-    }
-    Scale {
-      X: 1.05799127
-      Y: 1.05799127
-      Z: 1.05799127
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6131071502708089516
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31178.6543
-      Y: -11493.25
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 109.613945
-    }
-    Scale {
-      X: 1.14737391
-      Y: 1.14737391
-      Z: 1.14737391
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3796506993626522626
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31145.8281
-      Y: -10366.8447
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -122.556267
-    }
-    Scale {
-      X: 1.00380874
-      Y: 1.00380874
-      Z: 1.00380874
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 944742070216500919
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 24532.6152
-      Y: -12881.4219
-      Z: 24.9990234
-    }
-    Rotation {
-      Yaw: -63.2062798
-    }
-    Scale {
-      X: 1.00061643
-      Y: 1.00061643
-      Z: 1.00061643
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5987953496112156888
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23419.998
-      Y: -12662.2051
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 63.0964241
-    }
-    Scale {
-      X: 1.03440654
-      Y: 1.03440654
-      Z: 1.03440654
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15010132005469405432
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 29397.6777
-      Y: -10291.9844
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 104.735878
-    }
-    Scale {
-      X: 1.03107393
-      Y: 1.03107393
-      Z: 1.03107393
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18232217103212085023
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 28052.377
-      Y: -10266.3848
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -157.933289
-    }
-    Scale {
-      X: 1.05089271
-      Y: 1.05089271
-      Z: 1.05089271
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16579319108126607399
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 27331.916
-      Y: -10327.1543
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 132.400299
-    }
-    Scale {
-      X: 1.18936133
-      Y: 1.18936133
-      Z: 1.18936133
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7725740895566057178
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25295.418
-      Y: -10426.333
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 96.7485657
-    }
-    Scale {
-      X: 1.1058321
-      Y: 1.1058321
-      Z: 1.1058321
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15120799922502969488
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23767.8828
-      Y: -10485.0898
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 111.624496
-    }
-    Scale {
-      X: 1.07148051
-      Y: 1.07148051
-      Z: 1.07148051
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13819244299839279529
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23136.4043
-      Y: -10622.2266
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -113.052742
-    }
-    Scale {
-      X: 1.13800478
-      Y: 1.13800478
-      Z: 1.13800478
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2904610198096567282
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23136.7617
-      Y: -11176.127
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -70.9628525
-    }
-    Scale {
-      X: 1.01302528
-      Y: 1.01302528
-      Z: 1.01302528
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6294390999034627917
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23882.8867
-      Y: -8640
-    }
-    Rotation {
-      Yaw: 38.9916458
-    }
-    Scale {
-      X: 1.05289471
-      Y: 1.05289471
-      Z: 1.05289471
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17763388187761772225
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25290.1445
-      Y: -8637.0791
-      Z: 0.000244140625
-    }
-    Rotation {
-      Yaw: -129.41188
-    }
-    Scale {
-      X: 1.03900874
-      Y: 1.03900874
-      Z: 1.03900874
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17656929239431461644
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26997.0742
-      Y: -8742.87109
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -57.3503723
-    }
-    Scale {
-      X: 1.00845969
-      Y: 1.00845969
-      Z: 1.00845969
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4685654705597235319
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23473.2344
-      Y: -7140
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 168.150864
-    }
-    Scale {
-      X: 1.18948948
-      Y: 1.18948948
-      Z: 1.18948948
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16870879427266970894
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25127.8496
-      Y: -6943.89307
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 71.0287704
-    }
-    Scale {
-      X: 1.076455
-      Y: 1.076455
-      Z: 1.076455
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9603258283259373594
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26954.5273
-      Y: -6727.21436
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 61.0199242
-    }
-    Scale {
-      X: 1.04492331
-      Y: 1.04492331
-      Z: 1.04492331
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 5171042177787337443
   Name: "Group"
   Transform {
     Location {
-      X: 27740
-      Y: -14140
+      X: 5490
+      Y: -7480
     }
     Rotation {
     }
@@ -9473,7 +18722,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 14893460390248345626
   ChildIds: 9748567936568634635
   ChildIds: 1713674237571130163
@@ -10125,8 +19374,8 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 15630
-      Y: -14140
+      X: -6620
+      Y: -7480
     }
     Rotation {
     }
@@ -10136,7 +19385,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 3335370090625172473
   ChildIds: 112802589018277612
   ChildIds: 7257097868314463058
@@ -10788,11 +20037,11 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 27070
-      Y: -13610
+      X: 4820
+      Y: -6950
     }
     Rotation {
-      Yaw: -179.999985
+      Yaw: -179.999969
     }
     Scale {
       X: 1
@@ -10800,7 +20049,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 14781641024236291752
   ChildIds: 10016201782141513489
   ChildIds: 10526615362619146085
@@ -11452,11 +20701,11 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 14960
-      Y: -13610
+      X: -7290
+      Y: -6950
     }
     Rotation {
-      Yaw: 180
+      Yaw: -179.999985
     }
     Scale {
       X: 1
@@ -11464,7 +20713,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 18400561111224639410
   ChildIds: 10702571727455776505
   ChildIds: 4467673647524905172
@@ -12116,8 +21365,8 @@ Objects {
   Name: "Group"
   Transform {
     Location {
-      X: 15630
-      Y: -14140
+      X: -6620
+      Y: -7480
     }
     Rotation {
     }
@@ -12127,7 +21376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 4976632087236254982
   ChildIds: 869028903109763504
   ChildIds: 809326854658812177
@@ -12775,3028 +22024,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16317795647178404722
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 17973.6934
-      Y: 17203.8105
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 155.922745
-    }
-    Scale {
-      X: 1.18575406
-      Y: 1.18575406
-      Z: 1.18575406
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6267747086806486592
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 16082.1885
-      Y: 17086.2402
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -87.9482422
-    }
-    Scale {
-      X: 1.18941009
-      Y: 1.18941009
-      Z: 1.18941009
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16455775285665007109
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 19256.5801
-      Y: 9936.17285
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 121.490532
-    }
-    Scale {
-      X: 1.01436806
-      Y: 1.01436806
-      Z: 1.01436806
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1049961593135572426
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 18056.4727
-      Y: 10032.4629
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 52.0658188
-    }
-    Scale {
-      X: 1.02063668
-      Y: 1.02063668
-      Z: 1.02063668
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7305651450448463581
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 16337.1621
-      Y: 9886.7666
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 16.8755283
-    }
-    Scale {
-      X: 1.10466015
-      Y: 1.10466015
-      Z: 1.10466015
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4543533047087975608
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 13784.0361
-      Y: 11879.6055
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -119.864487
-    }
-    Scale {
-      X: 1.15126193
-      Y: 1.15126193
-      Z: 1.15126193
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17442080011602820339
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 14712.7246
-      Y: 11933.9258
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -131.675186
-    }
-    Scale {
-      X: 1.01789606
-      Y: 1.01789606
-      Z: 1.01789606
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12280508725129477262
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 14008.4102
-      Y: 10015.3311
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 163.986923
-    }
-    Scale {
-      X: 1.082986
-      Y: 1.082986
-      Z: 1.082986
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6925549695211724543
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 14466.5908
-      Y: 10102.499
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 35.3770599
-    }
-    Scale {
-      X: 1.10468459
-      Y: 1.10468459
-      Z: 1.10468459
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12859334688463403490
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 12458.623
-      Y: 10026.4131
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 158.823212
-    }
-    Scale {
-      X: 1.18504596
-      Y: 1.18504596
-      Z: 1.18504596
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16556077710323651615
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 11428.502
-      Y: 9903.23
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -107.449593
-    }
-    Scale {
-      X: 1.14417553
-      Y: 1.14417553
-      Z: 1.14417553
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14454350684101609100
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4898.18848
-      Y: 13246.3799
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -62.1955223
-    }
-    Scale {
-      X: 1.02170479
-      Y: 1.02170479
-      Z: 1.02170479
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15668288898913939915
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7528.86328
-      Y: 13183.8086
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -39.0356064
-    }
-    Scale {
-      X: 1.12912989
-      Y: 1.12912989
-      Z: 1.12912989
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4339008516294937039
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7543.32715
-      Y: 11688.3262
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -72.479
-    }
-    Scale {
-      X: 1.08567762
-      Y: 1.08567762
-      Z: 1.08567762
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3469101300125410007
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6632.36621
-      Y: 9375.09766
-      Z: 24.9999981
-    }
-    Rotation {
-      Yaw: 162.591599
-    }
-    Scale {
-      X: 1.08880889
-      Y: 1.08880889
-      Z: 1.08880889
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2850330955879084629
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5438.8623
-      Y: 9404.82422
-      Z: 25
-    }
-    Rotation {
-      Yaw: -120.26001
-    }
-    Scale {
-      X: 1.18748748
-      Y: 1.18748748
-      Z: 1.18748748
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5139764365466122618
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 3475.12354
-      Y: 9218.18652
-      Z: 25
-    }
-    Rotation {
-      Yaw: -74.1489792
-    }
-    Scale {
-      X: 1.05504322
-      Y: 1.05504322
-      Z: 1.05504322
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4075440564547603202
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2593.97656
-      Y: 9374.25195
-      Z: 24.9999981
-    }
-    Rotation {
-      Yaw: -84.531395
-    }
-    Scale {
-      X: 1.12384415
-      Y: 1.12384415
-      Z: 1.12384415
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5405345438440838341
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 300
-      Y: 12989.9863
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 40.2771
-    }
-    Scale {
-      X: 1.00943017
-      Y: 1.00943017
-      Z: 1.00943017
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 877054343159229198
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 220
-      Y: 12164.9658
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 115.414879
-    }
-    Scale {
-      X: 1.17103791
-      Y: 1.17103791
-      Z: 1.17103791
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8652052419901935339
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 130
-      Y: 10420
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -23.6762695
-    }
-    Scale {
-      X: 1.10248113
-      Y: 1.10248113
-      Z: 1.10248113
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5291926936127856883
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 8048.77734
-      Y: 1665.12317
-      Z: 25.0009785
-    }
-    Rotation {
-      Yaw: -86.2233505
-    }
-    Scale {
-      X: 1.03753161
-      Y: 1.03753161
-      Z: 1.03753161
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14086422830271239470
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 8068.26611
-      Y: 3082.78735
-      Z: 25.0009766
-    }
-    Rotation {
-      Yaw: -136.783936
-    }
-    Scale {
-      X: 1.00390029
-      Y: 1.00390029
-      Z: 1.00390029
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4734665481231478519
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 8028.14307
-      Y: 4471.44824
-      Z: 25.0009766
-    }
-    Rotation {
-      Yaw: 154.362656
-    }
-    Scale {
-      X: 1.04535055
-      Y: 1.04535055
-      Z: 1.04535055
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16198295743638967355
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7986.521
-      Y: 5852.16406
-      Z: 25.000021
-    }
-    Rotation {
-      Yaw: 48.6928825
-    }
-    Scale {
-      X: 1.04860377
-      Y: 1.04860377
-      Z: 1.04860377
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13711190972145604132
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7436.3374
-      Y: 6740
-      Z: 9.99999905
-    }
-    Rotation {
-      Yaw: 1.05471969
-    }
-    Scale {
-      X: 1.08142948
-      Y: 1.08142948
-      Z: 1.08142948
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15547319822490149855
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5799.34668
-      Y: 6659.15039
-      Z: 28.9613724
-    }
-    Rotation {
-      Pitch: -0.433441162
-      Yaw: -77.1195068
-      Roll: 2.56275415
-    }
-    Scale {
-      X: 1.02668536
-      Y: 1.02668536
-      Z: 1.02668536
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4358013975558087039
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4214.36914
-      Y: 6667.50732
-      Z: 25
-    }
-    Rotation {
-      Yaw: -158.944061
-    }
-    Scale {
-      X: 1.10616779
-      Y: 1.10616779
-      Z: 1.10616779
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14369855875404744553
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 1200.21863
-      Y: 6541.26855
-      Z: 25.0000191
-    }
-    Rotation {
-      Yaw: -74.8850861
-    }
-    Scale {
-      X: 1.15451527
-      Y: 1.15451527
-      Z: 1.15451527
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13799668898088126105
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 862.167
-      Y: 5730
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 77.5328369
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10637414119218949457
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 920
-      Y: 5030
-      Z: -0.0986328125
-    }
-    Rotation {
-      Yaw: 163.250793
-    }
-    Scale {
-      X: 0.810950756
-      Y: 0.810950756
-      Z: 0.810950756
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5835194223051239955
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 862.167
-      Y: 4180
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 77.5328674
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1985154591461960313
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 896.713074
-      Y: 2503.11279
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 104.494171
-    }
-    Scale {
-      X: 0.728712201
-      Y: 0.728712201
-      Z: 0.728712201
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12783829127599848693
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 915.306885
-      Y: 689.272949
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -1.27444458
-    }
-    Scale {
-      X: 0.818311
-      Y: 0.818311
-      Z: 0.818311
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 337728297630190112
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 920
-      Y: 3383.11279
-      Z: -0.0986328125
-    }
-    Rotation {
-      Yaw: 163.250809
-    }
-    Scale {
-      X: 0.810950756
-      Y: 0.810950756
-      Z: 0.810950756
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 922521738404884673
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 870
-      Y: 1623.11279
-      Z: -0.1015625
-    }
-    Rotation {
-      Yaw: -26.9942322
-    }
-    Scale {
-      X: 0.745590627
-      Y: 0.745590627
-      Z: 0.745590627
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7172897623440521086
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 900
-      Y: -276.887207
-      Z: -0.1015625
-    }
-    Rotation {
-      Yaw: -139.475708
-    }
-    Scale {
-      X: 0.785020351
-      Y: 0.785020351
-      Z: 0.785020351
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9752231655982438489
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 1578.97571
-      Y: -607.065918
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -108.295547
-    }
-    Scale {
-      X: 1.05213177
-      Y: 1.05213177
-      Z: 1.05213177
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15864178290897212849
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2560.55688
-      Y: -670
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 159.14183
-    }
-    Scale {
-      X: 1.02452469
-      Y: 1.02452469
-      Z: 1.02452469
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9244458699150083898
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4012.30786
-      Y: -570
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -78.170105
-    }
-    Scale {
-      X: 1.01897645
-      Y: 1.01897645
-      Z: 1.01897645
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5212431518050432396
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5108.63818
-      Y: -537.614258
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 170.567947
-    }
-    Scale {
-      X: 1.13975644
-      Y: 1.13975644
-      Z: 1.13975644
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 219297255370799281
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6980.30225
-      Y: -592.916
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -21.3141155
-    }
-    Scale {
-      X: 1.10693073
-      Y: 1.10693073
-      Z: 1.10693073
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3595104138248340074
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3182.27588
-      Y: -7288.88086
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 175.522949
-    }
-    Scale {
-      X: 1.09202552
-      Y: 1.09202552
-      Z: 1.09202552
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15728940856866974470
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3267.09814
-      Y: -6398.26465
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 23.4784794
-    }
-    Scale {
-      X: 1.18289137
-      Y: 1.18289137
-      Z: 1.18289137
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18259097594267997184
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3533.92041
-      Y: -8671.02246
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -140.299698
-    }
-    Scale {
-      X: 1.03941166
-      Y: 1.03941166
-      Z: 1.03941166
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6365608234397258903
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3437.05811
-      Y: -7936.16699
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 1.68095946
-    }
-    Scale {
-      X: 1.1591419
-      Y: 1.1591419
-      Z: 1.1591419
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 11587209949323956392
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3704.38696
-      Y: -9464.29199
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -125.86322
-    }
-    Scale {
-      X: 1.00667751
-      Y: 1.00667751
-      Z: 1.00667751
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9248489932406480099
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3175.13086
-      Y: -17820.3027
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -153.615555
-    }
-    Scale {
-      X: 1.12544334
-      Y: 1.12544334
-      Z: 1.12544334
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5849682659226933456
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3235.2666
-      Y: -18880.2207
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -6.83371973
-    }
-    Scale {
-      X: 1.13353074
-      Y: 1.13353074
-      Z: 1.13353074
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5271570661012262706
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3424.7229
-      Y: -19801.4844
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 120.963173
-    }
-    Scale {
-      X: 1.11652577
-      Y: 1.11652577
-      Z: 1.11652577
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4052396091754377691
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -3350.5437
-      Y: -21275.8867
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 42.5293922
-    }
-    Scale {
-      X: 1.06298411
-      Y: 1.06298411
-      Z: 1.06298411
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14118002718010919320
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: -3680
-      Y: -11030
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -92.375885
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12173845325175434101
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 224.71875
-      Y: -28460
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: 16.7546768
-    }
-    Scale {
-      X: 1.16636252
-      Y: 1.16636252
-      Z: 1.16636252
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9142544630962125833
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 54.2004395
-      Y: -29950
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: 92.5077057
-    }
-    Scale {
-      X: 1.19711912
-      Y: 1.19711912
-      Z: 1.19711912
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 261396916289269616
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 906.180176
-      Y: -30127.9238
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 174.094666
-    }
-    Scale {
-      X: 1.11440778
-      Y: 1.11440778
-      Z: 1.11440778
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2382936412798119186
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 705.889
-      Y: -31220.1953
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -146.155563
-    }
-    Scale {
-      X: 1.11731923
-      Y: 1.11731923
-      Z: 1.11731923
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9807953969902606390
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2172.01
-      Y: -47689.8672
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 16.6777725
-    }
-    Scale {
-      X: 1.10110176
-      Y: 1.10110176
-      Z: 1.10110176
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12587794039865507248
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 838.881958
-      Y: -47894.4063
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 155.955704
-    }
-    Scale {
-      X: 1.17911935
-      Y: 1.17911935
-      Z: 1.17911935
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1814395939308150769
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 1607.49304
-      Y: -47820.875
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -166.546814
-    }
-    Scale {
-      X: 1.06293523
-      Y: 1.06293523
-      Z: 1.06293523
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 410826660848199617
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2893.89526
-      Y: -47749.332
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 68.3041
-    }
-    Scale {
-      X: 1.04093146
-      Y: 1.04093146
-      Z: 1.04093146
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17062394839350316617
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 3933.48096
-      Y: -47606.9844
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 1.19754624
-    }
-    Scale {
-      X: 1.05775928
-      Y: 1.05775928
-      Z: 1.05775928
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4859989777546541646
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6832.01367
-      Y: -47525.5156
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 147.473969
-    }
-    Scale {
-      X: 1.06978369
-      Y: 1.06978369
-      Z: 1.06978369
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9172724690892129109
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 1331.98486
-      Y: -43917.6797
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 134.224045
-    }
-    Scale {
-      X: 1.19262064
-      Y: 1.19262064
-      Z: 1.19262064
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9777799962467140130
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4481.58887
-      Y: -40461.3516
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -51.011097
-    }
-    Scale {
-      X: 1.11709344
-      Y: 1.11709344
-      Z: 1.11709344
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13341918583307622169
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4940.52832
-      Y: -41385.832
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 26.7415218
-    }
-    Scale {
-      X: 1.06654871
-      Y: 1.06654871
-      Z: 1.06654871
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7976167209847991344
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6428.36133
-      Y: -41367.4414
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 138.102356
-    }
-    Scale {
-      X: 1.05141759
-      Y: 1.05141759
-      Z: 1.05141759
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1083718084157857936
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7444.13428
-      Y: -41199.0352
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 20.4791317
-    }
-    Scale {
-      X: 1.19299912
-      Y: 1.19299912
-      Z: 1.19299912
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1419522919931392613
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 790
-      Y: -35070
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2919672089675828125
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 1340
-      Y: -35620
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7225781517549340822
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 4900
-      Y: -33730
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6968053221056661494
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 2420
-      Y: -35620
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 277147568106828340
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 7540
-      Y: -33730
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 17826305597794438264
   Name: "Long Road"
   Transform {
     Location {
-      X: 33400
-      Y: 6330
+      X: 11150
+      Y: 12990
     }
     Rotation {
     }
@@ -15806,7 +22039,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 665558582901109404
   ChildIds: 9736440630230655939
   ChildIds: 2787756361701156333
@@ -19359,8 +25592,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 9300
-      Y: -15230
+      X: -12950
+      Y: -8570
     }
     Rotation {
     }
@@ -19370,7 +25603,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 13105608824560160720
   ChildIds: 18187766780955922976
   ChildIds: 2444069142644480277
@@ -23537,8 +29770,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 21290
-      Y: -15230
+      X: -960
+      Y: -8570
     }
     Rotation {
     }
@@ -23548,7 +29781,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 14771010112398563338
   ChildIds: 6813021721616309535
   ChildIds: 16334718637993148842
@@ -27571,2189 +33804,12 @@ Objects {
   }
 }
 Objects {
-  Id: 14181946534158978591
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 15690
-      Y: -15250
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -5.96575928
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12467635129446262418
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 16800
-      Y: -17840
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7909574598303421337
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 17950
-      Y: -15900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4339909592138265478
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7203.73047
-      Y: -8123.90039
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -154.164886
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8763144461222503984
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 3321.72559
-      Y: -11098.3564
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -21.1932774
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15853859729965429050
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 3946.20142
-      Y: -10837.3281
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 53.4061775
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 11066357881077994692
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4030.61279
-      Y: -10192.624
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -56.6252518
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1910992274758963088
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4043.21484
-      Y: -9300.9
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 3.61461401
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4761616734888161714
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4167.27
-      Y: -8303.9707
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 94.3205109
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18077554431103202853
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4842.32324
-      Y: -8227.33105
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 45.6056595
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2975621847352705643
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7390
-      Y: -18761.9922
-      Z: 25.0009766
-    }
-    Rotation {
-      Yaw: -97.6055298
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3680545784663177185
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7290
-      Y: -21849.7109
-      Z: 24.9999962
-    }
-    Rotation {
-      Yaw: -97.0891418
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6205343904913420064
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7410
-      Y: -13166.3916
-      Z: 25.0009766
-    }
-    Rotation {
-      Yaw: 91.9363937
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1090059138040576279
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5717.78271
-      Y: -10511.4746
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 143.672607
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3944494836111284256
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5804.84229
-      Y: -11689.5625
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 159.921875
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12961774930547508769
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5689.2915
-      Y: -12920.6816
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 19.6441536
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12735268937257966359
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5751.51465
-      Y: -14083.7988
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -147.605804
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17165029620839732843
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5658.90332
-      Y: -15403.3
-      Z: -0.101074219
-    }
-    Rotation {
-      Yaw: 152.472931
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6419705756896724572
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5756.39844
-      Y: -16775.9805
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -119.996338
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3964053681033493676
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 2267.552
-      Y: -11929.1885
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -58.328186
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9573041752828017519
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: -3680
-      Y: -14510
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -92.375885
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1610847240817802698
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 2786.68823
-      Y: -15173.0703
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -164.239624
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12086503883332338119
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 4260
-      Y: -15780
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5594293638607657983
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7528251125830410259
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 2760
-      Y: -21710
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6068382517363308047
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 3502.57495
-      Y: -20954.2871
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 146.529099
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8211522064855046320
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4777.28125
-      Y: -22095.6152
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 151.110565
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14164063241020352854
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4329.771
-      Y: -25555.9082
-      Z: 25
-    }
-    Rotation {
-      Yaw: 156.647873
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3835172887945578488
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4303.05713
-      Y: -26166.7402
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -175.105438
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3809982671960863184
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2689.67529
-      Y: -25069.9551
-      Z: 23.3130322
-    }
-    Rotation {
-      Pitch: 1.13493836
-      Yaw: 24.3504467
-      Roll: 0.650336146
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10645782092999365005
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 2045.66138
-      Y: -25069.9258
-      Z: 25
-    }
-    Rotation {
-      Yaw: 8.45974064
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3903826802828898117
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 1122.23242
-      Y: -25184.7402
-      Z: 25.0000172
-    }
-    Rotation {
-      Yaw: -157.142258
-    }
-    Scale {
-      X: 0.75
-      Y: 0.75
-      Z: 0.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2192307395925247834
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5276.50879
-      Y: -25699.3027
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 164.810913
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16830450467510906399
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6055.51758
-      Y: -25687.5625
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -5.15275192
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13797525454403117063
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6935.46
-      Y: -25662.4648
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -122.017891
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15444593796827360142
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7566.09863
-      Y: -25791.1094
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -71.6879654
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8172043753052656660
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7595.76123
-      Y: -26493.5781
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.775406
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14655075574989580618
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7603.08105
-      Y: -27163.3281
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -130.80722
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 265930584612204676
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4584.76953
-      Y: -29155.8125
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 174.039734
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1983544528839631420
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5342.67578
-      Y: -29150.9844
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 33.4653931
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2450717326838921077
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7580
-      Y: -27700
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -98.3526306
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2247326311807911725
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7200.73535
-      Y: -29160
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -58.9544373
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12651656499888124527
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7056.80664
-      Y: -28828.0293
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 61.9098549
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18347654930827746715
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6291.31836
-      Y: -29150
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -27.9390564
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7935853863377887390
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4550
-      Y: -30680.1641
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -0.318603516
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2149320825793364694
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5580
-      Y: -30696.2676
-    }
-    Rotation {
-      Yaw: -57.0427551
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15103438699067764982
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6374.01367
-      Y: -30688.543
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -112.613297
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4965393995997995307
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7277.20459
-      Y: -30670.7129
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 122.314529
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7889944286781088297
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7085.49805
-      Y: -32698.4531
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 21.336092
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6653556398762828824
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 6440.3584
-      Y: -32644.2168
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -147.265228
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15249408317138426006
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5215.99414
-      Y: -32874.0156
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 106.29599
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10106726214134817700
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 5570.17676
-      Y: -32745.9219
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 105.999336
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14868947142939324704
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 4401.12598
-      Y: -33061.4648
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 150.396423
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 3916302707657020783
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: 26800
+      X: 770
+      Y: 33460
     }
     Rotation {
     }
@@ -29763,7 +33819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 10864249288068968234
   ChildIds: 17248543245218924694
   ChildIds: 9641760747407603180
@@ -36824,8 +40880,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: 16400
+      X: 770
+      Y: 23060
     }
     Rotation {
     }
@@ -36835,7 +40891,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 7154253489267805427
   ChildIds: 16308672618296056730
   ChildIds: 831954623253417224
@@ -45821,8 +49877,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: 5200
+      X: 770
+      Y: 11860
     }
     Rotation {
     }
@@ -45832,7 +49888,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 5372890609031041326
   ChildIds: 1183991127348170522
   ChildIds: 8727530723789558340
@@ -52552,8 +56608,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: -5200
+      X: 770
+      Y: 1460
     }
     Rotation {
     }
@@ -52563,7 +56619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 14001710570016730069
   ChildIds: 5955454078763665526
   ChildIds: 17125385425734490560
@@ -74486,8 +78542,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: -26730
+      X: 770
+      Y: -20070
     }
     Rotation {
     }
@@ -74497,7 +78553,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 15699198010563951088
   ChildIds: 10738702693351228308
   ChildIds: 14714445295277273850
@@ -83770,3033 +87826,12 @@ Objects {
   }
 }
 Objects {
-  Id: 7432212790345742203
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 7470
-      Y: -40450
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -104.713913
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13950203504844819126
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 10926.9648
-      Y: -33579.4
-      Z: 25
-    }
-    Rotation {
-      Yaw: 77.3900375
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15640394777623183190
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 19727.4922
-      Y: -33769.375
-      Z: 24.9999962
-    }
-    Rotation {
-      Yaw: 55.3727684
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7071377850868665912
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 11487.9443
-      Y: -33780
-      Z: 4.99975586
-    }
-    Rotation {
-      Yaw: -56.2626953
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10354853886423651197
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 13070.623
-      Y: -33850
-      Z: 5
-    }
-    Rotation {
-      Yaw: 131.949829
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16311117230184155786
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 15366.2754
-      Y: -33680
-      Z: 5.00000095
-    }
-    Rotation {
-      Yaw: -37.2227783
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6394779170053372769
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 17499.4707
-      Y: -33750
-      Z: 5
-    }
-    Rotation {
-      Yaw: -3.33996582
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4606812338567740127
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 18926.9922
-      Y: -35519.375
-      Z: 4.99975586
-    }
-    Rotation {
-      Yaw: -174.105652
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15142487362233647360
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 19083.8887
-      Y: -33640
-      Z: 4.99975538
-    }
-    Rotation {
-      Yaw: -3.3729248
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14790864576816224885
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26850
-      Y: -37600
-      Z: -0.100341797
-    }
-    Rotation {
-      Yaw: 36.1571
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6539296919169603697
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26870.1621
-      Y: -39053.1797
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.3324242
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12934973999043628378
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26914.8887
-      Y: -40622.5195
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3725092657489366845
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 27016.3105
-      Y: -43210.3906
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3045617979469251349
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25337.9238
-      Y: -42000.4531
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3512280782782124957
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25416.3105
-      Y: -43210.3906
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17446778745260203188
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25314.8887
-      Y: -40622.5195
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1461299445629342544
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26937.9238
-      Y: -42000.4531
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18022066523704864536
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25250
-      Y: -37600
-      Z: -0.100341797
-    }
-    Rotation {
-      Yaw: 36.1570892
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3025788359986802252
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23387.9238
-      Y: -42000.4531
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3606097304304376190
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23466.3105
-      Y: -43210.3906
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8869373017365338592
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23364.8887
-      Y: -40622.5195
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14207080480426974566
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25270.1621
-      Y: -39053.1797
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.3324
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10180007062246801513
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23300
-      Y: -37600
-      Z: -0.100341797
-    }
-    Rotation {
-      Yaw: 36.1570816
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9949451360362548085
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23320.1621
-      Y: -39053.1797
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.3323746
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 836707720015366054
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23300
-      Y: -26604.6895
-      Z: -0.100341797
-    }
-    Rotation {
-      Yaw: 36.1570892
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14521518411417090828
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23320.1621
-      Y: -28057.8711
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.3324
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12610414149367562120
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23364.8887
-      Y: -29627.209
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15884972513095665483
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23466.3105
-      Y: -32215.0781
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12809966432616998206
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 23387.9238
-      Y: -31005.1445
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10479058398908011162
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25314.8887
-      Y: -29627.209
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9591990382408543416
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25416.3105
-      Y: -32215.0781
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12834144211848275211
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 25337.9238
-      Y: -31005.1445
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10454940645868585813
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 27016.3105
-      Y: -32215.0781
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -100.055573
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4425851362648557458
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26937.9238
-      Y: -31005.1445
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -176.094254
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8203261167590208000
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26914.8887
-      Y: -29627.209
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 108.064827
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6845450023838092397
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26870.1621
-      Y: -28057.8711
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 38.3324471
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16156934155369226775
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 26850
-      Y: -26604.6895
-      Z: -0.100341797
-    }
-    Rotation {
-      Yaw: 36.1571045
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10134292251058282065
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 28809.6445
-      Y: -32980.5156
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 54.7685051
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17151645757929752717
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 28267.0273
-      Y: -32950
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -32.7073059
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2857645932772767899
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 29385.4375
-      Y: -31612.1035
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 123.292366
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15608929405399802835
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31432.6582
-      Y: -29800
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -97.8362427
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8071097284314571564
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 30496.0664
-      Y: -32997.9375
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 14.4584694
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10171269384132220414
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 32110.0898
-      Y: -30920.7129
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: -22.2150097
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12560111052901980264
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34813.5391
-      Y: -30910.6133
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: -124.259178
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6873331688147934909
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 35110.7578
-      Y: -33232.1914
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 133.652756
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15526753354490799103
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 31432.6582
-      Y: -33050.3
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -97.8362427
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3320950464034261927
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 32015.3789
-      Y: -37665.7852
-      Z: 25.0009727
-    }
-    Rotation {
-      Yaw: -170.09552
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18045770592868012538
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34856.0898
-      Y: -37544.8906
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: 168.425537
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10574822223238634867
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34688.3906
-      Y: -41163.3711
-      Z: 25.0009842
-    }
-    Rotation {
-      Yaw: -123.786751
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 371638534579745055
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 32033.168
-      Y: -41256.5078
-      Z: 25.0009766
-    }
-    Rotation {
-      Yaw: -172.534561
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3497097635799458463
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 32075.0918
-      Y: -42854.6602
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: -118.996559
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 498577730742990241
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 34703.0039
-      Y: -42908.9727
-      Z: 25.0009804
-    }
-    Rotation {
-      Yaw: -88.2338867
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4386453469647487416
-  Name: "Tree Birch 02"
-  Transform {
-    Location {
-      X: 40500
-      Y: -37850
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.25000048
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7989301038156286044
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9149425357509690702
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 39400
-      Y: -37199.4297
-    }
-    Rotation {
-      Yaw: -81.6748657
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4178654556361442117
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 40700
-      Y: -37400
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: 5.17472124
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1991635300595199255
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 40114.1719
-      Y: -37049.0078
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 93.4086075
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3875301849953154167
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 40386.8047
-      Y: -38930.6914
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 18.5454941
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6924383116077181073
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 40312.1563
-      Y: -39609.9
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -159.218735
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12420798697833431318
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 39330.0781
-      Y: -40794.2539
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 73.5666809
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 259586330000398230
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 43500
-      Y: -43483.4375
-      Z: 25
-    }
-    Rotation {
-      Yaw: -104.790833
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9385743804919419651
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38850
-      Y: -32250
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 100.879562
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18260122561085618811
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38296.4648
-      Y: -31834.877
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 140.849045
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3246872592774886060
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38309.3711
-      Y: -31137.3711
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 129.499771
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5847418756978694573
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38384.1328
-      Y: -30521.7559
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 3.81237364
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4380720895783271023
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38327.918
-      Y: -29995.0723
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 85.135643
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10490206083785666453
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 38318.3594
-      Y: -29450
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -147.199295
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9185245665853376321
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36450
-      Y: -32200
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 56.0099907
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1725428693150778871
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36933.4258
-      Y: -32111.3086
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 41.5405884
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16885379648551996408
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36946.2891
-      Y: -31588.6172
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -149.363693
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13710888031818805948
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36987.3086
-      Y: -31065.4844
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: 70.0289917
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1310178884308604
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36953.1484
-      Y: -30386.2344
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -64.4478
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 803897572800458491
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 36950
-      Y: -29700
-      Z: -0.100830078
-    }
-    Rotation {
-      Yaw: -176.028336
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 4660876044506959382
   Name: "Long Road"
   Transform {
     Location {
-      X: -1100
-      Y: -36800
+      X: -23350
+      Y: -30140
     }
     Rotation {
     }
@@ -86806,7 +87841,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 895514458800684232
   ChildIds: 8933340280250136705
   ChildIds: 2724280021662408745
@@ -90279,8 +91314,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 9290
-      Y: -36800
+      X: -12960
+      Y: -30140
     }
     Rotation {
     }
@@ -90290,7 +91325,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 13606757197475842149
   ChildIds: 18119987558922006506
   ChildIds: 3785206753148903948
@@ -93669,8 +94704,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 21280
-      Y: -36800
+      X: -970
+      Y: -30140
     }
     Rotation {
     }
@@ -93680,7 +94715,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 6138731717282720499
   ChildIds: 17389899879149836239
   ChildIds: 15372558896601636997
@@ -97104,8 +98139,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 45291.3828
-      Y: -36800
+      X: 23041.3828
+      Y: -30140
     }
     Rotation {
     }
@@ -97115,7 +98150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 3270356019702234093
   ChildIds: 2928619801640047855
   ChildIds: 4280973862119641887
@@ -100492,8 +101527,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: -48300
+      X: 770
+      Y: -41640
     }
     Rotation {
     }
@@ -100503,7 +101538,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 10864739084225863195
   ChildIds: 7826492042058811361
   ChildIds: 6255220442942204742
@@ -108754,8 +109789,8 @@ Objects {
   Name: "Longer Road with intersections"
   Transform {
     Location {
-      X: 23020
-      Y: -37750
+      X: 770
+      Y: -31090
     }
     Rotation {
     }
@@ -108765,7 +109800,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 6002286135649034497
   ChildIds: 10624866773277227178
   ChildIds: 7378941651184703057
@@ -117352,8 +118387,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 33390
-      Y: -36800
+      X: 11140
+      Y: -30140
     }
     Rotation {
     }
@@ -117363,7 +118398,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 15675377703194769480
   ChildIds: 4918429086429627022
   ChildIds: 11718792021225625433
@@ -120740,8 +121775,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 33400
-      Y: -15230
+      X: 11150
+      Y: -8570
     }
     Rotation {
     }
@@ -120751,7 +121786,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 3555762785130614469
   ChildIds: 14076347856378670743
   ChildIds: 9835824886295877056
@@ -124917,160 +125952,12 @@ Objects {
   }
 }
 Objects {
-  Id: 1481912824725753154
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 41000
-      Y: -33000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12192860851579812136
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 41000
-      Y: -33000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3611694254027188989
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: 42550
-      Y: -33000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12860203363867179632
-  Name: "Tree"
-  Transform {
-    Location {
-      X: 43150
-      Y: -17700
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Tree"
-  }
-}
-Objects {
   Id: 7240372760779874254
   Name: "Long Road"
   Transform {
     Location {
-      X: 45300
-      Y: 6330
+      X: 23050
+      Y: 12990
     }
     Rotation {
     }
@@ -125080,7 +125967,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 8748444599872355378
   ChildIds: 14676476575009263760
   ChildIds: 1187823473803171984
@@ -130502,8 +131389,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 45300
-      Y: 27930
+      X: 23050
+      Y: 34590
     }
     Rotation {
     }
@@ -130513,7 +131400,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 3253282347313838326
   ChildIds: 11465615092618320259
   ChildIds: 5365013624848553636
@@ -133073,8 +133960,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 21290
-      Y: 27930
+      X: -960
+      Y: 34590
     }
     Rotation {
     }
@@ -133084,7 +133971,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 12718804152944999711
   ChildIds: 16261302622089076535
   ChildIds: 15413574538255710992
@@ -134715,8 +135602,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: -1100
-      Y: 27930
+      X: -23350
+      Y: 34590
     }
     Rotation {
     }
@@ -134726,7 +135613,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 17641756161708536162
   ChildIds: 4279885806072325918
   ChildIds: 11891657073125255431
@@ -136303,8 +137190,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: -1100
-      Y: 6330
+      X: -23350
+      Y: 12990
     }
     Rotation {
     }
@@ -136314,7 +137201,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 13439275573892409428
   ChildIds: 7489188251952537536
   ChildIds: 4792028168977771490
@@ -139675,8 +140562,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 9300
-      Y: 27930
+      X: -12950
+      Y: 34590
     }
     Rotation {
     }
@@ -139686,7 +140573,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 15120641174459129991
   ChildIds: 16906206457515054953
   ChildIds: 6295761519301745841
@@ -141263,8 +142150,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 21290
-      Y: 6330
+      X: -960
+      Y: 12990
     }
     Rotation {
     }
@@ -141274,7 +142161,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 16805357109585879208
   ChildIds: 3249445093207567627
   ChildIds: 9089782643661394543
@@ -144635,8 +145522,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 9300
-      Y: 6330
+      X: -12950
+      Y: 12990
     }
     Rotation {
     }
@@ -144646,7 +145533,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 2107343186250602018
   ChildIds: 13487053899922595175
   ChildIds: 3598539423132509546
@@ -148007,8 +148894,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: 45300
-      Y: -15190
+      X: 23050
+      Y: -8530
     }
     Rotation {
     }
@@ -148018,7 +148905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 6855660112214845820
   ChildIds: 9991337050459765099
   ChildIds: 11417941414352796719
@@ -152329,8 +153216,8 @@ Objects {
   Name: "Long Road"
   Transform {
     Location {
-      X: -1100
-      Y: -15210
+      X: -23350
+      Y: -8550
     }
     Rotation {
     }
@@ -152340,7 +153227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 2473208361758221170
   ChildIds: 9709777958957537516
   ChildIds: 3105140694372987651
   ChildIds: 13843695300654587718
@@ -156673,1049 +157560,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Building Block"
-  }
-}
-Objects {
-  Id: 12274455069681072406
-  Name: "Merge"
-  Transform {
-    Location {
-      X: 33040
-      Y: -49220
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 13934104434717028056
-  ChildIds: 14281249842430266991
-  ChildIds: 17421952181396248298
-  ChildIds: 10027893098633252135
-  ChildIds: 9644524625833614100
-  ChildIds: 18143340113967626683
-  ChildIds: 18100017163253574499
-  ChildIds: 13095596165606186158
-  ChildIds: 13642366912995420555
-  ChildIds: 7171847658452651942
-  ChildIds: 3534938416775609844
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 3534938416775609844
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: -440
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7171847658452651942
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 1240
-      Y: 1160
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13642366912995420555
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: 1160
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13095596165606186158
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: 360
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18100017163253574499
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -1960
-      Y: 360
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18143340113967626683
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: 360
-      Z: 0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 2
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9644524625833614100
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 1240
-      Y: 1160
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10027893098633252135
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: -440
-      Z: -0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17421952181396248298
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: -1240
-      Z: -0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14281249842430266991
-  Name: "Road Sidewalk Lane Merge"
-  Transform {
-    Location {
-      X: 440
-      Y: -1240
-      Z: 0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: -1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2891332054519029206
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13934104434717028056
-  Name: "Road Sidewalk Lane Merge"
-  Transform {
-    Location {
-      X: -1160
-      Y: -1240
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12274455069681072406
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2891332054519029206
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2286727553696862096
-  Name: "Merge"
-  Transform {
-    Location {
-      X: 56480
-      Y: -41960
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 12601655386511751672
-  ChildIds: 2624179429001967675
-  ChildIds: 8370679468792853147
-  ChildIds: 13796594737415738672
-  ChildIds: 5784657040160131523
-  ChildIds: 2566843461327279478
-  ChildIds: 3799060858710346421
-  ChildIds: 3050576450807734812
-  ChildIds: 10701038406022346761
-  ChildIds: 11735427755393685903
-  ChildIds: 17394641953485224819
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 17394641953485224819
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: -440
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11735427755393685903
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 1240
-      Y: 1160
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10701038406022346761
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: 1160
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3050576450807734812
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: 440
-      Y: 360
-      Z: -0.00048828125
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Street_CenterStripe:id"
-      AssetReference {
-        Id: 9802724784644488365
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3799060858710346421
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -1960
-      Y: 360
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2566843461327279478
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: 360
-      Z: 0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 2
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5784657040160131523
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 1240
-      Y: 1160
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13796594737415738672
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: -440
-      Z: -0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8370679468792853147
-  Name: "Road Center"
-  Transform {
-    Location {
-      X: -360
-      Y: -1240
-      Z: -0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6189828773244592854
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2624179429001967675
-  Name: "Road Sidewalk Lane Merge"
-  Transform {
-    Location {
-      X: 440
-      Y: -1240
-      Z: 0.0009765625
-    }
-    Rotation {
-      Yaw: 89.9999771
-    }
-    Scale {
-      X: 1
-      Y: -1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2891332054519029206
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12601655386511751672
-  Name: "Road Sidewalk Lane Merge"
-  Transform {
-    Location {
-      X: -1160
-      Y: -1240
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2286727553696862096
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2891332054519029206
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
   }
 }
 Objects {
