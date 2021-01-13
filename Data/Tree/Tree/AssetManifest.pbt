@@ -16,12 +16,3 @@ Assets {
     AssetId: "sm_tree_oak_001"
   }
 }
-Assets {
-  Id: 3181961447601484337
-  Name: "Tree Birch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_birch_001"
-  }
-}

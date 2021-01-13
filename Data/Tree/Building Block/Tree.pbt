@@ -130,7 +130,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -33690
+      X: -34570
       Y: 64930
       Z: -920.000244
     }
@@ -171,7 +171,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34540
+      X: -35420
       Y: 69580
       Z: -920
     }
@@ -212,7 +212,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -35340
+      X: -36220
       Y: 67830
       Z: -920.000244
     }
@@ -253,7 +253,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34790
+      X: -35670
       Y: 66780
       Z: -920
     }
@@ -294,7 +294,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -33140
+      X: -34020
       Y: 64530
       Z: -920
     }
@@ -335,7 +335,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34340
+      X: -35220
       Y: 65630
       Z: -920
     }
@@ -581,7 +581,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34190
+      X: -35070
       Y: 59580
       Z: -920
     }
@@ -622,7 +622,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -35240
+      X: -36120
       Y: 58580
       Z: -920
     }
@@ -663,7 +663,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34340
+      X: -35220
       Y: 57980
       Z: -920
     }
@@ -704,7 +704,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -33290
+      X: -34170
       Y: 53430
       Z: -920
     }
@@ -745,7 +745,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34340
+      X: -35220
       Y: 55880
       Z: -920
     }
@@ -786,9 +786,9 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34840
+      X: -35720
       Y: 55030
-      Z: -915.600464
+      Z: -900
     }
     Rotation {
     }
@@ -827,9 +827,9 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -35040
+      X: -35920
       Y: 53680
-      Z: -920
+      Z: -918.600586
     }
     Rotation {
     }
@@ -1439,14 +1439,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 5260
+      X: 5080
       Y: 24380
       Z: 686.024536
     }
     Rotation {
     }
     Scale {
-      X: 22
+      X: 25.7499981
       Y: 39
       Z: 3
     }
@@ -1521,14 +1521,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 4610
+      X: 4430
       Y: 24380
       Z: -15.6004639
     }
     Rotation {
     }
     Scale {
-      X: 35
+      X: 40.9658966
       Y: 39
       Z: 7
     }
@@ -2670,14 +2670,14 @@ Objects {
   Transform {
     Location {
       X: -7500
-      Y: 35274.7734
+      Y: 35630
       Z: -915.600464
     }
     Rotation {
     }
     Scale {
       X: 34
-      Y: 43
+      Y: 36
       Z: 32
     }
   }
@@ -3789,14 +3789,14 @@ Objects {
   Transform {
     Location {
       X: -700
-      Y: -20
+      Y: -310
       Z: -0.0009765625
     }
     Rotation {
     }
     Scale {
       X: 8.5
-      Y: 30
+      Y: 31.4999981
       Z: 15
     }
   }
@@ -3830,14 +3830,14 @@ Objects {
   Transform {
     Location {
       X: 700
-      Y: -20
+      Y: -310
       Z: -0.0009765625
     }
     Rotation {
     }
     Scale {
       X: 78
-      Y: 30
+      Y: 31.4999981
       Z: 10
     }
   }
