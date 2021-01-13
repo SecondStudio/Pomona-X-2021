@@ -1,12 +1,137 @@
 ﻿Name: "Building Block"
 RootId: 14835481811407554636
 Objects {
+  Id: 17998946046150637006
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -35550
+      Y: 25490
+      Z: -915.600464
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 30
+      Y: 12.7500019
+      Z: 8
+    }
+  }
+  ParentId: 14835481811407554636
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17609149353171719671
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6310970781616910469
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -34660
+      Y: 25320
+      Z: -915.600708
+    }
+    Rotation {
+      Yaw: -55
+    }
+    Scale {
+      X: 30
+      Y: 15.5
+      Z: 8
+    }
+  }
+  ParentId: 14835481811407554636
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17609149353171719671
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1862896000003148269
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -35530
+      Y: 5050
+      Z: -915.600464
+    }
+    Rotation {
+    }
+    Scale {
+      X: 22
+      Y: 35
+      Z: 12
+    }
+  }
+  ParentId: 14835481811407554636
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17609149353171719671
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 11856258055195623220
   Name: "Cube"
   Transform {
     Location {
       X: -33690
-      Y: 64580
+      Y: 64930
       Z: -920.000244
     }
     Rotation {
@@ -47,7 +172,7 @@ Objects {
   Transform {
     Location {
       X: -34540
-      Y: 69230
+      Y: 69580
       Z: -920
     }
     Rotation {
@@ -88,7 +213,7 @@ Objects {
   Transform {
     Location {
       X: -35340
-      Y: 67480
+      Y: 67830
       Z: -920.000244
     }
     Rotation {
@@ -129,7 +254,7 @@ Objects {
   Transform {
     Location {
       X: -34790
-      Y: 66430
+      Y: 66780
       Z: -920
     }
     Rotation {
@@ -170,7 +295,7 @@ Objects {
   Transform {
     Location {
       X: -33140
-      Y: 64180
+      Y: 64530
       Z: -920
     }
     Rotation {
@@ -211,7 +336,7 @@ Objects {
   Transform {
     Location {
       X: -34340
-      Y: 65280
+      Y: 65630
       Z: -920
     }
     Rotation {
@@ -293,7 +418,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 45880
+      Y: 45830
       Z: -314.098755
     }
     Rotation {
@@ -334,7 +459,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 48880
+      Y: 48830
       Z: -915.600464
     }
     Rotation {
@@ -375,7 +500,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 46180
+      Y: 46130
       Z: -915.600464
     }
     Rotation {
@@ -416,7 +541,7 @@ Objects {
   Transform {
     Location {
       X: -31400
-      Y: 57280
+      Y: 57430
       Z: -920
     }
     Rotation {
@@ -457,7 +582,7 @@ Objects {
   Transform {
     Location {
       X: -34190
-      Y: 59430
+      Y: 59580
       Z: -920
     }
     Rotation {
@@ -498,7 +623,7 @@ Objects {
   Transform {
     Location {
       X: -35240
-      Y: 58430
+      Y: 58580
       Z: -920
     }
     Rotation {
@@ -539,7 +664,7 @@ Objects {
   Transform {
     Location {
       X: -34340
-      Y: 57830
+      Y: 57980
       Z: -920
     }
     Rotation {
@@ -580,7 +705,7 @@ Objects {
   Transform {
     Location {
       X: -33290
-      Y: 53280
+      Y: 53430
       Z: -920
     }
     Rotation {
@@ -621,7 +746,7 @@ Objects {
   Transform {
     Location {
       X: -34340
-      Y: 55680
+      Y: 55880
       Z: -920
     }
     Rotation {
@@ -662,7 +787,7 @@ Objects {
   Transform {
     Location {
       X: -34840
-      Y: 54830
+      Y: 55030
       Z: -915.600464
     }
     Rotation {
@@ -703,7 +828,7 @@ Objects {
   Transform {
     Location {
       X: -35040
-      Y: 53480
+      Y: 53680
       Z: -920
     }
     Rotation {
@@ -744,7 +869,7 @@ Objects {
   Transform {
     Location {
       X: -20190
-      Y: 46480
+      Y: 46530
       Z: -915.600464
     }
     Rotation {
@@ -792,7 +917,7 @@ Objects {
     }
     Scale {
       X: 27
-      Y: 24
+      Y: 23.0000019
       Z: 8
     }
   }
@@ -826,7 +951,7 @@ Objects {
   Transform {
     Location {
       X: -31400
-      Y: 47130
+      Y: 47180
       Z: -920
     }
     Rotation {
@@ -834,7 +959,7 @@ Objects {
     Scale {
       X: 29
       Y: 46
-      Z: 18
+      Z: 15
     }
   }
   ParentId: 14835481811407554636
@@ -1060,7 +1185,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -8840
+      X: -9670
       Y: 44980
       Z: -915.600464
     }
@@ -1102,7 +1227,7 @@ Objects {
   Transform {
     Location {
       X: -7440
-      Y: 46880
+      Y: 46830
       Z: -915.600464
     }
     Rotation {
@@ -1143,7 +1268,7 @@ Objects {
   Transform {
     Location {
       X: -7440
-      Y: 48580
+      Y: 48530
       Z: -915.600464
     }
     Rotation {
@@ -1183,7 +1308,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -9140
+      X: -9970
       Y: 43430
       Z: -915.600464
     }
@@ -1224,7 +1349,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -10590
+      X: -11420
       Y: 43780
       Z: -915.600464
     }
@@ -1356,7 +1481,7 @@ Objects {
   Transform {
     Location {
       X: 11310
-      Y: 23280
+      Y: 23380
       Z: 686.15155
     }
     Rotation {
@@ -1397,7 +1522,7 @@ Objects {
   Transform {
     Location {
       X: 4610
-      Y: 24230
+      Y: 24380
       Z: -15.6004639
     }
     Rotation {
@@ -1438,14 +1563,14 @@ Objects {
   Transform {
     Location {
       X: 12360
-      Y: 22580
-      Z: -15.6004639
+      Y: 22830
+      Z: -20
     }
     Rotation {
     }
     Scale {
       X: 37
-      Y: 73
+      Y: 70.25
       Z: 7
     }
   }
@@ -1479,7 +1604,7 @@ Objects {
   Transform {
     Location {
       X: 12210
-      Y: 15180
+      Y: 15330
       Z: -15.6004639
     }
     Rotation {
@@ -1520,7 +1645,7 @@ Objects {
   Transform {
     Location {
       X: 12210
-      Y: 14250
+      Y: 14400
       Z: -15.6004639
     }
     Rotation {
@@ -1561,7 +1686,7 @@ Objects {
   Transform {
     Location {
       X: 11360
-      Y: 13330
+      Y: 13480
       Z: -15.6004639
     }
     Rotation {
@@ -1602,7 +1727,7 @@ Objects {
   Transform {
     Location {
       X: 12210
-      Y: 12380
+      Y: 12530
       Z: -15.6004639
     }
     Rotation {
@@ -1643,7 +1768,7 @@ Objects {
   Transform {
     Location {
       X: 12210
-      Y: 8830
+      Y: 8980
       Z: -15.6004639
     }
     Rotation {
@@ -1684,7 +1809,7 @@ Objects {
   Transform {
     Location {
       X: 11460
-      Y: 10780
+      Y: 10930
       Z: -15.6004639
     }
     Rotation {
@@ -1724,8 +1849,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 660
-      Y: 11780
+      X: -10
+      Y: 11980
       Z: -15.6004639
     }
     Rotation {
@@ -1766,7 +1891,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 8930
+      Y: 9080
       Z: -15.6004639
     }
     Rotation {
@@ -1807,7 +1932,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 10600
+      Y: 10750
       Z: -15.6004639
     }
     Rotation {
@@ -1848,7 +1973,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 11580
+      Y: 11730
       Z: -15.6004639
     }
     Rotation {
@@ -1889,7 +2014,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 12180
+      Y: 12330
       Z: -15.6004639
     }
     Rotation {
@@ -1930,7 +2055,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 13330
+      Y: 13480
       Z: -15.6004639
     }
     Rotation {
@@ -1971,7 +2096,7 @@ Objects {
   Transform {
     Location {
       X: 4710
-      Y: 14880
+      Y: 15030
       Z: -15.6004639
     }
     Rotation {
@@ -2011,7 +2136,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 360
+      X: -470
       Y: -820
       Z: 585.901245
     }
@@ -2052,7 +2177,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -140
+      X: -970
       Y: 80
       Z: 580
     }
@@ -2093,7 +2218,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -150
+      X: -980
       Y: -1720
       Z: 580
     }
@@ -2134,7 +2259,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -150
+      X: -980
       Y: -820
       Z: -15.6004639
     }
@@ -2184,7 +2309,7 @@ Objects {
     Scale {
       X: 30
       Y: 21
-      Z: 24
+      Z: 18
     }
   }
   ParentId: 14835481811407554636
@@ -2225,7 +2350,7 @@ Objects {
     Scale {
       X: 23
       Y: 50
-      Z: 24
+      Z: 18
     }
   }
   ParentId: 14835481811407554636
@@ -2257,7 +2382,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34700
+      X: -34690
       Y: 25300
       Z: -915.600464
     }
@@ -2421,15 +2546,15 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -11690
-      Y: 27300
+      X: -12390
+      Y: 27190
       Z: -915.600464
     }
     Rotation {
     }
     Scale {
       X: 33
-      Y: 20
+      Y: 18.75
       Z: 20
     }
   }
@@ -2462,7 +2587,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -11700
+      X: -12400
       Y: 25000
       Z: -915.600464
     }
@@ -2503,7 +2628,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -11700
+      X: -12400
       Y: 22200
       Z: -915.600464
     }
@@ -2586,14 +2711,14 @@ Objects {
   Transform {
     Location {
       X: -7500
-      Y: 27300
+      Y: 27270
       Z: -915.600464
     }
     Rotation {
     }
     Scale {
       X: 33
-      Y: 18
+      Y: 17
       Z: 8
     }
   }
@@ -2995,7 +3120,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34700
+      X: -35590
       Y: 16500
       Z: -915.600464
     }
@@ -3036,7 +3161,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -35500
+      X: -36190
       Y: 14250
       Z: -915.600464
     }
@@ -3077,8 +3202,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34800
-      Y: 11700
+      X: -35520
+      Y: 12580
       Z: -915.600464
     }
     Rotation {
@@ -3118,14 +3243,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -34800
-      Y: 9580.11719
+      X: -35480
+      Y: 10630
       Z: -915.600464
     }
     Rotation {
     }
     Scale {
-      X: 27
+      X: 26.5
       Y: 18
       Z: 5
     }
@@ -3159,7 +3284,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -35200
+      X: -35530
       Y: 5050
       Z: -915.600464
     }
@@ -3202,7 +3327,7 @@ Objects {
     Location {
       X: -31350
       Y: 4100
-      Z: -915.600464
+      Z: -915.499878
     }
     Rotation {
     }
@@ -3399,7 +3524,7 @@ Objects {
   Transform {
     Location {
       X: 5590
-      Y: -4860
+      Y: -4330
     }
     Rotation {
     }
@@ -3439,7 +3564,7 @@ Objects {
   Transform {
     Location {
       X: 4800
-      Y: -4170
+      Y: -3640
     }
     Rotation {
     }
@@ -3479,7 +3604,7 @@ Objects {
   Transform {
     Location {
       X: 3480
-      Y: -3750
+      Y: -3220
     }
     Rotation {
     }
@@ -3559,7 +3684,7 @@ Objects {
   Transform {
     Location {
       X: 295
-      Y: -3750
+      Y: -3620
     }
     Rotation {
     }
@@ -4116,7 +4241,7 @@ Objects {
     Scale {
       X: 42
       Y: 38
-      Z: 50
+      Z: 42
     }
   }
   ParentId: 14835481811407554636
