@@ -16497,6 +16497,10 @@ Objects {
   ChildIds: 914922217962237037
   ChildIds: 8614456631120558554
   ChildIds: 17826305597794438264
+  ChildIds: 6798861547078353095
+  ChildIds: 15695662624224152512
+  ChildIds: 17539148746021197476
+  ChildIds: 17869008749165513588
   ChildIds: 16612432327318506519
   ChildIds: 3688381345553104394
   ChildIds: 7420147353839037365
@@ -17043,7 +17047,7 @@ Objects {
   Transform {
     Location {
       X: 11150
-      Y: 34590
+      Y: 34580
     }
     Rotation {
     }
@@ -22024,6 +22028,198 @@ Objects {
   }
 }
 Objects {
+  Id: 17869008749165513588
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 11950
+      Y: 16180
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: -89.999855
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 17539148746021197476
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 11950
+      Y: 15380
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: -89.999855
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 15695662624224152512
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 11950
+      Y: 14579.999
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: -89.999855
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
+  Id: 6798861547078353095
+  Name: "Road Sidewalk"
+  Transform {
+    Location {
+      X: 11950
+      Y: 13779.9893
+      Z: 0.0009765625
+    }
+    Rotation {
+      Yaw: -89.999855
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2473208361758221170
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6663102682384812978
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7860770158743718137
+    SubobjectId: 7899259558940172667
+    InstanceId: 15264363256606154360
+    TemplateId: 15282497491495583794
+  }
+}
+Objects {
   Id: 17826305597794438264
   Name: "Long Road"
   Transform {
@@ -22070,7 +22266,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 4400
+      Y: 4390
       Z: 0.0009765625
     }
     Rotation {
@@ -22087,10 +22283,6 @@ Objects {
   ChildIds: 4095120102470028191
   ChildIds: 15383890865240218844
   ChildIds: 13963931453028292717
-  ChildIds: 17869008749165513588
-  ChildIds: 17539148746021197476
-  ChildIds: 15695662624224152512
-  ChildIds: 6798861547078353095
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -22099,194 +22291,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 6798861547078353095
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -3610.01025
-      Y: -800.002686
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17582114030656745542
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 15695662624224152512
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -2810.00024
-      Y: -800.001953
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17582114030656745542
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 17539148746021197476
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -2009.99951
-      Y: -800.001343
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17582114030656745542
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 17869008749165513588
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -1209.99951
-      Y: -800.000854
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17582114030656745542
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
   }
 }
 Objects {
@@ -22484,7 +22488,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6800
+      Y: 6790
       Z: 0.0009765625
     }
     Rotation {
@@ -22706,7 +22710,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 9200
+      Y: 9190
       Z: 0.0009765625
     }
     Rotation {
@@ -22928,7 +22932,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 8400
+      Y: 8390
       Z: 0.0009765625
     }
     Rotation {
@@ -23150,7 +23154,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 7600
+      Y: 7590
       Z: 0.0009765625
     }
     Rotation {
@@ -23372,7 +23376,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 10000
+      Y: 9990
       Z: 0.0009765625
     }
     Rotation {
@@ -23594,7 +23598,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6000
+      Y: 5990
       Z: 0.0009765625
     }
     Rotation {
@@ -23816,7 +23820,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 5200
+      Y: 5190
       Z: 0.0009765625
     }
     Rotation {
@@ -23848,8 +23852,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 399.999573
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -23895,7 +23899,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 400.000031
+      Y: 0.000274658203
     }
     Rotation {
       Yaw: -179.999954
@@ -23947,7 +23952,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -400.000031
+      Y: -0.000274658203
     }
     Rotation {
     }
@@ -23992,8 +23998,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -399.999573
+      Y: 799.999756
     }
     Rotation {
     }
@@ -24042,7 +24048,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -24264,7 +24270,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -24486,7 +24492,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999619
     }
     Scale {
       X: 1
@@ -24708,7 +24714,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 89.9999542
     }
     Scale {
       X: 1
@@ -24930,7 +24936,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999619
     }
     Scale {
       X: 1
@@ -25152,7 +25158,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999847
+      Yaw: 89.9999619
     }
     Scale {
       X: 1
@@ -25374,7 +25380,7 @@ Objects {
       Z: 0.0009765625
     }
     Rotation {
-      Yaw: 89.9999924
+      Yaw: 89.9999771
     }
     Scale {
       X: 1
@@ -78615,7 +78621,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 10380
-            Y: 2700
+            Y: 2720
           }
         }
         Overrides {
@@ -87872,6 +87878,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -6000
       Z: 0.0009765625
     }
@@ -89874,6 +89881,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -1200
       Z: 0.0009765625
     }
@@ -90148,8 +90156,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400.000366
-      Y: 799.999817
+      X: -400.000427
+      Y: 790
     }
     Rotation {
     }
@@ -90194,6 +90202,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -2000
       Z: 0.0009765625
     }
@@ -90372,8 +90381,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -400.000427
+      Y: 790
     }
     Rotation {
     }
@@ -90418,6 +90427,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -2800
       Z: 0.0009765625
     }
@@ -90596,8 +90606,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -400.000305
+      Y: 790
     }
     Rotation {
     }
@@ -90642,6 +90652,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -3600
       Z: 0.0009765625
     }
@@ -90866,6 +90877,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -4400
       Z: 0.0009765625
     }
@@ -91090,6 +91102,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: -10
       Y: -5200
       Z: 0.0009765625
     }
@@ -91580,6 +91593,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6800
       Z: 0.0009765625
     }
@@ -91802,6 +91816,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 9200
       Z: 0.0009765625
     }
@@ -92024,6 +92039,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 8400
       Z: 0.0009765625
     }
@@ -92246,6 +92262,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 7600
       Z: 0.0009765625
     }
@@ -92468,6 +92485,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 10000
       Z: 0.0009765625
     }
@@ -92690,6 +92708,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6000
       Z: 0.0009765625
     }
@@ -92912,6 +92931,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 5200
       Z: 0.0009765625
     }
@@ -93134,6 +93154,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 4400
       Z: 0.0009765625
     }
@@ -93760,8 +93781,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -400.000427
+      Y: 790
     }
     Rotation {
     }
@@ -94434,8 +94455,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -400.000305
+      Y: 790
     }
     Rotation {
     }
@@ -94970,6 +94991,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6800
       Z: 0.0009765625
     }
@@ -95192,6 +95214,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 9200
       Z: 0.0009765625
     }
@@ -95414,6 +95437,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 8400
       Z: 0.0009765625
     }
@@ -95636,6 +95660,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 7600
       Z: 0.0009765625
     }
@@ -95858,6 +95883,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 10000
       Z: 0.0009765625
     }
@@ -96080,6 +96106,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6000
       Z: 0.0009765625
     }
@@ -96302,6 +96329,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 5200
       Z: 0.0009765625
     }
@@ -96524,6 +96552,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 4400
       Z: 0.0009765625
     }
@@ -118653,6 +118682,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6800
       Z: 0.0009765625
     }
@@ -118875,6 +118905,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 9200
       Z: 0.0009765625
     }
@@ -119097,6 +119128,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 8400
       Z: 0.0009765625
     }
@@ -119319,6 +119351,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 7600
       Z: 0.0009765625
     }
@@ -119541,6 +119574,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 10000
       Z: 0.0009765625
     }
@@ -119763,6 +119797,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 6000
       Z: 0.0009765625
     }
@@ -119985,6 +120020,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 5200
       Z: 0.0009765625
     }
@@ -120207,6 +120243,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
+      X: 10
       Y: 4400
       Z: 0.0009765625
     }
@@ -126263,6 +126300,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
+      X: 9.99999905
     }
     Rotation {
       Yaw: 1.36603776e-05
@@ -126308,8 +126346,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -1600.00793
-      Y: -0.00109863281
+      X: -1590.00769
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -126355,8 +126392,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 3200.00024
-      Y: 0.00219726563
+      X: 3209.99976
+      Y: 0.00390625
     }
     Rotation {
     }
@@ -126401,8 +126438,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -800.000061
-      Y: -0.000549316406
+      X: -789.999878
+      Y: 6.10351563e-05
     }
     Rotation {
       Yaw: 1.36603776e-05
@@ -126448,8 +126485,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 800.000061
-      Y: 0.000549316406
+      X: 809.999878
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -126494,8 +126531,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 2400
-      Y: 0.00170898438
+      X: 2409.99976
     }
     Rotation {
     }
@@ -126540,8 +126576,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 1600.00012
-      Y: 0.00109863281
+      X: 1609.99976
     }
     Rotation {
       Yaw: 1.36603776e-05
@@ -127957,6 +127992,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
+      X: -10.000001
+      Y: -6.67572e-06
     }
     Rotation {
       Yaw: 1.36603776e-05
@@ -128002,8 +128039,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -1600.00793
-      Y: -0.00109863281
+      X: -1610.00781
+      Y: -0.00122070313
     }
     Rotation {
       Yaw: 2.39056608e-05
@@ -128049,7 +128086,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 3200.00024
+      X: 3190.00024
       Y: 0.00219726563
     }
     Rotation {
@@ -128095,7 +128132,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -800.000061
+      X: -810.000061
       Y: -0.000549316406
     }
     Rotation {
@@ -128142,8 +128179,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 800.000061
-      Y: 0.000549316406
+      X: 790
+      Y: 0.000610351563
     }
     Rotation {
     }
@@ -128188,7 +128225,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 2400
+      X: 2390.00024
       Y: 0.00170898438
     }
     Rotation {
@@ -128234,7 +128271,7 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 1600.00012
+      X: 1590.00012
       Y: 0.00109863281
     }
     Rotation {
@@ -131499,7 +131536,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 5190
+      X: 5180
       Y: 0.00244140625
     }
     Rotation {
@@ -131545,8 +131582,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 5989.99951
-      Y: 0.00341796875
+      X: 5980
+      Y: 0.0029296875
     }
     Rotation {
       Yaw: -179.999924
@@ -131598,7 +131635,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 4390
+      X: 4380
       Y: 0.00244140625
     }
     Rotation {
@@ -131644,7 +131681,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 5190
+      X: 5180
       Y: 0.00244140625
     }
     Rotation {
@@ -131697,7 +131734,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 3590
+      X: 3580
       Y: 0.001953125
     }
     Rotation {
@@ -131743,7 +131780,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 4390
+      X: 4380
       Y: 0.00244140625
     }
     Rotation {
@@ -131796,7 +131833,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 2800
+      X: 2790
       Y: 0.00146484375
     }
     Rotation {
@@ -131842,7 +131879,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 3600
+      X: 3590
       Y: 0.001953125
     }
     Rotation {
@@ -131895,7 +131932,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 1999.99988
+      X: 1989.99988
       Y: 0.00109863281
     }
     Rotation {
@@ -131941,7 +131978,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 2800
+      X: 2790
       Y: 0.00146484375
     }
     Rotation {
@@ -131994,7 +132031,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 1199.99988
+      X: 1190
       Y: 0.000610351563
     }
     Rotation {
@@ -132040,7 +132077,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 1999.99988
+      X: 1989.99988
       Y: 0.00109863281
     }
     Rotation {
@@ -132093,8 +132130,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
-      Y: 0.000183105469
+      X: 390
+      Y: 0.000213623047
     }
     Rotation {
     }
@@ -132139,7 +132176,7 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 1199.99988
+      X: 1190
       Y: 0.000610351563
     }
     Rotation {
@@ -132192,8 +132229,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000366
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -132239,7 +132276,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000213623047
     }
     Rotation {
       Yaw: -179.999954
@@ -132291,7 +132329,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -409.999969
+      Y: -0.000244140625
     }
     Rotation {
     }
@@ -132336,8 +132375,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000366
+      Y: 799.999756
     }
     Rotation {
     }
@@ -132414,8 +132453,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000366
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -132461,7 +132500,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000213623047
     }
     Rotation {
       Yaw: -179.999954
@@ -132513,7 +132553,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -409.999969
+      Y: -0.000244140625
     }
     Rotation {
     }
@@ -132558,8 +132599,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000366
+      Y: 799.999756
     }
     Rotation {
     }
@@ -132636,8 +132677,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000305
+      Y: -799.999817
     }
     Rotation {
       Yaw: -179.999802
@@ -132683,7 +132724,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000122070313
     }
     Rotation {
       Yaw: -179.999954
@@ -132735,7 +132777,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -410
+      Y: -0.000152587891
     }
     Rotation {
     }
@@ -132780,8 +132823,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000305
+      Y: 799.999756
     }
     Rotation {
     }
@@ -132859,8 +132902,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
-      Y: 0.000183105469
+      X: 390
+      Y: 0.000213623047
     }
     Rotation {
       Yaw: -179.999939
@@ -132912,8 +132955,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000366
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -132959,7 +133002,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000213623047
     }
     Rotation {
       Yaw: -179.999954
@@ -133011,7 +133055,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -409.999969
+      Y: -0.000244140625
     }
     Rotation {
     }
@@ -133056,8 +133101,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000366
+      Y: 799.999756
     }
     Rotation {
     }
@@ -133134,8 +133179,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000305
+      Y: -799.999817
     }
     Rotation {
       Yaw: -179.999802
@@ -133181,7 +133226,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000122070313
     }
     Rotation {
       Yaw: -179.999954
@@ -133233,7 +133279,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -410
+      Y: -0.000152587891
     }
     Rotation {
     }
@@ -133278,8 +133325,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000305
+      Y: 799.999756
     }
     Rotation {
     }
@@ -133356,8 +133403,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000305
+      Y: -799.999817
     }
     Rotation {
       Yaw: -179.999802
@@ -133403,7 +133450,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 390
+      Y: 0.000122070313
     }
     Rotation {
       Yaw: -179.999954
@@ -133455,7 +133503,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -410
+      Y: -0.000152587891
     }
     Rotation {
     }
@@ -133500,8 +133549,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000305
+      Y: 799.999756
     }
     Rotation {
     }
@@ -133770,8 +133819,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 390.000183
+      Y: -799.999878
     }
     Rotation {
       Yaw: -179.999802
@@ -133817,7 +133866,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 389.999969
+      Y: 9.15527344e-05
     }
     Rotation {
       Yaw: -179.999954
@@ -133869,7 +133919,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -410
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -133914,8 +133965,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -410.000183
+      Y: 799.999878
     }
     Rotation {
     }
@@ -133994,7 +134045,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -1200
+      Y: -1210
       Z: 0.0009765625
     }
     Rotation {
@@ -134216,7 +134267,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -2000
+      Y: -2010
       Z: 0.0009765625
     }
     Rotation {
@@ -134438,7 +134489,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -2800
+      Y: -2810
       Z: 0.0009765625
     }
     Rotation {
@@ -134660,7 +134711,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -3600
+      Y: -3610
       Z: 0.0009765625
     }
     Rotation {
@@ -134936,7 +134987,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -4400
+      Y: -4410
       Z: 0.0009765625
     }
     Rotation {
@@ -134968,8 +135019,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 400.000305
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -135015,7 +135066,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 399.999969
+      Y: 0.000152587891
     }
     Rotation {
       Yaw: -179.999954
@@ -135067,7 +135119,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -399.999969
+      Y: -0.000152587891
     }
     Rotation {
     }
@@ -135112,8 +135165,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -400.000305
+      Y: 799.999756
     }
     Rotation {
     }
@@ -135158,7 +135211,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -5200
+      Y: -5210
       Z: 0.0009765625
     }
     Rotation {
@@ -135380,7 +135433,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: -6000
+      Y: -6010
       Z: 0.0009765625
     }
     Rotation {
@@ -135603,7 +135656,7 @@ Objects {
   Transform {
     Location {
       X: -23350
-      Y: 34590
+      Y: 34580
     }
     Rotation {
     }
@@ -137232,7 +137285,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 4400
+      Y: 4390
       Z: 0.0009765625
     }
     Rotation {
@@ -137454,7 +137507,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6800
+      Y: 6790
       Z: 0.0009765625
     }
     Rotation {
@@ -137676,7 +137729,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 9200
+      Y: 9190
       Z: 0.0009765625
     }
     Rotation {
@@ -137898,7 +137951,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 8400
+      Y: 8390
       Z: 0.0009765625
     }
     Rotation {
@@ -138120,7 +138173,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 7600
+      Y: 7590
       Z: 0.0009765625
     }
     Rotation {
@@ -138342,7 +138395,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 10000
+      Y: 9990
       Z: 0.0009765625
     }
     Rotation {
@@ -138564,7 +138617,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6000
+      Y: 5990
       Z: 0.0009765625
     }
     Rotation {
@@ -138786,7 +138839,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 5200
+      Y: 5190
       Z: 0.0009765625
     }
     Rotation {
@@ -140563,7 +140616,7 @@ Objects {
   Transform {
     Location {
       X: -12950
-      Y: 34590
+      Y: 34580
     }
     Rotation {
     }
@@ -142192,7 +142245,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 4400
+      Y: 4390
       Z: 0.0009765625
     }
     Rotation {
@@ -142414,7 +142467,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6800
+      Y: 6790
       Z: 0.0009765625
     }
     Rotation {
@@ -142636,7 +142689,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 9200
+      Y: 9190
       Z: 0.0009765625
     }
     Rotation {
@@ -142858,7 +142911,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 8400
+      Y: 8390
       Z: 0.0009765625
     }
     Rotation {
@@ -143080,7 +143133,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 7600
+      Y: 7590
       Z: 0.0009765625
     }
     Rotation {
@@ -143302,7 +143355,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 10000
+      Y: 9990
       Z: 0.0009765625
     }
     Rotation {
@@ -143524,7 +143577,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6000
+      Y: 5990
       Z: 0.0009765625
     }
     Rotation {
@@ -143746,7 +143799,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 5200
+      Y: 5190
       Z: 0.0009765625
     }
     Rotation {
@@ -145564,7 +145617,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 4400
+      Y: 4390
       Z: 0.0009765625
     }
     Rotation {
@@ -145786,7 +145839,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6800
+      Y: 6790
       Z: 0.0009765625
     }
     Rotation {
@@ -146008,7 +146061,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 9200
+      Y: 9190
       Z: 0.0009765625
     }
     Rotation {
@@ -146230,7 +146283,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 8400
+      Y: 8390
       Z: 0.0009765625
     }
     Rotation {
@@ -146452,7 +146505,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 7600
+      Y: 7590
       Z: 0.0009765625
     }
     Rotation {
@@ -146674,7 +146727,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 10000
+      Y: 9990
       Z: 0.0009765625
     }
     Rotation {
@@ -146896,7 +146949,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 6000
+      Y: 5990
       Z: 0.0009765625
     }
     Rotation {
@@ -147118,7 +147171,7 @@ Objects {
   Name: "8ft 2 Lane Road Section"
   Transform {
     Location {
-      Y: 5200
+      Y: 5190
       Z: 0.0009765625
     }
     Rotation {
@@ -147150,8 +147203,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: 400
-      Y: -800
+      X: 399.999573
+      Y: -799.999756
     }
     Rotation {
       Yaw: -179.999802
@@ -147197,7 +147250,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: 400
+      X: 400.000031
+      Y: 0.000274658203
     }
     Rotation {
       Yaw: -179.999954
@@ -147249,7 +147303,8 @@ Objects {
   Name: "Road Center"
   Transform {
     Location {
-      X: -400
+      X: -400.000031
+      Y: -0.000274658203
     }
     Rotation {
     }
@@ -147294,8 +147349,8 @@ Objects {
   Name: "Road Sidewalk"
   Transform {
     Location {
-      X: -400
-      Y: 800
+      X: -399.999573
+      Y: 799.999756
     }
     Rotation {
     }
@@ -148895,7 +148950,7 @@ Objects {
   Transform {
     Location {
       X: 23050
-      Y: -8530
+      Y: -8560
     }
     Rotation {
     }
