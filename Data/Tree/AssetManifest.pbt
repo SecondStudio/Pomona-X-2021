@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10919447316125100644
+  Name: "Arch Fancy 3m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_fancy_3m_001"
+  }
+}
+Assets {
   Id: 9802724784644488365
   Name: "Asphalt 01"
   PlatformAssetType: 2
