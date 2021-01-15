@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8858734504825672109
+  Name: "Arch"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_001"
+  }
+}
+Assets {
   Id: 7989301038156286044
   Name: "Tree Birch 02"
   PlatformAssetType: 1
