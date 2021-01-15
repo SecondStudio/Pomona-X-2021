@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11927306639243232151
+  Name: "Ball"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_001"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
