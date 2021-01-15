@@ -22,16 +22,16 @@ Objects {
   ChildIds: 14835481811407554636
   ChildIds: 2473208361758221170
   ChildIds: 13783961890553516720
-  ChildIds: 8832420954817625253
-  ChildIds: 12593107599977594658
-  ChildIds: 13973219134159918956
-  ChildIds: 7559493873066711397
-  ChildIds: 4237465910443490895
-  ChildIds: 8380142861924668798
-  ChildIds: 17020111121007705832
-  ChildIds: 17571701882559003640
-  ChildIds: 15109907169008857986
-  ChildIds: 9902913566652867063
+  ChildIds: 8211092915212000534
+  ChildIds: 7591905902543824393
+  ChildIds: 17667407003423772853
+  ChildIds: 8731260326964847150
+  ChildIds: 15656321078838187758
+  ChildIds: 1384007203342997044
+  ChildIds: 10035837583482142837
+  ChildIds: 18277150599562883986
+  ChildIds: 9893226733883041809
+  ChildIds: 7366304869371600907
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,7 +44,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9902913566652867063
+  Id: 7366304869371600907
   Name: "Jonathan_chunchi"
   Transform {
     Location {
@@ -65,12 +65,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Jonathan_chunchi"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 15109907169008857986
+  Id: 9893226733883041809
   Name: "Steven_moore"
   Transform {
     Location {
@@ -91,12 +90,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Steven_moore"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 17571701882559003640
+  Id: 18277150599562883986
   Name: "Tiantian_dun"
   Transform {
     Location {
@@ -117,12 +115,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Tiantian_dun"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 17020111121007705832
+  Id: 10035837583482142837
   Name: "Dharsini_kalaiselvan"
   Transform {
     Location {
@@ -143,12 +140,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Dharsini_kalaiselvan"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 8380142861924668798
+  Id: 1384007203342997044
   Name: "Kovarthini_sekar"
   Transform {
     Location {
@@ -169,12 +165,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Kovarthini_sekar"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 4237465910443490895
+  Id: 15656321078838187758
   Name: "David_seo"
   Transform {
     Location {
@@ -195,12 +190,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "David_seo"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 7559493873066711397
+  Id: 8731260326964847150
   Name: "Kungting_wu"
   Transform {
     Location {
@@ -221,12 +215,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Kungting_wu"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 13973219134159918956
+  Id: 17667407003423772853
   Name: "John_wang"
   Transform {
     Location {
@@ -247,12 +240,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "John_wang"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 12593107599977594658
+  Id: 7591905902543824393
   Name: "Johnson_wang"
   Transform {
     Location {
@@ -273,12 +265,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Johnson_wang"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 8832420954817625253
+  Id: 8211092915212000534
   Name: "Andrew_oh"
   Transform {
     Location {
@@ -299,8 +290,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Andrew_oh"
+    IsGroup: true
   }
 }
 Objects {
