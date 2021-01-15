@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4259700284362747229
+  Name: "Gear - generic large four-spoked"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_gear_001_spoke4x"
+  }
+}
+Assets {
   Id: 4018843460426939186
   Name: "Road Sidewalk - Crosswalk"
   PlatformAssetType: 1

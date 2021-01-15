@@ -22,6 +22,7 @@ Objects {
   ChildIds: 14835481811407554636
   ChildIds: 2473208361758221170
   ChildIds: 13783961890553516720
+  ChildIds: 10084885236702888192
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,47 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10084885236702888192
+  Name: "Gear - generic large four-spoked"
+  Transform {
+    Location {
+      X: 36550
+      Y: -45450
+      Z: 200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4259700284362747229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
