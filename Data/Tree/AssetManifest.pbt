@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6423378234966812661
+  Name: "Bench Full"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bench_001"
+  }
+}
+Assets {
   Id: 6189828773244592854
   Name: "Road Center"
   PlatformAssetType: 1
