@@ -22,6 +22,7 @@ Objects {
   ChildIds: 14835481811407554636
   ChildIds: 2473208361758221170
   ChildIds: 13783961890553516720
+  ChildIds: 6772705714504073572
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,47 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6772705714504073572
+  Name: "Arch"
+  Transform {
+    Location {
+      X: 33050
+      Y: -44900
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.5
+      Y: 2.5
+      Z: 2.5
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17293718520908481304
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
