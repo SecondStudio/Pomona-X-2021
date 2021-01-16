@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10381213369780035820
+  Name: "Arch"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_001"
+  }
+}
+Assets {
   Id: 9802724784644488365
   Name: "Asphalt 01"
   PlatformAssetType: 2
