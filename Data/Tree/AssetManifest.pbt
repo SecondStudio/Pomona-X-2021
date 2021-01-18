@@ -35,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10381213369780035820
-  Name: "Arch"
+  Id: 10915213361447890462
+  Name: "Pipe - 3-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
+    AssetId: "sm_pipe_3_sided_001"
   }
 }
 Assets {
@@ -77,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7629510056615294198
+  Name: "Parallelepiped - Horizontal "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_parallelepiped_003"
   }
 }
 Assets {
