@@ -947,18 +947,18 @@ Objects {
 }
 Objects {
   Id: 4099615179068284126
-  Name: "Cube"
+  Name: "building#3"
   Transform {
     Location {
-      X: -31400
-      Y: 47180
+      X: -31810
+      Y: 47330
       Z: -920
     }
     Rotation {
     }
     Scale {
-      X: 29
-      Y: 46
+      X: 23.6
+      Y: 43.6000023
       Z: 15
     }
   }
