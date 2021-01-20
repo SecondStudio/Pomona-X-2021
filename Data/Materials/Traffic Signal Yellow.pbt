@@ -1,19 +1,19 @@
 Assets {
-  Id: 3190963984251415622
-  Name: "Terrain Material"
+  Id: 4266211963032573870
+  Name: "Traffic Signal Yellow"
   PlatformAssetType: 13
   SerializationVersion: 73
   CustomMaterialAsset {
-    BaseMaterialId: 7914371634208831551
+    BaseMaterialId: 13281635528469464144
     ParameterOverrides {
     }
     Assets {
-      Id: 7914371634208831551
-      Name: "Grass and Soil"
+      Id: 13281635528469464144
+      Name: "Basic Metal - Yellow"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_grass_003_uv"
+        AssetId: "mi_urb_st_post_lights_001_lights_yellow"
       }
     }
   }
