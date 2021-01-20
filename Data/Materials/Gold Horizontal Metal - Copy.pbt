@@ -1,33 +1,32 @@
 ﻿Assets {
-  Id: 3190963984251415622
-  Name: "Window"
+  Id: 15455289748220127394
+  Name: "Red Vertical Metal"
   PlatformAssetType: 13
   SerializationVersion: 72
   CustomMaterialAsset {
-    BaseMaterialId: 4421723837776731746
+    BaseMaterialId: 11539292375005430299
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
+          R: 1
+          G: 0.209999979
+          B: 0.209999979
           A: 1
         }
       }
       Overrides {
-        Name: "Clarity"
-        Float: 0.6
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.5
+        Name: "material_scale"
+        Float: 2
       }
     }
     Assets {
-      Id: 4421723837776731746
-      Name: "Frosted Glass No Distortion"
+      Id: 11539292375005430299
+      Name: "Wood Planks Beveled Raised 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_frosted_glass_nodistortion"
+        AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
       }
     }
   }

@@ -1,33 +1,32 @@
 ﻿Assets {
-  Id: 3190963984251415622
-  Name: "Window"
+  Id: 142083160924015460
+  Name: "Metal Grid"
   PlatformAssetType: 13
   SerializationVersion: 72
   CustomMaterialAsset {
-    BaseMaterialId: 4421723837776731746
+    BaseMaterialId: 17737203459201368764
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
       Overrides {
-        Name: "Clarity"
-        Float: 0.6
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.5
+        Name: "material_scale"
+        Float: 2
       }
     }
     Assets {
-      Id: 4421723837776731746
-      Name: "Frosted Glass No Distortion"
+      Id: 17737203459201368764
+      Name: "Metal 9 Slice Frame 001"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_frosted_glass_nodistortion"
+        AssetId: "mi_metal_frames_9slice_001"
       }
     }
   }

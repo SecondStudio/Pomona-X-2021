@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 3190963984251415622
-  Name: "Window"
+  Id: 12315065688639098152
+  Name: "Big Glass"
   PlatformAssetType: 13
   SerializationVersion: 72
   CustomMaterialAsset {
@@ -9,16 +9,15 @@
       Overrides {
         Name: "color"
         Color {
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }
       Overrides {
         Name: "Clarity"
-        Float: 0.6
-      }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.5
+        Float: 0.3
       }
     }
     Assets {
