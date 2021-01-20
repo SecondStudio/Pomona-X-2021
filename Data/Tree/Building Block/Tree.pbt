@@ -1,4 +1,4 @@
-﻿Name: "Building Block"
+Name: "Building Block"
 RootId: 14835481811407554636
 Objects {
   Id: 17998946046150637006
@@ -1452,6 +1452,14 @@ Objects {
     }
   }
   ParentId: 16169710727335196435
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4052834265952963783
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1534,6 +1542,14 @@ Objects {
     }
   }
   ParentId: 16169710727335196435
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4052834265952963783
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

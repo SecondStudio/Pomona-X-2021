@@ -1,13 +1,13 @@
 Assets {
-  Id: 13518563978302309797
-  Name: "Road 2-Lane End"
+  Id: 17707212046959165994
+  Name: "Urban Dumpster Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9886046955956634738
+      RootId: 2494763795564337813
       Objects {
-        Id: 9886046955956634738
-        Name: "Road 2-Lane End"
+        Id: 2494763795564337813
+        Name: "Urban Dumpster Template"
         Transform {
           Scale {
             X: 1
@@ -15,12 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2561749383916749998
-        ChildIds: 1258697486786854509
-        ChildIds: 6357456140005652837
-        ChildIds: 3899628704321389760
-        UnregisteredParameters {
-        }
+        ParentId: 4781671109827199097
+        ChildIds: 16551825304916915173
+        ChildIds: 18151844399782571210
+        ChildIds: 11830138052195467004
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -32,11 +30,10 @@ Assets {
         }
       }
       Objects {
-        Id: 1258697486786854509
-        Name: "Road Sidewalk Corner - In"
+        Id: 16551825304916915173
+        Name: "Urban Dumpster 01 - Base"
         Transform {
           Location {
-            Y: 800
           }
           Rotation {
           }
@@ -46,15 +43,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-        }
+        ParentId: 2494763795564337813
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -63,7 +52,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9122789709490702857
+            Id: 17680666645830167541
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -72,19 +61,22 @@ Assets {
           EnableCameraCollision: true
           StaticMesh {
             Physics {
+              Mass: 100
+              LinearDamping: 0.01
             }
           }
         }
       }
       Objects {
-        Id: 6357456140005652837
-        Name: "Road Sidewalk Corner - In"
+        Id: 18151844399782571210
+        Name: "Urban Dumpster 01 - Lid"
         Transform {
           Location {
-            Y: -800
+            X: 65
+            Y: -85
+            Z: 175
           }
           Rotation {
-            Yaw: -90
           }
           Scale {
             X: 1
@@ -92,15 +84,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-        }
+        ParentId: 2494763795564337813
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -109,7 +93,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9122789709490702857
+            Id: 628634007863935959
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -118,19 +102,22 @@ Assets {
           EnableCameraCollision: true
           StaticMesh {
             Physics {
+              Mass: 100
+              LinearDamping: 0.01
             }
           }
         }
       }
       Objects {
-        Id: 3899628704321389760
-        Name: "Road Sidewalk - Driveway 2x"
+        Id: 11830138052195467004
+        Name: "Urban Dumpster 01 - Lid"
         Transform {
           Location {
-            Y: 800
+            X: -65
+            Y: -85
+            Z: 175
           }
           Rotation {
-            Yaw: -89.9999924
           }
           Scale {
             X: 1
@@ -138,19 +125,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-          Overrides {
-            Name: "ma:Street_EdgeStripe:smart"
-            Bool: true
-          }
-        }
+        ParentId: 2494763795564337813
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -159,7 +134,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17717547868804108366
+            Id: 628634007863935959
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -168,41 +143,34 @@ Assets {
           EnableCameraCollision: true
           StaticMesh {
             Physics {
+              Mass: 100
+              LinearDamping: 0.01
             }
           }
         }
       }
     }
     Assets {
-      Id: 9122789709490702857
-      Name: "Road Sidewalk Corner - In"
+      Id: 17680666645830167541
+      Name: "Urban Dumpster 01 - Base"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-corner-in_001"
+        AssetId: "sm_prop_urb_trashbin_big_001_base_001_ref"
       }
     }
     Assets {
-      Id: 14582790818618070150
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
-      }
-    }
-    Assets {
-      Id: 17717547868804108366
-      Name: "Road Sidewalk - Driveway 2x"
+      Id: 628634007863935959
+      Name: "Urban Dumpster 01 - Lid"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-driveway_002"
+        AssetId: "sm_prop_urb_trashbin_big_001_lid_001_ref"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Road_2-Lane_End"
+      AssetId: "Urban_Dumpster_Template"
     }
   }
   SerializationVersion: 73

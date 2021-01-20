@@ -1,13 +1,13 @@
 Assets {
-  Id: 2109363540184159915
-  Name: "Road 1-Lane"
+  Id: 2031746913648981037
+  Name: "Urban Fence - Corner Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 15697106608602496663
+      RootId: 7389209708394558441
       Objects {
-        Id: 15697106608602496663
-        Name: "Road 1-Lane Straight"
+        Id: 7389209708394558441
+        Name: "Urban Fence - Corner Template"
         Transform {
           Scale {
             X: 1
@@ -15,16 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6625089930499309979
-        ChildIds: 1312091956987356756
-        ChildIds: 15695558936923924009
-        ChildIds: 1244895054717721323
-        ChildIds: 15286074424238750187
-        ChildIds: 1730669351396653082
-        ChildIds: 18344392002211919704
-        ChildIds: 17807431086186586984
-        UnregisteredParameters {
-        }
+        ParentId: 4781671109827199097
+        ChildIds: 7920833859063330003
+        ChildIds: 9519088591938019345
+        ChildIds: 5174762119861159138
+        ChildIds: 12813143957296757436
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,14 +31,14 @@ Assets {
         }
       }
       Objects {
-        Id: 1312091956987356756
-        Name: "Road Sidewalk"
+        Id: 7920833859063330003
+        Name: "Military Fence Pole - Connecting Corner"
         Transform {
           Location {
             X: 400
-            Y: 400
           }
           Rotation {
+            Yaw: 89.9999542
           }
           Scale {
             X: 1
@@ -51,8 +46,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
+        ParentId: 7389209708394558441
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 12224679477727788171
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2245166893642970858
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -62,7 +69,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6663102682384812978
+            Id: 4667985850943700128
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -76,12 +83,10 @@ Assets {
         }
       }
       Objects {
-        Id: 15695558936923924009
-        Name: "Road Sidewalk"
+        Id: 9519088591938019345
+        Name: "Military Fence Pole - Connecting"
         Transform {
           Location {
-            X: -1200
-            Y: 400
           }
           Rotation {
           }
@@ -91,8 +96,20 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
+        ParentId: 7389209708394558441
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 12224679477727788171
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2245166893642970858
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -102,7 +119,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6663102682384812978
+            Id: 7720350652240094542
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -116,56 +133,16 @@ Assets {
         }
       }
       Objects {
-        Id: 1244895054717721323
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: 1200
-            Y: -400
-          }
-          Rotation {
-            Yaw: -179.999969
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15286074424238750187
-        Name: "Road Sidewalk"
+        Id: 5174762119861159138
+        Name: "Military Fence Panel"
         Transform {
           Location {
             X: 400
-            Y: -400
+            Y: 200
+            Z: 210.000061
           }
           Rotation {
-            Yaw: -179.999969
+            Yaw: 89.9999542
           }
           Scale {
             X: 1
@@ -173,8 +150,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
+        ParentId: 7389209708394558441
+        ChildIds: 7981626377039960414
         UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 2753101109375824093
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2245166893642970858
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -184,7 +174,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6663102682384812978
+            Id: 472496642976630875
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -198,15 +188,18 @@ Assets {
         }
       }
       Objects {
-        Id: 1730669351396653082
-        Name: "Road Sidewalk"
+        Id: 7981626377039960414
+        Name: "Military Fence Crossbar - Panel"
         Transform {
           Location {
-            X: -400
-            Y: -400
+            X: -1.04904175e-05
+            Y: 15.000001
+            Z: -6.10351563e-05
           }
           Rotation {
-            Yaw: -179.999954
+            Pitch: 44.9999504
+            Yaw: 5.59996442e-05
+            Roll: 1.02581434e-05
           }
           Scale {
             X: 1
@@ -214,91 +207,18 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18344392002211919704
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: -400
-            Y: 400
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17807431086186586984
-        Name: "Cube - bottom aligned"
-        Transform {
-          Location {
-            Z: -24.9992065
-          }
-          Rotation {
-          }
-          Scale {
-            X: 24
-            Y: 7.99999762
-            Z: 0.3
-          }
-        }
-        ParentId: 15697106608602496663
+        ParentId: 5174762119861159138
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14582790818618070150
+              Id: 2245166893642970858
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 12224679477727788171
             }
           }
         }
@@ -310,7 +230,114 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17609149353171719671
+            Id: 5457962044230310640
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12813143957296757436
+        Name: "Military Fence Panel"
+        Transform {
+          Location {
+            X: 200
+            Z: 210
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7389209708394558441
+        ChildIds: 2191090117555601751
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 2753101109375824093
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2245166893642970858
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 472496642976630875
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2191090117555601751
+        Name: "Military Fence Crossbar - Panel"
+        Transform {
+          Location {
+            Y: 15
+          }
+          Rotation {
+            Pitch: 44.9999428
+            Yaw: 179.999954
+            Roll: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12813143957296757436
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2245166893642970858
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 12224679477727788171
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5457962044230310640
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -325,35 +352,44 @@ Assets {
       }
     }
     Assets {
-      Id: 6663102682384812978
-      Name: "Road Sidewalk"
+      Id: 4667985850943700128
+      Name: "Urban Fence Pole - Connecting Corner"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-straight_001"
+        AssetId: "sm_ts_mil_fence_pole_02_connect_002"
       }
     }
     Assets {
-      Id: 17609149353171719671
-      Name: "Cube - Bottom-Aligned"
+      Id: 7720350652240094542
+      Name: "Urban Fence Pole - Connecting"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
+        AssetId: "sm_ts_mil_fence_pole_02_connect_001"
       }
     }
     Assets {
-      Id: 14582790818618070150
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
+      Id: 472496642976630875
+      Name: "Urban Fence Panel"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ts_mil_fence_wall_01"
+      }
+    }
+    Assets {
+      Id: 5457962044230310640
+      Name: "Urban Fence Crossbar - Panel"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_ts_mil_fence_crossbar_01"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Road_1-Lane_Straight"
+      AssetId: "Urban_Fence_-_Corner_Template"
     }
   }
   SerializationVersion: 73

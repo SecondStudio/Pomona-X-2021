@@ -1,13 +1,13 @@
 Assets {
-  Id: 13518563978302309797
-  Name: "Road 2-Lane End"
+  Id: 10506680277798412715
+  Name: "Urban Pipe Valve Assembly - 02 (Prop)"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9886046955956634738
+      RootId: 6612466402374610785
       Objects {
-        Id: 9886046955956634738
-        Name: "Road 2-Lane End"
+        Id: 6612466402374610785
+        Name: "Urban Pipe Valve Assembly - 02 (Prop)"
         Transform {
           Scale {
             X: 1
@@ -15,12 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2561749383916749998
-        ChildIds: 1258697486786854509
-        ChildIds: 6357456140005652837
-        ChildIds: 3899628704321389760
-        UnregisteredParameters {
-        }
+        ParentId: 4781671109827199097
+        ChildIds: 17900028267500191488
+        ChildIds: 11395095497907172395
+        ChildIds: 16187049392990570790
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -32,11 +30,10 @@ Assets {
         }
       }
       Objects {
-        Id: 1258697486786854509
-        Name: "Road Sidewalk Corner - In"
+        Id: 17900028267500191488
+        Name: "Urban Pipe Clamp 02"
         Transform {
           Location {
-            Y: 800
           }
           Rotation {
           }
@@ -46,15 +43,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-        }
+        ParentId: 6612466402374610785
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -63,13 +52,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9122789709490702857
+            Id: 14805929512282111496
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -77,11 +65,48 @@ Assets {
         }
       }
       Objects {
-        Id: 6357456140005652837
-        Name: "Road Sidewalk Corner - In"
+        Id: 11395095497907172395
+        Name: "Urban Pipe Valve 01"
         Transform {
           Location {
-            Y: -800
+            Z: -20
+          }
+          Rotation {
+            Roll: -179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6612466402374610785
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13913062282643868615
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16187049392990570790
+        Name: "Urban Pipe Valve 03"
+        Transform {
+          Location {
+            Z: 60
           }
           Rotation {
             Yaw: -90
@@ -92,15 +117,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-        }
+        ParentId: 6612466402374610785
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -109,63 +126,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9122789709490702857
+            Id: 16157117460985672172
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3899628704321389760
-        Name: "Road Sidewalk - Driveway 2x"
-        Transform {
-          Location {
-            Y: 800
-          }
-          Rotation {
-            Yaw: -89.9999924
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9886046955956634738
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Street_EdgeStripe:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-          Overrides {
-            Name: "ma:Street_EdgeStripe:smart"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17717547868804108366
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -174,35 +140,35 @@ Assets {
       }
     }
     Assets {
-      Id: 9122789709490702857
-      Name: "Road Sidewalk Corner - In"
+      Id: 14805929512282111496
+      Name: "Urban Pipe Clamp 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-corner-in_001"
+        AssetId: "sm_prop_urb_pipes_acc_clamp_002_ref"
       }
     }
     Assets {
-      Id: 14582790818618070150
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
-      }
-    }
-    Assets {
-      Id: 17717547868804108366
-      Name: "Road Sidewalk - Driveway 2x"
+      Id: 13913062282643868615
+      Name: "Urban Pipe Valve 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-driveway_002"
+        AssetId: "sm_prop_urb_pipes_acc_valve_001_ref"
+      }
+    }
+    Assets {
+      Id: 16157117460985672172
+      Name: "Urban Pipe Valve 03"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_urb_pipes_acc_valve_003_ref"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Road_2-Lane_End"
+      AssetId: "Urban_Pipe_Valve_Assembly_-_02__Prop_"
     }
   }
   SerializationVersion: 73

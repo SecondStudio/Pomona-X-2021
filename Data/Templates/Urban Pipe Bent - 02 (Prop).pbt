@@ -1,13 +1,13 @@
 Assets {
-  Id: 2109363540184159915
-  Name: "Road 1-Lane"
+  Id: 2931087805698662504
+  Name: "Urban Pipe Bent - 02 (Prop)"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 15697106608602496663
+      RootId: 9613085516545401601
       Objects {
-        Id: 15697106608602496663
-        Name: "Road 1-Lane Straight"
+        Id: 9613085516545401601
+        Name: "Urban Pipe Bent - 02 (Prop)"
         Transform {
           Scale {
             X: 1
@@ -15,16 +15,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6625089930499309979
-        ChildIds: 1312091956987356756
-        ChildIds: 15695558936923924009
-        ChildIds: 1244895054717721323
-        ChildIds: 15286074424238750187
-        ChildIds: 1730669351396653082
-        ChildIds: 18344392002211919704
-        ChildIds: 17807431086186586984
-        UnregisteredParameters {
-        }
+        ParentId: 4781671109827199097
+        ChildIds: 2432196401011215148
+        ChildIds: 441748147585330771
+        ChildIds: 13078290283737331809
+        ChildIds: 11675351396111149235
+        ChildIds: 17421805931617130140
+        ChildIds: 18230621871357544055
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,177 +33,16 @@ Assets {
         }
       }
       Objects {
-        Id: 1312091956987356756
-        Name: "Road Sidewalk"
+        Id: 2432196401011215148
+        Name: "Urban Pipe Elbow 01"
         Transform {
           Location {
-            X: 400
-            Y: 400
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15695558936923924009
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: -1200
-            Y: 400
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1244895054717721323
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: 1200
-            Y: -400
-          }
-          Rotation {
-            Yaw: -179.999969
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15286074424238750187
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: 400
-            Y: -400
-          }
-          Rotation {
-            Yaw: -179.999969
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6663102682384812978
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1730669351396653082
-        Name: "Road Sidewalk"
-        Transform {
-          Location {
-            X: -400
-            Y: -400
+            X: 115
+            Z: -45
           }
           Rotation {
             Yaw: -179.999954
+            Roll: -179.999954
           }
           Scale {
             X: 1
@@ -214,9 +50,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
+        ParentId: 9613085516545401601
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -225,13 +59,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6663102682384812978
+            Id: 5381367210591412322
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -239,12 +72,133 @@ Assets {
         }
       }
       Objects {
-        Id: 18344392002211919704
-        Name: "Road Sidewalk"
+        Id: 441748147585330771
+        Name: "Urban Pipe Valve 02"
         Transform {
           Location {
-            X: -400
-            Y: 400
+            X: 75
+            Y: -35
+            Z: -90
+          }
+          Rotation {
+            Pitch: -56.2499695
+            Yaw: 179.999939
+            Roll: 90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9613085516545401601
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11333095049857697952
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13078290283737331809
+        Name: "Urban Pipe Clamp 01"
+        Transform {
+          Location {
+            X: 75
+            Z: -90
+          }
+          Rotation {
+            Pitch: 1.36603776e-05
+            Yaw: 5.18525439e-07
+            Roll: -90.0001526
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9613085516545401601
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15732777065278343437
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11675351396111149235
+        Name: "Urban Pipe Elbow 01"
+        Transform {
+          Location {
+            X: 35
+            Z: -45
+          }
+          Rotation {
+            Pitch: 6.83018879e-05
+            Yaw: -179.999939
+            Roll: -3.05175781e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9613085516545401601
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5381367210591412322
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17421805931617130140
+        Name: "Urban Pipe Elbow 01"
+        Transform {
+          Location {
+            X: 115
+            Z: -45
           }
           Rotation {
           }
@@ -254,9 +208,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-        }
+        ParentId: 9613085516545401601
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -265,13 +217,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6663102682384812978
+            Id: 5381367210591412322
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -279,29 +230,24 @@ Assets {
         }
       }
       Objects {
-        Id: 17807431086186586984
-        Name: "Cube - bottom aligned"
+        Id: 18230621871357544055
+        Name: "Urban Pipe Elbow 01"
         Transform {
           Location {
-            Z: -24.9992065
+            X: 35
+            Z: -45
           }
           Rotation {
+            Yaw: 1.10990759e-05
+            Roll: -179.999954
           }
           Scale {
-            X: 24
-            Y: 7.99999762
-            Z: 0.3
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 15697106608602496663
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14582790818618070150
-            }
-          }
-        }
+        ParentId: 9613085516545401601
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -310,13 +256,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17609149353171719671
+            Id: 5381367210591412322
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           StaticMesh {
             Physics {
             }
@@ -325,35 +270,35 @@ Assets {
       }
     }
     Assets {
-      Id: 6663102682384812978
-      Name: "Road Sidewalk"
+      Id: 5381367210591412322
+      Name: "Urban Pipe Elbow 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_urb_road_sidewalk-straight_001"
+        AssetId: "sm_prop_urb_pipes_elbow_001_ref"
       }
     }
     Assets {
-      Id: 17609149353171719671
-      Name: "Cube - Bottom-Aligned"
+      Id: 11333095049857697952
+      Name: "Urban Pipe Valve 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
+        AssetId: "sm_prop_urb_pipes_acc_valve_002_ref"
       }
     }
     Assets {
-      Id: 14582790818618070150
-      Name: "Asphalt 01"
-      PlatformAssetType: 2
+      Id: 15732777065278343437
+      Name: "Urban Pipe Clamp 01"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_urb_pipes_acc_clamp_001_ref"
       }
     }
     PrimaryAssetId {
       AssetType: "TemplateAssetRef"
-      AssetId: "Road_1-Lane_Straight"
+      AssetId: "Urban_Pipe_Bent_-_02__Prop_"
     }
   }
   SerializationVersion: 73
