@@ -26,12 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17293718520908481304
-  Name: "Arch"
+  Id: 17600359723065005811
+  Name: "Whitebox Wall 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
   }
 }
 Assets {
@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15435330819565110819
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
+  }
+}
+Assets {
   Id: 15287620860827534460
   Name: "Text 01: I"
   PlatformAssetType: 1
@@ -104,6 +113,42 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
+  Id: 14062306940060086337
+  Name: "Whitebox Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
+  }
+}
+Assets {
+  Id: 13899058249000318401
+  Name: "Craftsman Wall 01 Half "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_half"
+  }
+}
+Assets {
+  Id: 13655825740299653159
+  Name: "Craftsman Wall 01 Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_doorway"
+  }
+}
+Assets {
+  Id: 12734953040941445440
+  Name: "Whitebox Roof 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_roof_001"
   }
 }
 Assets {
@@ -143,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11390981272720591546
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
+  }
+}
+Assets {
   Id: 10794755639926667749
   Name: "Bush 01"
   PlatformAssetType: 1
@@ -158,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
+  Id: 10123498949289312814
+  Name: "Craftsman Roof 01 Peak"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_peak"
   }
 }
 Assets {
@@ -185,6 +248,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_leafy_bush_001"
+  }
+}
+Assets {
+  Id: 8492432699345975995
+  Name: "Craftsman Wall 01 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_corner"
   }
 }
 Assets {
@@ -305,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4640360185807414292
+  Name: "Whitebox Roof 01 Corner Out"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_roof_001_cornerOut"
+  }
+}
+Assets {
   Id: 4018843460426939186
   Name: "Road Sidewalk - Crosswalk"
   PlatformAssetType: 1
@@ -341,12 +422,39 @@ Assets {
   }
 }
 Assets {
+  Id: 3187795445015423699
+  Name: "Container - Trapezoid Thick 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_triangular_Thick_ref"
+  }
+}
+Assets {
   Id: 3181961447601484337
   Name: "Tree Birch 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_birch_001"
+  }
+}
+Assets {
+  Id: 3033481590627337171
+  Name: "Craftsman Wall 01 Window"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_window"
+  }
+}
+Assets {
+  Id: 3033392269738934740
+  Name: "Craftsman Wall 03 Triangle Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_003_triTop"
   }
 }
 Assets {
@@ -413,6 +521,15 @@ Assets {
   }
 }
 Assets {
+  Id: 565553478210260288
+  Name: "Container - Square 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_ref"
+  }
+}
+Assets {
   Id: 335150161806458894
   Name: "Text 01: O"
   PlatformAssetType: 1
@@ -428,5 +545,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 92314513624193749
+  Name: "Sphere - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_003"
   }
 }
