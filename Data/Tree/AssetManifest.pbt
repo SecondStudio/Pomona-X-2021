@@ -35,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10919447316125100644
-  Name: "Arch Fancy 3m"
+  Id: 10488182602626504126
+  Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_3m_001"
+    AssetId: "sm_cube_002"
   }
 }
 Assets {
