@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 18007920917829283239
   Name: "Road Sidewalk - Driveway"
   PlatformAssetType: 1
@@ -158,12 +158,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_pbr_material_001"
-  Id: 10915213361447890462
-  Name: "Pipe - 3-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_3_sided_001"
   }
 }
 Assets {
@@ -254,12 +248,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
-  Id: 7629510056615294198
-  Name: "Parallelepiped - Horizontal "
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_parallelepiped_003"
   }
 }
 Assets {
