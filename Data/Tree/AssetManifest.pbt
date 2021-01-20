@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9137816044753586959
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
   Id: 8881268475386640725
   Name: "Plane Trapezoid - One Sided"
   PlatformAssetType: 1

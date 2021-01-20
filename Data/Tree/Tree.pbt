@@ -23,6 +23,23 @@ Objects {
   ChildIds: 2473208361758221170
   ChildIds: 13783961890553516720
   ChildIds: 3134953701491584672
+  ChildIds: 10847539419184982408
+  ChildIds: 11178850035704655398
+  ChildIds: 9244401963194102201
+  ChildIds: 1877220943112032560
+  ChildIds: 15759008295621397949
+  ChildIds: 5656997268832516627
+  ChildIds: 15123798017808970682
+  ChildIds: 6416682946090344936
+  ChildIds: 13597618908261282305
+  ChildIds: 2582313687406372596
+  ChildIds: 13503917018346207863
+  ChildIds: 13243669364400610340
+  ChildIds: 1052529343706087662
+  ChildIds: 2456826361734340825
+  ChildIds: 4013342095126275698
+  ChildIds: 3986084556114996301
+  ChildIds: 10989908189509986515
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +49,829 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10989908189509986515
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2484.72729
+      Y: 21852.0195
+      Z: 391.097198
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.264165044
+      Y: 6.10242224
+      Z: 3.34104419
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3986084556114996301
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2482.81299
+      Y: 21541.2266
+      Z: 391.724182
+    }
+    Rotation {
+      Pitch: -90
+      Roll: 180
+    }
+    Scale {
+      X: 3.39299369
+      Y: 0.240588129
+      Z: 0.071794
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4013342095126275698
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2470.85913
+      Y: 21845.4043
+      Z: 559.834351
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 6.2271142
+      Y: 0.240585566
+      Z: 0.0717938542
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2456826361734340825
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2720.78418
+      Y: 21545.3887
+      Z: 559.834351
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.01625395
+      Y: 0.240586
+      Z: 0.0717938542
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1052529343706087662
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2720.78418
+      Y: 21550
+      Z: 531.066589
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.01625395
+      Y: 0.139257863
+      Z: 0.526173651
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13243669364400610340
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2756.70337
+      Y: 22254.0273
+      Z: 106.960983
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: -0.371552229
+      Y: 6.56856632
+      Z: 2.3353045
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17622530221740739516
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.00972121209
+        G: 0.154629454
+        B: 0.630757153
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13503917018346207863
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 2487.31348
+      Y: 21851.248
+      Z: 106.960983
+    }
+    Rotation {
+    }
+    Scale {
+      X: -0.371552348
+      Y: 6.20418739
+      Z: 2.3353045
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17622530221740739516
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.00972121209
+        G: 0.154629454
+        B: 0.630757153
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2582313687406372596
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 3269.69922
+      Y: 21851.248
+      Z: 106.960983
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6.01156282
+      Y: 22.0895405
+      Z: 2.3353045
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17622530221740739516
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.00972121209
+        G: 0.154629454
+        B: 0.630757153
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13597618908261282305
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 3179.63086
+      Y: 20786.0059
+      Z: 227.658096
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.76615655
+      Y: 1
+      Z: 0.159762889
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1974586094460796101
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16119400906070678484
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6416682946090344936
+  Name: "Urban Fence - 8m Template"
+  Transform {
+    Location {
+      X: 1037.53296
+      Y: 20723.1406
+      Z: 7.97534943
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.684530616
+      Y: 0.684530616
+      Z: 0.684530616
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14427631128354138120
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Fence - 8m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1545.91846
+            Y: 20723.1406
+            Z: 7.97534943
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.684530616
+            Y: 0.684530616
+            Z: 0.684530616
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13239732474002177185
+    }
+  }
+}
+Objects {
+  Id: 15123798017808970682
+  Name: "Urban Fence - 8m Template"
+  Transform {
+    Location {
+      X: 587.621216
+      Y: 20629.4766
+      Z: 7.97534943
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14427631128354138120
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Fence - 8m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 507.261
+            Y: 20724.2207
+            Z: 7.97534943
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13239732474002177185
+    }
+  }
+}
+Objects {
+  Id: 5656997268832516627
+  Name: "Urban Fence - 8m Template"
+  Transform {
+    Location {
+      X: 587.621216
+      Y: 20629.4766
+      Z: 66.6222076
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14427631128354138120
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Fence - 8m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1037.53296
+            Y: 20723.1406
+            Z: 7.97534943
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.684530616
+            Y: 0.684530616
+            Z: 0.684530616
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13239732474002177185
+    }
+  }
+}
+Objects {
+  Id: 15759008295621397949
+  Name: "Urban Fence - 8m Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14427631128354138120
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Urban Fence - 8m Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 505.286743
+            Y: 20723.1406
+            Z: 7.97534943
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.684530616
+            Y: 0.684530616
+            Z: 0.684530616
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13239732474002177185
+    }
+  }
+}
+Objects {
+  Id: 1877220943112032560
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1807.66
+      Y: 20876.3555
+      Z: 73.3748779
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.19908929
+      Y: 1.19908929
+      Z: 1.19908929
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9137816044753586959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9244401963194102201
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1444.75549
+      Y: 20876.3555
+      Z: 73.3748779
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.19908929
+      Y: 1.19908929
+      Z: 1.19908929
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9137816044753586959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11178850035704655398
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 1073.31189
+      Y: 20876.3555
+      Z: 73.3748779
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.19908929
+      Y: 1.19908929
+      Z: 1.19908929
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9137816044753586959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10847539419184982408
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 711.223389
+      Y: 20876.3555
+      Z: 73.3748779
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.19908929
+      Y: 1.19908929
+      Z: 1.19908929
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9137816044753586959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {

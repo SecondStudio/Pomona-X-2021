@@ -139,10 +139,12 @@ Objects {
     Scale {
       X: 5
       Y: 6
-      Z: 4
+      Z: 5.63085699
     }
   }
   ParentId: 14835481811407554636
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -307,6 +309,14 @@ Objects {
     }
   }
   ParentId: 14835481811407554636
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3740120632269538102
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -348,6 +358,14 @@ Objects {
     }
   }
   ParentId: 14835481811407554636
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
