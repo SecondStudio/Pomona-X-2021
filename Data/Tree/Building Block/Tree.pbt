@@ -1,4 +1,4 @@
-﻿Name: "Building Block"
+Name: "Building Block"
 RootId: 14835481811407554636
 Objects {
   Id: 17998946046150637006
@@ -3286,7 +3286,7 @@ Objects {
     Location {
       X: -35530
       Y: 5050
-      Z: -915.600464
+      Z: -915
     }
     Rotation {
     }
