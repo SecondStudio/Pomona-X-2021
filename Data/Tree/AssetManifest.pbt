@@ -17,21 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15785846616827886331
-  Name: "Brick Red Old 01"
-  PlatformAssetType: 2
+  Id: 15851271444363751188
+  Name: "Whitebox Window Insert - Basic Frame"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_red_old_001_uv"
-  }
-}
-Assets {
-  Id: 14643090495247569259
-  Name: "Dirt 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "dirt_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
   }
 }
 Assets {
@@ -50,24 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
-  }
-}
-Assets {
-  Id: 13949441344821433690
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
-  Id: 12491611648309368114
-  Name: "Frosted Glass No Distortion"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_frosted_glass_nodistortion"
   }
 }
 Assets {
@@ -107,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8329339828071933523
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
   Id: 7989301038156286044
   Name: "Tree Birch 02"
   PlatformAssetType: 1
@@ -143,21 +107,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7496070646729786999
-  Name: "Carbon Fiber 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_carbon-fiber_001"
-  }
-}
-Assets {
-  Id: 7414428204400123611
-  Name: "Main Street Awning 02"
+  Id: 7377159004959955636
+  Name: "Bush 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_awning_002_ref"
+    AssetId: "sm_bush_generic_001"
   }
 }
 Assets {
@@ -179,21 +134,21 @@ Assets {
   }
 }
 Assets {
-  Id: 6226179207419869796
-  Name: "Bricks Red 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_red_001"
-  }
-}
-Assets {
   Id: 6189828773244592854
   Name: "Road Center"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_straight_001"
+  }
+}
+Assets {
+  Id: 5754562299227578214
+  Name: "Craftsman Part - Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_doorway_001"
   }
 }
 Assets {
@@ -206,12 +161,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4050437425243511619
-  Name: "Wood Raw"
+  Id: 4247430867898109902
+  Name: "Stucco Tintable"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_001_uv"
+    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
@@ -251,11 +206,11 @@ Assets {
   }
 }
 Assets {
-  Id: 1628849511756280386
-  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  Id: 1440969407587188943
+  Name: "Craftsman Roof 02 Arch"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_whitebox_wall_001_doorframe"
+    AssetId: "sm_urb_sub_craftsman_roof_002_arch"
   }
 }
