@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 10134058365739526455
   Name: "Main Street Building - Roof Template"
   PlatformAssetType: 5
@@ -852,5 +852,5 @@
       AssetId: "Main_Street_Building_-_Roof_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

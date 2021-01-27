@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 18283760647873287246
   Name: "Custom Sidewalk from Road Sidewalk - Driveway"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 9857549450883694112
     ParameterOverrides {

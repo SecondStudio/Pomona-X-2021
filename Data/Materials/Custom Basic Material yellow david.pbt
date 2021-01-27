@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 5227818024116751887
   Name: "Custom Basic Material yellow david"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 10184847056121543272
     ParameterOverrides {

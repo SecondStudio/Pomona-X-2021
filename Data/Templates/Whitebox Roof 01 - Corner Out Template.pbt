@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1442351870001579926
   Name: "Whitebox Roof 01 - Corner Out Template"
   PlatformAssetType: 5
@@ -210,5 +210,5 @@
       AssetId: "Whitebox_Roof_01_-_Corner_Out_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

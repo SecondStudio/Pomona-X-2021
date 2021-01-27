@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5164187553854563661
   Name: "Whitebox Wall 01 with Foundation & Stairs - Door Basic"
   PlatformAssetType: 5
@@ -743,5 +743,5 @@
       AssetId: "Whitebox_Wall_01_with_Foundation___Stairs_-_Door_Basic"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

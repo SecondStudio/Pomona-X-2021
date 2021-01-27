@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 4649291661459893801
   Name: "blue for gas2"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 7181663300272027476
     ParameterOverrides {

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18059004448350057442
   Name: "Main Street Wall 02 Half Doorway - Basic Door Template"
   PlatformAssetType: 5
@@ -575,5 +575,5 @@
       AssetId: "Mainstreet_Wall_02_Half_Doorway_-_Basic_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

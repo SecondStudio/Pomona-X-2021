@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4067730843188943066
   Name: "Craftsman Wall Interior 01 - Basic Door Template"
   PlatformAssetType: 5
@@ -600,5 +600,5 @@
       AssetId: "Craftsman_Wall_Interior_01_-_Basic_Door_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

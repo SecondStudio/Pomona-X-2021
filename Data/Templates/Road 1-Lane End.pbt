@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14811673117458459275
   Name: "Road 1-Lane End"
   PlatformAssetType: 5
@@ -173,5 +173,5 @@
       AssetId: "Road_1-Lane_End"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

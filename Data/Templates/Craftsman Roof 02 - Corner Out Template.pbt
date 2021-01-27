@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3983985135620369479
   Name: "Craftsman Roof 02 - Corner Out Template"
   PlatformAssetType: 5
@@ -210,5 +210,5 @@
       AssetId: "Craftsman_Roof_02_-_Corner_Out_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

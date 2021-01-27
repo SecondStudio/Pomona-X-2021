@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5297953993601879608
   Name: "Craftsman Roof 01 - Peak End with Wall Template"
   PlatformAssetType: 5
@@ -333,5 +333,5 @@
       AssetId: "Craftsman_Roof_01_-_Peak_End_with_Wall_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

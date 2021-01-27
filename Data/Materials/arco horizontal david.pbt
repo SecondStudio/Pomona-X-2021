@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 14219771822830233832
   Name: "arco horizontal david"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 12621970885948864169
     ParameterOverrides {

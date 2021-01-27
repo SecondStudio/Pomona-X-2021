@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 5065452283801202832
   Name: "Custom Bricks Mortar Thick 01 DAvid"
   PlatformAssetType: 13
-  SerializationVersion: 72
+  SerializationVersion: 73
   CustomMaterialAsset {
     BaseMaterialId: 10039521252784657698
     ParameterOverrides {

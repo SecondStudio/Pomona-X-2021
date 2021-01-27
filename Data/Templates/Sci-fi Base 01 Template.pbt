@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13055332628823243868
   Name: "Sci-fi Base 01 Template"
   PlatformAssetType: 5
@@ -29464,5 +29464,5 @@
       AssetId: "Sci-fi_Base_01_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

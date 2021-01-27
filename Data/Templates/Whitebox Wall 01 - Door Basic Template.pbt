@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1454788732098735840
   Name: "Whitebox Wall 01 - Door Basic Template"
   PlatformAssetType: 5
@@ -647,5 +647,5 @@
       AssetId: "Whitebox_Wall_01_-_Door_Basic_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

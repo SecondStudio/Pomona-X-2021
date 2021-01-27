@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17775378061915914411
   Name: "Road 1-Lane Intersection 3-way"
   PlatformAssetType: 5
@@ -373,5 +373,5 @@
       AssetId: "Road_1-Lane_Intersection_3-way"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16351706183111739110
   Name: "Whitebox Roof 01 - End with Wall Template"
   PlatformAssetType: 5
@@ -265,5 +265,5 @@
       AssetId: "Whitebox_Roof_01_-_End_with_Wall_Template"
     }
   }
-  SerializationVersion: 72
+  SerializationVersion: 73
 }
