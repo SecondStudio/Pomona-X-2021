@@ -1,6 +1,55 @@
 Name: "Building Block"
 RootId: 14835481811407554636
 Objects {
+  Id: 12086058182004199342
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -19363.7012
+      Y: 46335.6328
+      Z: -915.600464
+    }
+    Rotation {
+    }
+    Scale {
+      X: 35
+      Y: 11
+      Z: 16
+    }
+  }
+  ParentId: 14835481811407554636
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13635572880194128572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17609149353171719671
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 17998946046150637006
   Name: "Cube"
   Transform {
@@ -886,14 +935,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -20190
-      Y: 46530
+      X: -19929.7148
+      Y: 46335.6328
       Z: -915.600464
     }
     Rotation {
     }
     Scale {
-      X: 35
+      X: 46.3310928
       Y: 11
       Z: 16
     }

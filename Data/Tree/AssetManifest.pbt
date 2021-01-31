@@ -8,12 +8,39 @@ Assets {
   }
 }
 Assets {
+  Id: 17485790112810430277
+  Name: "Frosted Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 16610732408208831112
+  Name: "Text 01: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_018"
+  }
+}
+Assets {
+  Id: 16592099986806006310
+  Name: "Craftsman Part - Window 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_window_003"
   }
 }
 Assets {
@@ -35,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16127254092047427284
+  Name: "Text 01: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_000"
+  }
+}
+Assets {
   Id: 16119400906070678484
   Name: "Cube"
   PlatformAssetType: 1
@@ -50,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_coffee_table_001"
+  }
+}
+Assets {
+  Id: 15323907920861348113
+  Name: "Text 01: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_019"
   }
 }
 Assets {
@@ -71,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13219973207836793111
+  Name: "Main Street Wall 02 - Half Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_half_window_ref"
+  }
+}
+Assets {
   Id: 13084610212546141882
   Name: "Urban Fence Gate 01"
   PlatformAssetType: 1
@@ -86,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 11679681003260460051
+  Name: "Text 01: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_014"
   }
 }
 Assets {
@@ -107,6 +170,24 @@ Assets {
   }
 }
 Assets {
+  Id: 11433426112312672980
+  Name: "Text 01: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_013"
+  }
+}
+Assets {
+  Id: 10906249897613043233
+  Name: "Wedge - Convex Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_hq_001"
+  }
+}
+Assets {
   Id: 10815612191096424875
   Name: "Bricks Concrete Cinder Block 01"
   PlatformAssetType: 2
@@ -116,12 +197,30 @@ Assets {
   }
 }
 Assets {
+  Id: 10199927402846185058
+  Name: "Text 01: G"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_006"
+  }
+}
+Assets {
   Id: 9802724784644488365
   Name: "Asphalt 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_asphault_001"
+  }
+}
+Assets {
+  Id: 9430017653316231459
+  Name: "Main Street Window 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_part_window_003_ref"
   }
 }
 Assets {
@@ -143,12 +242,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8881268475386640725
-  Name: "Plane Trapezoid - One Sided"
-  PlatformAssetType: 1
+  Id: 8336651980543993471
+  Name: "Frosted Glass No Distortion"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_trapezoid_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass_nodistortion"
   }
 }
 Assets {
@@ -158,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_birch_003"
+  }
+}
+Assets {
+  Id: 7962335658481882936
+  Name: "Text 01: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_012"
   }
 }
 Assets {
@@ -203,6 +311,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_sidewalk-straight_001"
+  }
+}
+Assets {
+  Id: 6641131282115307834
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
   }
 }
 Assets {
@@ -296,6 +413,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2779032081147208038
+  Name: "Concrete Bunker"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_bunker_001"
+  }
+}
+Assets {
   Id: 2581868383117867733
   Name: "Road Crosswalk"
   PlatformAssetType: 1
@@ -329,5 +455,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
+  Id: 255160417030958402
+  Name: "Text 01: R"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_017"
   }
 }
