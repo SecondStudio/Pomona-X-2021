@@ -22,7 +22,7 @@ Objects {
   ChildIds: 14835481811407554636
   ChildIds: 2473208361758221170
   ChildIds: 13783961890553516720
-  ChildIds: 11321654178486959085
+  ChildIds: 15899755500617011983
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,17 +35,20 @@ Objects {
   }
 }
 Objects {
-  Id: 11321654178486959085
-  Name: "PeterChu"
+  Id: 15899755500617011983
+  Name: "Test"
   Transform {
     Location {
+      X: 33050
+      Y: -44900
+      Z: 100
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.5
+      Y: 2.5
+      Z: 2.5
     }
   }
   ParentId: 4781671109827199097
@@ -57,7 +60,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "PeterChu"
+    FilePartitionName: "Test"
   }
 }
 Objects {
@@ -261,7 +264,6 @@ Objects {
   ChildIds: 3469101300125410007
   ChildIds: 4339008516294937039
   ChildIds: 15668288898913939915
-  ChildIds: 14454350684101609100
   ChildIds: 16556077710323651615
   ChildIds: 12859334688463403490
   ChildIds: 6925549695211724543
@@ -2899,7 +2901,7 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -18143.1367
+      X: -18655
       Y: 26503.0703
       Z: -0.100585938
     }
@@ -2941,7 +2943,7 @@ Objects {
   Name: "Tree Birch 01"
   Transform {
     Location {
-      X: -18094.9648
+      X: -18606.8281
       Y: 28511.3262
       Z: -0.100585938
     }
@@ -8730,54 +8732,12 @@ Objects {
   }
 }
 Objects {
-  Id: 14454350684101609100
-  Name: "Tree Birch 01"
-  Transform {
-    Location {
-      X: -24231.8125
-      Y: 48296.3789
-      Z: -0.100585938
-    }
-    Rotation {
-      Yaw: -62.1955338
-    }
-    Scale {
-      X: 1.02170479
-      Y: 1.02170479
-      Z: 1.02170479
-    }
-  }
-  ParentId: 13783961890553516720
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3181961447601484337
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 15668288898913939915
   Name: "Tree Birch 01"
   Transform {
     Location {
       X: -21601.1367
-      Y: 48233.8086
+      Y: 47815
       Z: -0.100830078
     }
     Rotation {
@@ -41604,7 +41564,6 @@ Objects {
   ChildIds: 2215914072944584082
   ChildIds: 5778750030359482737
   ChildIds: 17482185563569966236
-  ChildIds: 17063732315924256627
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -41613,53 +41572,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 17063732315924256627
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 400
-      Y: -800
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2843332057039250481
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
   }
 }
 Objects {
@@ -51140,7 +51052,6 @@ Objects {
   ChildIds: 3978610415765013755
   ChildIds: 13182338185961706414
   ChildIds: 11896785805008558922
-  ChildIds: 15512895924444062019
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51149,53 +51060,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 15512895924444062019
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 400
-      Y: -800
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7275298651205535325
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
   }
 }
 Objects {
@@ -51576,7 +51440,6 @@ Objects {
     }
   }
   ParentId: 16748278470660217580
-  ChildIds: 12010518361941220395
   ChildIds: 13421243626538226385
   ChildIds: 11535969018490140853
   ChildIds: 13497583114527388973
@@ -51730,52 +51593,6 @@ Objects {
   InstanceHistory {
     SelfId: 15239417624675474955
     SubobjectId: 15273280762528282505
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 12010518361941220395
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -400
-      Y: 800
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4304337428499051712
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9479233319347230826
-    SubobjectId: 9441196301630370280
     InstanceId: 15264363256606154360
     TemplateId: 15282497491495583794
   }
@@ -70287,7 +70104,6 @@ Objects {
     }
   }
   ParentId: 7110329477179985330
-  ChildIds: 2415447519785445908
   ChildIds: 5015547247396517020
   ChildIds: 14263867172570345249
   ChildIds: 275183277100796932
@@ -70539,52 +70355,6 @@ Objects {
   InstanceHistory {
     SelfId: 15239417624675474955
     SubobjectId: 15273280762528282505
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 2415447519785445908
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -400
-      Y: 820
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4035037475419636321
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9479233319347230826
-    SubobjectId: 9441196301630370280
     InstanceId: 15264363256606154360
     TemplateId: 15282497491495583794
   }
@@ -138216,7 +137986,6 @@ Objects {
   ChildIds: 5893421731152482352
   ChildIds: 15591543799461748807
   ChildIds: 5490727255832929377
-  ChildIds: 16812952093665129120
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -138225,53 +137994,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16812952093665129120
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 400
-      Y: -800
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15201855489390193865
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
   }
 }
 Objects {
@@ -138438,7 +138160,6 @@ Objects {
   ChildIds: 7874315110114279756
   ChildIds: 4059295137282926585
   ChildIds: 5784616460941616325
-  ChildIds: 8265884595621263723
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -138447,53 +138168,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 8265884595621263723
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: 400
-      Y: -800
-    }
-    Rotation {
-      Yaw: -179.999802
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2990838997835289041
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 7860770158743718137
-    SubobjectId: 7899259558940172667
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
   }
 }
 Objects {
@@ -148767,7 +148441,6 @@ Objects {
     }
   }
   ParentId: 15096225802271725490
-  ChildIds: 11150989718101258531
   ChildIds: 5543287523806320911
   ChildIds: 17608632837605479127
   ChildIds: 12633143844078720883
@@ -148921,52 +148594,6 @@ Objects {
   InstanceHistory {
     SelfId: 15239417624675474955
     SubobjectId: 15273280762528282505
-    InstanceId: 15264363256606154360
-    TemplateId: 15282497491495583794
-  }
-}
-Objects {
-  Id: 11150989718101258531
-  Name: "Road Sidewalk"
-  Transform {
-    Location {
-      X: -400
-      Y: 800
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2107343186250602018
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6663102682384812978
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 9479233319347230826
-    SubobjectId: 9441196301630370280
     InstanceId: 15264363256606154360
     TemplateId: 15282497491495583794
   }
@@ -157649,7 +157276,7 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
-      X: 18340
+      X: 17695
       Y: -6090
     }
     Rotation {
