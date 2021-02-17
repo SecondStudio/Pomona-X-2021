@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 10402093196274969244
   Name: "Road 2-Lane Ramp 6m"
   PlatformAssetType: 5
@@ -621,5 +621,5 @@ Assets {
       AssetId: "Road_2-Lane_Ramp_6m"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }

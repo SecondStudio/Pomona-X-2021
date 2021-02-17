@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 15282497491495583794
   Name: "Road 2-Lane - Downtown"
   PlatformAssetType: 5
@@ -695,5 +695,5 @@ Assets {
       AssetId: "Road_2-Lane_Straight_-_Downtown"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 72
 }
